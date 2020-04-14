@@ -1,0 +1,13 @@
+(module 1PAD_Small (layer F.Cu) (tedit 4E976E03)
+  (fp_text reference P4 (at 0 -2.54) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value SDA (at 0 2.794) (layer F.SilkS)
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_line (start -1.524 -1.524) (end 1.524 -1.524) (layer F.SilkS) (width 0.127))
+  (fp_line (start 1.524 -1.524) (end 1.524 1.524) (layer F.SilkS) (width 0.127))
+  (fp_line (start 1.524 1.524) (end -1.524 1.524) (layer F.SilkS) (width 0.127))
+  (fp_line (start -1.524 1.524) (end -1.524 -1.524) (layer F.SilkS) (width 0.127))
+  (pad 1 connect rect (at 0 0) (size 2.54 2.54) (layers F.Cu F.Mask))
+)

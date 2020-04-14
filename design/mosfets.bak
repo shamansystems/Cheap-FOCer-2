@@ -1,0 +1,1227 @@
+EESchema Schematic File Version 4
+LIBS:Cheap FOCer 2 60mm-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 8
+Title "Cheap FOCer 2"
+Date "2019-02-21"
+Rev "1"
+Comp "Shaman Systems"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Top level"
+$EndDescr
+$Comp
+L Device:Q_NMOS_GDS Q1
+U 1 1 53F8E63D
+P 3900 3600
+F 0 "Q1" H 3910 3770 60  0000 R CNN
+F 1 "NCEP60T20" V 4150 3850 60  0000 R CNN
+F 2 "shapes3D:TO-220-3_Horizontal_TabUp_no_hole" H 3900 3600 60  0001 C CNN
+F 3 "" H 3900 3600 60  0001 C CNN
+	1    3900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q3
+U 1 1 53F8E67A
+P 8100 3700
+F 0 "Q3" H 8110 3870 60  0000 R CNN
+F 1 "NCEP60T20" V 8350 3950 60  0000 R CNN
+F 2 "shapes3D:TO-220-3_Horizontal_TabUp_no_hole" H 8100 3700 60  0001 C CNN
+F 3 "" H 8100 3700 60  0001 C CNN
+	1    8100 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3250 8200 3500
+Wire Wire Line
+	8100 4400 8200 4400
+Connection ~ 8200 4200
+Connection ~ 6200 4150
+Wire Wire Line
+	3850 4300 4000 4300
+Connection ~ 4000 4100
+Wire Wire Line
+	3500 3250 4000 3250
+Text GLabel 3500 3250 0    60   Input ~ 0
+V_SUPPLY
+Text HLabel 5150 3650 0    60   Input ~ 0
+GH_B
+Text HLabel 5100 4600 0    60   Input ~ 0
+GL_B
+Text HLabel 6050 5350 0    60   UnSpc ~ 0
+H2_LOW
+Text HLabel 6350 4150 2    60   Output ~ 0
+PHASE_2
+Wire Wire Line
+	8200 4200 8200 4300
+Wire Wire Line
+	8200 4200 8350 4200
+Wire Wire Line
+	6200 4150 6350 4150
+Wire Wire Line
+	4000 4100 4000 4200
+Wire Wire Line
+	4000 4100 4150 4100
+Wire Wire Line
+	4000 3250 4000 3400
+$Comp
+L Device:Q_NMOS_GDS Q2
+U 1 1 53F8E673
+P 6100 3650
+F 0 "Q2" H 6110 3820 60  0000 R CNN
+F 1 "NCEP60T20" V 6350 3900 60  0000 R CNN
+F 2 "shapes3D:TO-220-3_Horizontal_TabUp_no_hole" H 6100 3650 60  0001 C CNN
+F 3 "" H 6100 3650 60  0001 C CNN
+	1    6100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C64A038
+P 4000 5750
+AR Path="/5C64A038" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5C64A038" Ref="R56"  Part="1" 
+F 0 "R56" V 4080 5750 50  0000 C CNN
+F 1 "0.001R" V 4150 5750 50  0000 C CNN
+F 2 "shapes3D:R_2512_Yageo_big_pads" H 4000 5750 60  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/ss2h-2512-1302652.pdf" H 4000 5750 60  0001 C CNN
+	1    4000 5750
+	1    0    0    1   
+$EndComp
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR?
+U 1 1 5C6533CD
+P 4000 6100
+AR Path="/5C6533CD" Ref="#PWR?"  Part="1" 
+AR Path="/53F826DC/5C6533CD" Ref="#PWR061"  Part="1" 
+F 0 "#PWR061" H 4000 6100 30  0001 C CNN
+F 1 "GND" H 4000 6030 30  0001 C CNN
+F 2 "" H 4000 6100 60  0001 C CNN
+F 3 "" H 4000 6100 60  0001 C CNN
+	1    4000 6100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4000 5300
+$Comp
+L Device:R R?
+U 1 1 5C657B2D
+P 6200 5800
+AR Path="/5C657B2D" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5C657B2D" Ref="R58"  Part="1" 
+F 0 "R58" V 6280 5800 50  0000 C CNN
+F 1 "0.001R" V 6350 5800 50  0000 C CNN
+F 2 "shapes3D:R_2512_Yageo_big_pads" H 6200 5800 60  0001 C CNN
+F 3 "" H 6200 5800 60  0001 C CNN
+	1    6200 5800
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C658CE8
+P 8200 5850
+AR Path="/5C658CE8" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5C658CE8" Ref="R60"  Part="1" 
+F 0 "R60" V 8280 5850 50  0000 C CNN
+F 1 "0.001R" V 8350 5850 50  0000 C CNN
+F 2 "shapes3D:R_2512_Yageo_big_pads" H 8200 5850 60  0001 C CNN
+F 3 "" H 8200 5850 60  0001 C CNN
+	1    8200 5850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8050 5400 8200 5400
+Connection ~ 8200 5400
+Wire Wire Line
+	8200 5400 8200 5650
+Wire Wire Line
+	6050 5350 6200 5350
+Connection ~ 6200 5350
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR?
+U 1 1 5C65E483
+P 6200 6150
+AR Path="/5C65E483" Ref="#PWR?"  Part="1" 
+AR Path="/53F826DC/5C65E483" Ref="#PWR062"  Part="1" 
+F 0 "#PWR062" H 6200 6150 30  0001 C CNN
+F 1 "GND" H 6200 6080 30  0001 C CNN
+F 2 "" H 6200 6150 60  0001 C CNN
+F 3 "" H 6200 6150 60  0001 C CNN
+	1    6200 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 6150 6200 6050
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR?
+U 1 1 5C65F795
+P 8200 6200
+AR Path="/5C65F795" Ref="#PWR?"  Part="1" 
+AR Path="/53F826DC/5C65F795" Ref="#PWR063"  Part="1" 
+F 0 "#PWR063" H 8200 6200 30  0001 C CNN
+F 1 "GND" H 8200 6130 30  0001 C CNN
+F 2 "" H 8200 6200 60  0001 C CNN
+F 3 "" H 8200 6200 60  0001 C CNN
+	1    8200 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 6200 8200 6050
+Wire Wire Line
+	3800 5300 4000 5300
+Text HLabel 8100 4400 0    60   Output ~ 0
+H3_VS
+Text HLabel 4150 4100 2    60   Output ~ 0
+PHASE_1
+Text HLabel 2500 4550 0    60   Input ~ 0
+GL_A
+Text HLabel 3800 5300 0    60   UnSpc ~ 0
+H1_LOW
+Text HLabel 8050 5400 0    60   UnSpc ~ 0
+H3_LOW
+$Comp
+L Device:Q_NMOS_GDS Q4
+U 1 1 53F8E644
+P 3900 4550
+F 0 "Q4" H 3910 4720 60  0000 R CNN
+F 1 "NCEP60T20" V 4150 4800 60  0000 R CNN
+F 2 "shapes3D:TO-220-3_Horizontal_TabUp_no_hole" H 3900 4550 60  0001 C CNN
+F 3 "" H 3900 4550 60  0001 C CNN
+	1    3900 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3700 7700 3700
+$Comp
+L Device:Q_NMOS_GDS Q6
+U 1 1 53F8E681
+P 8100 4650
+F 0 "Q6" H 8110 4820 60  0000 R CNN
+F 1 "NCEP60T20" V 8400 4900 60  0000 R CNN
+F 2 "shapes3D:TO-220-3_Horizontal_TabUp_no_hole" H 8100 4650 60  0001 C CNN
+F 3 "" H 8100 4650 60  0001 C CNN
+	1    8100 4650
+	1    0    0    -1  
+$EndComp
+Text HLabel 8350 4200 2    60   Output ~ 0
+PHASE_3
+$Comp
+L Device:C C36
+U 1 1 5D03A2CE
+P 6100 1850
+F 0 "C36" H 6215 1896 50  0000 L CNN
+F 1 "10uF, 100V" H 5900 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder" H 6138 1700 50  0001 C CNN
+F 3 "~" H 6100 1850 50  0001 C CNN
+	1    6100 1850
+	-1   0    0    1   
+$EndComp
+Connection ~ 4000 3250
+$Comp
+L Device:C C35
+U 1 1 5D03C85C
+P 5650 1850
+F 0 "C35" H 5765 1896 50  0000 L CNN
+F 1 "10uF, 100V" H 5700 2000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder" H 5688 1700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/440/e_WIMA_MKS_4-1139797.pdf" H 5650 1850 50  0001 C CNN
+	1    5650 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR?
+U 1 1 5C6D2B58
+P 4800 2750
+AR Path="/5C6D2B58" Ref="#PWR?"  Part="1" 
+AR Path="/53F826DC/5C6D2B58" Ref="#PWR056"  Part="1" 
+F 0 "#PWR056" H 4800 2750 30  0001 C CNN
+F 1 "GND" H 4800 2680 30  0001 C CNN
+F 2 "" H 4800 2750 60  0001 C CNN
+F 3 "" H 4800 2750 60  0001 C CNN
+	1    4800 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 2800 4800 2750
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR?
+U 1 1 5D04439C
+P 6100 2050
+AR Path="/5D04439C" Ref="#PWR?"  Part="1" 
+AR Path="/53F826DC/5D04439C" Ref="#PWR055"  Part="1" 
+F 0 "#PWR055" H 6100 2050 30  0001 C CNN
+F 1 "GND" H 6100 1980 30  0001 C CNN
+F 2 "" H 6100 2050 60  0001 C CNN
+F 3 "" H 6100 2050 60  0001 C CNN
+	1    6100 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2000 6100 2050
+Wire Wire Line
+	4800 3100 4800 3250
+Text GLabel 5500 1700 0    60   Input ~ 0
+V_SUPPLY
+Wire Notes Line
+	4950 1500 4950 2250
+Wire Notes Line
+	4950 2250 6950 2250
+Wire Notes Line
+	6950 2250 6950 1500
+Wire Notes Line
+	6950 1500 4950 1500
+Text Notes 5050 2200 0    50   ~ 0
+10uF 100V ceramic caps placed in power stage
+Wire Wire Line
+	2500 4550 2750 4550
+$Comp
+L Device:CP1 C?
+U 1 1 5D98DAEE
+P 7350 2950
+AR Path="/504F83BE/5D98DAEE" Ref="C?"  Part="1" 
+AR Path="/53F826DC/5D98DAEE" Ref="C39"  Part="1" 
+F 0 "C39" V 7200 2900 50  0000 L CNN
+F 1 "330u, 63V" V 7500 2750 50  0000 L CNN
+F 2 "w_capacitors:CP_10x20mm_hor_with_model_brd_edge" H 7350 2950 60  0001 C CNN
+F 3 "" H 7350 2950 60  0001 C CNN
+	1    7350 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR?
+U 1 1 5D98DAF4
+P 7350 2750
+AR Path="/5D98DAF4" Ref="#PWR?"  Part="1" 
+AR Path="/53F826DC/5D98DAF4" Ref="#PWR057"  Part="1" 
+F 0 "#PWR057" H 7350 2750 30  0001 C CNN
+F 1 "GND" H 7350 2680 30  0001 C CNN
+F 2 "" H 7350 2750 60  0001 C CNN
+F 3 "" H 7350 2750 60  0001 C CNN
+	1    7350 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 2800 7350 2750
+$Comp
+L Device:C C37
+U 1 1 5DD45A24
+P 6550 1850
+F 0 "C37" H 6665 1896 50  0000 L CNN
+F 1 "10uF, 100V" V 6400 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder" H 6588 1700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/440/e_WIMA_MKS_4-1139797.pdf" H 6550 1850 50  0001 C CNN
+	1    6550 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 1700 5650 1700
+Connection ~ 5650 1700
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5D80EC24
+P 4550 5200
+AR Path="/504F83BE/5D80EC24" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5D80EC24" Ref="R53"  Part="1" 
+F 0 "R53" V 4650 5200 50  0000 C CNN
+F 1 "10R" V 4450 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4550 5200 60  0001 C CNN
+F 3 "" H 4550 5200 60  0001 C CNN
+	1    4550 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L BLDC_4-rescue:C-RESCUE-BLDC_4 C?
+U 1 1 5D812FCE
+P 4550 4600
+AR Path="/504F83BE/5D812FCE" Ref="C?"  Part="1" 
+AR Path="/53F826DC/5D812FCE" Ref="C40"  Part="1" 
+F 0 "C40" H 4400 4700 50  0000 L CNN
+F 1 "4.7nF, 100V" H 4300 4500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4550 4600 60  0001 C CNN
+F 3 "" H 4550 4600 60  0001 C CNN
+	1    4550 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4400 4550 4200
+Wire Wire Line
+	4550 4200 4000 4200
+Connection ~ 4000 4200
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR?
+U 1 1 5D81C4FB
+P 4550 5850
+AR Path="/5D81C4FB" Ref="#PWR?"  Part="1" 
+AR Path="/53F826DC/5D81C4FB" Ref="#PWR058"  Part="1" 
+F 0 "#PWR058" H 4550 5850 30  0001 C CNN
+F 1 "GND" H 4550 5780 30  0001 C CNN
+F 2 "" H 4550 5850 60  0001 C CNN
+F 3 "" H 4550 5850 60  0001 C CNN
+	1    4550 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5850 4550 5550
+Wire Wire Line
+	4550 4800 4550 4900
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5D827D1D
+P 6700 5250
+AR Path="/504F83BE/5D827D1D" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5D827D1D" Ref="R54"  Part="1" 
+F 0 "R54" V 6800 5250 50  0000 C CNN
+F 1 "10R" V 6600 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6700 5250 60  0001 C CNN
+F 3 "" H 6700 5250 60  0001 C CNN
+	1    6700 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L BLDC_4-rescue:C-RESCUE-BLDC_4 C?
+U 1 1 5D827D23
+P 6700 4650
+AR Path="/504F83BE/5D827D23" Ref="C?"  Part="1" 
+AR Path="/53F826DC/5D827D23" Ref="C41"  Part="1" 
+F 0 "C41" H 6550 4750 50  0000 L CNN
+F 1 "4.7nF, 100V" H 6450 4550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6700 4650 60  0001 C CNN
+F 3 "" H 6700 4650 60  0001 C CNN
+	1    6700 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR?
+U 1 1 5D827D29
+P 6700 5900
+AR Path="/5D827D29" Ref="#PWR?"  Part="1" 
+AR Path="/53F826DC/5D827D29" Ref="#PWR059"  Part="1" 
+F 0 "#PWR059" H 6700 5900 30  0001 C CNN
+F 1 "GND" H 6700 5830 30  0001 C CNN
+F 2 "" H 6700 5900 60  0001 C CNN
+F 3 "" H 6700 5900 60  0001 C CNN
+	1    6700 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 5900 6700 5650
+Wire Wire Line
+	6700 4850 6700 4900
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5D829C99
+P 8750 5300
+AR Path="/504F83BE/5D829C99" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5D829C99" Ref="R55"  Part="1" 
+F 0 "R55" V 8850 5300 50  0000 C CNN
+F 1 "10R" V 8650 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8750 5300 60  0001 C CNN
+F 3 "" H 8750 5300 60  0001 C CNN
+	1    8750 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L BLDC_4-rescue:C-RESCUE-BLDC_4 C?
+U 1 1 5D829C9F
+P 8750 4700
+AR Path="/504F83BE/5D829C9F" Ref="C?"  Part="1" 
+AR Path="/53F826DC/5D829C9F" Ref="C42"  Part="1" 
+F 0 "C42" H 8800 4800 50  0000 L CNN
+F 1 "4.7nF, 100V" H 8800 4600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8750 4700 60  0001 C CNN
+F 3 "" H 8750 4700 60  0001 C CNN
+	1    8750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR?
+U 1 1 5D829CA5
+P 8750 5950
+AR Path="/5D829CA5" Ref="#PWR?"  Part="1" 
+AR Path="/53F826DC/5D829CA5" Ref="#PWR060"  Part="1" 
+F 0 "#PWR060" H 8750 5950 30  0001 C CNN
+F 1 "GND" H 8750 5880 30  0001 C CNN
+F 2 "" H 8750 5950 60  0001 C CNN
+F 3 "" H 8750 5950 60  0001 C CNN
+	1    8750 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 5950 8750 5750
+Wire Wire Line
+	8750 4900 8750 4950
+Wire Wire Line
+	6700 4450 6700 4300
+Wire Wire Line
+	8750 4500 8750 4300
+Wire Wire Line
+	8750 4300 8200 4300
+Connection ~ 8200 4300
+Wire Wire Line
+	8200 4300 8200 4400
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5D56DC50
+P 3500 4800
+AR Path="/53FBA77E/5D56DC50" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5D56DC50" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5D56DC50" Ref="R50"  Part="1" 
+F 0 "R50" V 3600 4700 50  0000 C CNN
+F 1 "4.7k" V 3500 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3500 4800 60  0001 C CNN
+F 3 "" H 3500 4800 60  0001 C CNN
+	1    3500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5D57A230
+P 7950 5200
+AR Path="/53FBA77E/5D57A230" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5D57A230" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5D57A230" Ref="R52"  Part="1" 
+F 0 "R52" V 7850 5200 50  0000 C CNN
+F 1 "4.7k" V 7950 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7950 5200 60  0001 C CNN
+F 3 "" H 7950 5200 60  0001 C CNN
+	1    7950 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5D58DF51
+P 3750 4100
+AR Path="/53FBA77E/5D58DF51" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5D58DF51" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5D58DF51" Ref="R44"  Part="1" 
+F 0 "R44" V 3650 4100 50  0000 C CNN
+F 1 "4.7k" V 3750 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3750 4100 60  0001 C CNN
+F 3 "" H 3750 4100 60  0001 C CNN
+	1    3750 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5D59ABB2
+P 7950 4200
+AR Path="/53FBA77E/5D59ABB2" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5D59ABB2" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5D59ABB2" Ref="R46"  Part="1" 
+F 0 "R46" V 7850 4200 50  0000 C CNN
+F 1 "4.7k" V 7950 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7950 4200 60  0001 C CNN
+F 3 "" H 7950 4200 60  0001 C CNN
+	1    7950 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 4550 3650 4550
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5D573F9D
+P 5950 5150
+AR Path="/53FBA77E/5D573F9D" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5D573F9D" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5D573F9D" Ref="R51"  Part="1" 
+F 0 "R51" V 5850 5150 50  0000 C CNN
+F 1 "4.7k" V 5950 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5950 5150 60  0001 C CNN
+F 3 "" H 5950 5150 60  0001 C CNN
+	1    5950 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q5
+U 1 1 53F8E66C
+P 6100 4600
+F 0 "Q5" H 6110 4770 60  0000 R CNN
+F 1 "NCEP60T20" V 6350 4850 60  0000 R CNN
+F 2 "shapes3D:TO-220-3_Horizontal_TabUp_no_hole" H 6100 4600 60  0001 C CNN
+F 3 "" H 6100 4600 60  0001 C CNN
+	1    6100 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 5200
+Wire Wire Line
+	8200 5200 8200 5400
+Wire Wire Line
+	7700 5200 7700 4650
+Wire Wire Line
+	6200 4800 6200 5000
+Connection ~ 6200 5150
+Wire Wire Line
+	6200 5150 6200 5350
+Wire Wire Line
+	5650 4600 5700 4600
+Wire Wire Line
+	5700 5150 5700 4600
+Connection ~ 5700 4600
+Connection ~ 7700 3700
+Wire Wire Line
+	5650 2000 6100 2000
+Wire Wire Line
+	5650 1700 6100 1700
+Wire Wire Line
+	4000 3250 4800 3250
+Connection ~ 4800 3250
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 5D92B4F7
+P 3700 5550
+F 0 "NT1" H 3700 5600 50  0000 C CNN
+F 1 "Net-Tie_2" H 3700 5500 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 3700 5550 50  0001 C CNN
+F 3 "~" H 3700 5550 50  0001 C CNN
+	1    3700 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5300 4000 5550
+$Comp
+L Device:Net-Tie_2 NT4
+U 1 1 5D92E642
+P 3700 5950
+F 0 "NT4" H 3700 6000 50  0000 C CNN
+F 1 "Net-Tie_2" H 3700 5900 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 3700 5950 50  0001 C CNN
+F 3 "~" H 3700 5950 50  0001 C CNN
+	1    3700 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Net-Tie_2 NT2
+U 1 1 5D93075D
+P 5950 5600
+F 0 "NT2" H 5950 5650 50  0000 C CNN
+F 1 "Net-Tie_2" H 5950 5550 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 5950 5600 50  0001 C CNN
+F 3 "~" H 5950 5600 50  0001 C CNN
+	1    5950 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Net-Tie_2 NT5
+U 1 1 5D932A45
+P 5950 6050
+F 0 "NT5" H 5950 6100 50  0000 C CNN
+F 1 "Net-Tie_2" H 5950 6000 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 5950 6050 50  0001 C CNN
+F 3 "~" H 5950 6050 50  0001 C CNN
+	1    5950 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Net-Tie_2 NT3
+U 1 1 5D934A76
+P 7950 5650
+F 0 "NT3" H 7950 5700 50  0000 C CNN
+F 1 "Net-Tie_2" H 7950 5600 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 7950 5650 50  0001 C CNN
+F 3 "~" H 7950 5650 50  0001 C CNN
+	1    7950 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Net-Tie_2 NT6
+U 1 1 5D936BF5
+P 7950 6050
+F 0 "NT6" H 7950 6100 50  0000 C CNN
+F 1 "Net-Tie_2" H 7950 6000 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 7950 6050 50  0001 C CNN
+F 3 "~" H 7950 6050 50  0001 C CNN
+	1    7950 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5550 4000 5550
+Connection ~ 4000 5550
+Wire Wire Line
+	4000 5550 4000 5600
+Wire Wire Line
+	3800 5950 4000 5950
+Wire Wire Line
+	6050 5600 6200 5600
+Wire Wire Line
+	6050 6050 6200 6050
+Connection ~ 6200 6050
+Wire Wire Line
+	6200 6050 6200 5950
+Wire Wire Line
+	8050 5650 8200 5650
+Connection ~ 8200 5650
+Wire Wire Line
+	8200 5650 8200 5700
+Wire Wire Line
+	8050 6050 8200 6050
+Connection ~ 8200 6050
+Wire Wire Line
+	8200 6050 8200 6000
+Connection ~ 4000 5950
+Wire Wire Line
+	4000 5950 4000 5900
+Wire Wire Line
+	4000 5950 4000 6100
+Text GLabel 7700 6050 0    60   Input ~ 0
+SPC
+Text GLabel 7700 5650 0    60   Input ~ 0
+SNC
+Wire Wire Line
+	3450 5550 3600 5550
+Wire Wire Line
+	3450 5950 3600 5950
+Text GLabel 5700 6050 0    60   Input ~ 0
+SPB
+Text GLabel 5700 5600 0    60   Input ~ 0
+SNB
+Wire Wire Line
+	5700 5600 5850 5600
+Wire Wire Line
+	5700 6050 5850 6050
+Connection ~ 6200 5600
+Wire Wire Line
+	6200 5600 6200 5650
+Wire Wire Line
+	6200 5350 6200 5600
+Text GLabel 3450 5950 0    60   Input ~ 0
+SPA
+Text GLabel 3450 5550 0    60   Input ~ 0
+SNA
+Wire Wire Line
+	7700 5650 7850 5650
+Wire Wire Line
+	7700 6050 7850 6050
+Text HLabel 3850 4300 0    60   Output ~ 0
+H1_VS
+Text HLabel 2450 3600 0    60   Input ~ 0
+GH_A
+Text HLabel 7150 3700 0    60   Input ~ 0
+GH_C
+Text HLabel 7150 4650 0    60   Input ~ 0
+GL_C
+Wire Wire Line
+	7350 3100 7350 3250
+Wire Wire Line
+	4800 3250 6200 3250
+Wire Wire Line
+	6200 3450 6200 3250
+Connection ~ 6200 3250
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5DB525FD
+P 7400 3700
+AR Path="/53FBA77E/5DB525FD" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5DB525FD" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5DB525FD" Ref="R43"  Part="1" 
+F 0 "R43" V 7300 3700 50  0000 C CNN
+F 1 "10R" V 7400 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7400 3700 60  0001 C CNN
+F 3 "" H 7400 3700 60  0001 C CNN
+	1    7400 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5DB5DA67
+P 7450 4650
+AR Path="/53FBA77E/5DB5DA67" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5DB5DA67" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5DB5DA67" Ref="R49"  Part="1" 
+F 0 "R49" V 7350 4650 50  0000 C CNN
+F 1 "10R" V 7450 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7450 4650 60  0001 C CNN
+F 3 "" H 7450 4650 60  0001 C CNN
+	1    7450 4650
+	0    1    1    0   
+$EndComp
+Connection ~ 7700 4650
+Wire Wire Line
+	7150 4650 7200 4650
+Wire Wire Line
+	6700 4300 6200 4300
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5DB7C530
+P 5450 3650
+AR Path="/53FBA77E/5DB7C530" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5DB7C530" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5DB7C530" Ref="R42"  Part="1" 
+F 0 "R42" V 5350 3650 50  0000 C CNN
+F 1 "10R" V 5450 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5450 3650 60  0001 C CNN
+F 3 "" H 5450 3650 60  0001 C CNN
+	1    5450 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5DB84717
+P 5400 4600
+AR Path="/53FBA77E/5DB84717" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5DB84717" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5DB84717" Ref="R48"  Part="1" 
+F 0 "R48" V 5300 4600 50  0000 C CNN
+F 1 "10R" V 5400 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5400 4600 60  0001 C CNN
+F 3 "" H 5400 4600 60  0001 C CNN
+	1    5400 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5DB8CE13
+P 3050 4550
+AR Path="/53FBA77E/5DB8CE13" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5DB8CE13" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5DB8CE13" Ref="R47"  Part="1" 
+F 0 "R47" V 2950 4550 50  0000 C CNN
+F 1 "10R" V 3050 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3050 4550 60  0001 C CNN
+F 3 "" H 3050 4550 60  0001 C CNN
+	1    3050 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5DB923FB
+P 3050 3600
+AR Path="/53FBA77E/5DB923FB" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5DB923FB" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5DB923FB" Ref="R41"  Part="1" 
+F 0 "R41" V 2950 3600 50  0000 C CNN
+F 1 "10R" V 3050 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3050 3600 60  0001 C CNN
+F 3 "" H 3050 3600 60  0001 C CNN
+	1    3050 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5100 4600 5150 4600
+Wire Wire Line
+	5150 3650 5200 3650
+$Comp
+L Device:R R?
+U 1 1 5DA8297F
+P 6450 5800
+AR Path="/5DA8297F" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5DA8297F" Ref="R59"  Part="1" 
+F 0 "R59" V 6530 5800 50  0000 C CNN
+F 1 "0.001R" V 6600 5800 50  0000 C CNN
+F 2 "shapes3D:R_2512_Yageo_big_pads" H 6450 5800 60  0001 C CNN
+F 3 "" H 6450 5800 60  0001 C CNN
+	1    6450 5800
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DA857C4
+P 4250 5750
+AR Path="/5DA857C4" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5DA857C4" Ref="R57"  Part="1" 
+F 0 "R57" V 4330 5750 50  0000 C CNN
+F 1 "0.001R" V 4400 5750 50  0000 C CNN
+F 2 "shapes3D:R_2512_Yageo_big_pads" H 4250 5750 60  0001 C CNN
+F 3 "" H 4250 5750 60  0001 C CNN
+	1    4250 5750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DA88690
+P 8450 5850
+AR Path="/5DA88690" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5DA88690" Ref="R61"  Part="1" 
+F 0 "R61" V 8530 5850 50  0000 C CNN
+F 1 "0.001R" V 8600 5850 50  0000 C CNN
+F 2 "shapes3D:R_2512_Yageo_big_pads" H 8450 5850 60  0001 C CNN
+F 3 "" H 8450 5850 60  0001 C CNN
+	1    8450 5850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8450 5700 8450 5650
+Wire Wire Line
+	8450 5650 8200 5650
+Wire Wire Line
+	8450 6000 8450 6050
+Wire Wire Line
+	8450 6050 8200 6050
+Wire Wire Line
+	6450 5650 6450 5600
+Wire Wire Line
+	6450 5600 6200 5600
+Wire Wire Line
+	6450 5950 6450 6050
+Wire Wire Line
+	6450 6050 6200 6050
+Wire Wire Line
+	4250 5600 4250 5550
+Wire Wire Line
+	4250 5550 4000 5550
+Wire Wire Line
+	4250 5900 4250 5950
+Wire Wire Line
+	4250 5950 4000 5950
+Connection ~ 7350 3250
+Wire Wire Line
+	7350 3250 8200 3250
+Wire Wire Line
+	6200 3250 7350 3250
+Connection ~ 6100 2000
+Wire Wire Line
+	6100 2000 6550 2000
+Connection ~ 6100 1700
+Wire Wire Line
+	6100 1700 6550 1700
+Connection ~ 5700 3650
+$Comp
+L Device:CP1 C?
+U 1 1 5C6CA3F1
+P 4800 2950
+AR Path="/504F83BE/5C6CA3F1" Ref="C?"  Part="1" 
+AR Path="/53F826DC/5C6CA3F1" Ref="C38"  Part="1" 
+F 0 "C38" V 4650 2900 50  0000 L CNN
+F 1 "330u, 63V" V 4950 2750 50  0000 L CNN
+F 2 "w_capacitors:CP_10x20mm_hor_with_model_brd_edge" H 4800 2950 60  0001 C CNN
+F 3 "" H 4800 2950 60  0001 C CNN
+	1    4800 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5DDC65F0
+P 4850 5200
+AR Path="/504F83BE/5DDC65F0" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5DDC65F0" Ref="R33"  Part="1" 
+F 0 "R33" V 4950 5200 50  0000 C CNN
+F 1 "10R" V 4750 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4850 5200 60  0001 C CNN
+F 3 "" H 4850 5200 60  0001 C CNN
+	1    4850 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 4950 4850 4900
+Wire Wire Line
+	4850 4900 4550 4900
+Connection ~ 4550 4900
+Wire Wire Line
+	4550 4900 4550 4950
+Wire Wire Line
+	4850 5450 4850 5550
+Wire Wire Line
+	4850 5550 4550 5550
+Connection ~ 4550 5550
+Wire Wire Line
+	4550 5550 4550 5450
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5DDD18A4
+P 7000 5250
+AR Path="/504F83BE/5DDD18A4" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5DDD18A4" Ref="R37"  Part="1" 
+F 0 "R37" V 7100 5250 50  0000 C CNN
+F 1 "10R" V 6900 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7000 5250 60  0001 C CNN
+F 3 "" H 7000 5250 60  0001 C CNN
+	1    7000 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7000 5000 7000 4900
+Wire Wire Line
+	7000 4900 6700 4900
+Connection ~ 6700 4900
+Wire Wire Line
+	6700 4900 6700 5000
+Wire Wire Line
+	7000 5500 7000 5650
+Wire Wire Line
+	7000 5650 6700 5650
+Connection ~ 6700 5650
+Wire Wire Line
+	6700 5650 6700 5500
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5DDDDE9B
+P 9050 5300
+AR Path="/504F83BE/5DDDDE9B" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5DDDDE9B" Ref="R39"  Part="1" 
+F 0 "R39" V 9150 5300 50  0000 C CNN
+F 1 "10R" V 8950 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9050 5300 60  0001 C CNN
+F 3 "" H 9050 5300 60  0001 C CNN
+	1    9050 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9050 5050 9050 4950
+Wire Wire Line
+	9050 4950 8750 4950
+Connection ~ 8750 4950
+Wire Wire Line
+	8750 4950 8750 5050
+Wire Wire Line
+	9050 5550 9050 5750
+Wire Wire Line
+	9050 5750 8750 5750
+Connection ~ 8750 5750
+Wire Wire Line
+	8750 5750 8750 5550
+$Comp
+L BLDC_4-rescue:C-RESCUE-BLDC_4 C?
+U 1 1 5E45C558
+P 3650 3800
+AR Path="/504F83BE/5E45C558" Ref="C?"  Part="1" 
+AR Path="/53F826DC/5E45C558" Ref="C61"  Part="1" 
+F 0 "C61" H 3650 3900 50  0000 L CNN
+F 1 "1nF" H 3650 3700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3650 3800 60  0001 C CNN
+F 3 "" H 3650 3800 60  0001 C CNN
+	1    3650 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3800 4000 4000
+Connection ~ 3650 3600
+Wire Wire Line
+	3650 3600 3700 3600
+Connection ~ 4000 4000
+Wire Wire Line
+	4000 4000 4000 4100
+Connection ~ 4000 4300
+Wire Wire Line
+	4000 4300 4000 4350
+Wire Wire Line
+	4000 4200 4000 4250
+$Comp
+L BLDC_4-rescue:C-RESCUE-BLDC_4 C?
+U 1 1 5E489C54
+P 3650 4750
+AR Path="/504F83BE/5E489C54" Ref="C?"  Part="1" 
+AR Path="/53F826DC/5E489C54" Ref="C62"  Part="1" 
+F 0 "C62" H 3650 4850 50  0000 L CNN
+F 1 "1nF" H 3650 4650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3650 4750 60  0001 C CNN
+F 3 "" H 3650 4750 60  0001 C CNN
+	1    3650 4750
+	1    0    0    -1  
+$EndComp
+Connection ~ 3650 4550
+Wire Wire Line
+	3650 4550 3700 4550
+Wire Wire Line
+	3650 4950 4000 4950
+Wire Wire Line
+	4000 4750 4000 4950
+Connection ~ 4000 4950
+$Comp
+L BLDC_4-rescue:C-RESCUE-BLDC_4 C?
+U 1 1 5E494F81
+P 5850 4800
+AR Path="/504F83BE/5E494F81" Ref="C?"  Part="1" 
+AR Path="/53F826DC/5E494F81" Ref="C65"  Part="1" 
+F 0 "C65" H 5850 4900 50  0000 L CNN
+F 1 "1nF" H 5850 4700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5850 4800 60  0001 C CNN
+F 3 "" H 5850 4800 60  0001 C CNN
+	1    5850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BLDC_4-rescue:C-RESCUE-BLDC_4 C?
+U 1 1 5E49A22D
+P 5850 3850
+AR Path="/504F83BE/5E49A22D" Ref="C?"  Part="1" 
+AR Path="/53F826DC/5E49A22D" Ref="C63"  Part="1" 
+F 0 "C63" H 5850 3950 50  0000 L CNN
+F 1 "1nF" H 5850 3750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5850 3850 60  0001 C CNN
+F 3 "" H 5850 3850 60  0001 C CNN
+	1    5850 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5000 6200 5000
+Connection ~ 6200 5000
+Wire Wire Line
+	6200 5000 6200 5150
+Wire Wire Line
+	5700 4600 5850 4600
+Connection ~ 5850 4600
+Wire Wire Line
+	5850 4600 5900 4600
+Wire Wire Line
+	6100 4300 6200 4300
+Wire Wire Line
+	5700 4150 5700 3650
+Wire Wire Line
+	6200 3850 6200 4050
+Connection ~ 6200 4300
+Wire Wire Line
+	6200 4300 6200 4400
+Wire Wire Line
+	5850 4050 6200 4050
+Connection ~ 6200 4050
+Wire Wire Line
+	6200 4050 6200 4150
+Wire Wire Line
+	6200 4150 6200 4300
+Wire Wire Line
+	5700 3650 5850 3650
+Connection ~ 5850 3650
+Wire Wire Line
+	5850 3650 5900 3650
+Connection ~ 8200 4400
+Wire Wire Line
+	8200 4400 8200 4450
+Wire Wire Line
+	8200 3900 8200 4100
+Wire Wire Line
+	7700 3700 7700 4200
+$Comp
+L BLDC_4-rescue:C-RESCUE-BLDC_4 C?
+U 1 1 5E4E7756
+P 7850 3900
+AR Path="/504F83BE/5E4E7756" Ref="C?"  Part="1" 
+AR Path="/53F826DC/5E4E7756" Ref="C66"  Part="1" 
+F 0 "C66" H 7850 4000 50  0000 L CNN
+F 1 "1nF" H 7850 3800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7850 3900 60  0001 C CNN
+F 3 "" H 7850 3900 60  0001 C CNN
+	1    7850 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 4100 8200 4100
+Connection ~ 8200 4100
+Wire Wire Line
+	8200 4100 8200 4200
+Wire Wire Line
+	7700 3700 7850 3700
+Connection ~ 7850 3700
+Wire Wire Line
+	7850 3700 7900 3700
+$Comp
+L BLDC_4-rescue:C-RESCUE-BLDC_4 C?
+U 1 1 5E4FE498
+P 7850 4850
+AR Path="/504F83BE/5E4FE498" Ref="C?"  Part="1" 
+AR Path="/53F826DC/5E4FE498" Ref="C67"  Part="1" 
+F 0 "C67" H 7850 4950 50  0000 L CNN
+F 1 "1nF" H 7850 4750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7850 4850 60  0001 C CNN
+F 3 "" H 7850 4850 60  0001 C CNN
+	1    7850 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 5050 8200 5050
+Wire Wire Line
+	8200 4850 8200 5050
+Connection ~ 8200 5050
+Wire Wire Line
+	8200 5050 8200 5200
+Wire Wire Line
+	7700 4650 7850 4650
+Connection ~ 7850 4650
+Wire Wire Line
+	7850 4650 7900 4650
+Text HLabel 6100 4300 0    60   Output ~ 0
+H2_VS
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5D5944ED
+P 5950 4150
+AR Path="/53FBA77E/5D5944ED" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5D5944ED" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5D5944ED" Ref="R45"  Part="1" 
+F 0 "R45" V 5850 4150 50  0000 C CNN
+F 1 "4.7k" V 5950 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5950 4150 60  0001 C CNN
+F 3 "" H 5950 4150 60  0001 C CNN
+	1    5950 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 4000 4000 4000
+$Comp
+L Device:Q_PNP_BCE Q7
+U 1 1 5E740155
+P 3250 3800
+F 0 "Q7" H 3100 3700 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 2850 3950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3450 3900 50  0001 C CNN
+F 3 "~" H 3250 3800 50  0001 C CNN
+	1    3250 3800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3300 3600 3350 3600
+Wire Wire Line
+	3050 3800 2750 3800
+Wire Wire Line
+	2450 3600 2750 3600
+Connection ~ 3350 3600
+Wire Wire Line
+	2750 3800 2750 3600
+Connection ~ 2750 3600
+Wire Wire Line
+	2750 3600 2800 3600
+Wire Wire Line
+	4000 4950 4000 5050
+Wire Wire Line
+	3500 5050 4000 5050
+Connection ~ 4000 5050
+Wire Wire Line
+	4000 5050 4000 5300
+$Comp
+L Device:Q_PNP_BCE Q8
+U 1 1 5E8192F4
+P 3250 4800
+F 0 "Q8" H 3100 4700 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 2850 4950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3450 4900 50  0001 C CNN
+F 3 "~" H 3250 4800 50  0001 C CNN
+	1    3250 4800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3300 4550 3350 4550
+Connection ~ 3500 4550
+Wire Wire Line
+	3350 4600 3350 4550
+Connection ~ 3350 4550
+Wire Wire Line
+	3350 4550 3500 4550
+Wire Wire Line
+	3350 5000 3350 5050
+Wire Wire Line
+	3350 5050 3500 5050
+Connection ~ 3500 5050
+Wire Wire Line
+	3050 4800 2750 4800
+Wire Wire Line
+	2750 4800 2750 4550
+Connection ~ 2750 4550
+Wire Wire Line
+	2750 4550 2800 4550
+Wire Wire Line
+	3350 3600 3500 3600
+Wire Wire Line
+	3500 4100 3500 3600
+Connection ~ 3500 3600
+Wire Wire Line
+	3500 3600 3650 3600
+Wire Wire Line
+	3350 4250 4000 4250
+Wire Wire Line
+	3350 4000 3350 4250
+Connection ~ 4000 4250
+Wire Wire Line
+	4000 4250 4000 4300
+$EndSCHEMATC

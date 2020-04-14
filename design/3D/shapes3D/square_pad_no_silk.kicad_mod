@@ -1,0 +1,11 @@
+(module square_pad_no_silk (layer F.Cu) (tedit 5D4F8C3A)
+  (descr "module 1 pin (ou trou mecanique de percage)")
+  (tags DEV)
+  (fp_text reference P24 (at 0 -3.048) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (fp_text value MOTOR3 (at 0 2.794) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (pad 1 thru_hole rect (at 0 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask))
+)

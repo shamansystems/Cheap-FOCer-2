@@ -1,0 +1,163 @@
+EESchema Schematic File Version 4
+LIBS:Cheap FOCer 2 60mm-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 8
+Title "Cheap FOCer 2"
+Date "2019-02-21"
+Rev "1"
+Comp "Shaman Systems"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Top level"
+$EndDescr
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R14
+U 1 1 53FBB581
+P 4900 3200
+F 0 "R14" V 5000 3200 50  0000 C CNN
+F 1 "10k" V 4900 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4900 3200 60  0001 C CNN
+F 3 "" H 4900 3200 60  0001 C CNN
+	1    4900 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R15
+U 1 1 53FBB5B8
+P 5000 3200
+F 0 "R15" V 4950 3450 50  0000 C CNN
+F 1 "2k2" V 5000 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5000 3200 60  0001 C CNN
+F 3 "" H 5000 3200 60  0001 C CNN
+	1    5000 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R16
+U 1 1 53FBB5BF
+P 5100 3200
+F 0 "R16" V 5050 3450 50  0000 C CNN
+F 1 "2k2" V 5100 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5100 3200 60  0001 C CNN
+F 3 "" H 5100 3200 60  0001 C CNN
+	1    5100 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R17
+U 1 1 53FBB5C6
+P 5200 3200
+F 0 "R17" V 5150 3450 50  0000 C CNN
+F 1 "2k2" V 5200 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5200 3200 60  0001 C CNN
+F 3 "" H 5200 3200 60  0001 C CNN
+	1    5200 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L BLDC_4-rescue:VCC #PWR023
+U 1 1 53FBB5DA
+P 4900 2850
+F 0 "#PWR023" H 4900 2950 30  0001 C CNN
+F 1 "VCC" V 4850 2900 30  0000 C CNN
+F 2 "" H 4900 2850 60  0001 C CNN
+F 3 "" H 4900 2850 60  0001 C CNN
+	1    4900 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2950 5000 2850
+Wire Wire Line
+	5100 2850 5100 2950
+Wire Wire Line
+	5200 2850 5200 2950
+Connection ~ 5000 3550
+Wire Wire Line
+	5000 3450 5000 3550
+Connection ~ 5100 3650
+Wire Wire Line
+	5100 3450 5100 3650
+Connection ~ 5200 3750
+Wire Wire Line
+	5200 3450 5200 3750
+Wire Wire Line
+	4800 3750 5200 3750
+Wire Wire Line
+	4800 3650 5100 3650
+Wire Wire Line
+	4800 3550 5000 3550
+Wire Wire Line
+	4900 3450 4900 3850
+Wire Wire Line
+	4900 2850 4900 2950
+Wire Wire Line
+	4900 2850 5000 2850
+Connection ~ 5000 2850
+Connection ~ 5100 2850
+Wire Wire Line
+	4800 3850 4900 3850
+Text HLabel 4800 3550 0    60   Input ~ 0
+HALL3_IN
+Text HLabel 4800 3650 0    60   Input ~ 0
+HALL2_IN
+Text HLabel 4800 3750 0    60   Input ~ 0
+HALL1_IN
+Text HLabel 4800 3850 0    60   Input ~ 0
+TEMP_IN
+Text HLabel 6600 3550 2    60   Output ~ 0
+HALL3_OUT
+Text HLabel 6600 3650 2    60   Output ~ 0
+HALL2_OUT
+Text HLabel 6600 3750 2    60   Output ~ 0
+HALL1_OUT
+Text HLabel 6600 3850 2    60   Output ~ 0
+TEMP_OUT
+Wire Wire Line
+	5000 2850 5100 2850
+Wire Wire Line
+	5100 2850 5200 2850
+Wire Wire Line
+	5000 3550 6600 3550
+Wire Wire Line
+	5100 3650 6600 3650
+Wire Wire Line
+	5200 3750 6600 3750
+$Comp
+L BLDC_4-rescue:C-RESCUE-BLDC_4 C?
+U 1 1 5C7712C3
+P 5550 4050
+AR Path="/5C7712C3" Ref="C?"  Part="1" 
+AR Path="/53FBA77E/5C7712C3" Ref="C6"  Part="1" 
+F 0 "C6" H 5300 4050 50  0000 L CNN
+F 1 "100n" H 5250 4150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5550 4050 60  0001 C CNN
+F 3 "" H 5550 4050 60  0001 C CNN
+	1    5550 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 3850 6600 3850
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR?
+U 1 1 5C7716C9
+P 5550 4350
+AR Path="/504F83BE/5C7716C9" Ref="#PWR?"  Part="1" 
+AR Path="/53FBA77E/5C7716C9" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 5550 4350 30  0001 C CNN
+F 1 "GND" H 5550 4280 30  0001 C CNN
+F 2 "" H 5550 4350 60  0001 C CNN
+F 3 "" H 5550 4350 60  0001 C CNN
+	1    5550 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4250 5550 4350
+Wire Wire Line
+	4900 3850 5550 3850
+Connection ~ 4900 3850
+Connection ~ 5550 3850
+$EndSCHEMATC

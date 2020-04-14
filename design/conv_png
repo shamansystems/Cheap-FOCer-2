@@ -1,0 +1,7 @@
+#!/bin/bash
+# Use sudo apt-get install poppler-utils
+
+pdftoppm -rx 300 -ry 300 -png BLDC_4.pdf PNGs/Schematic
+pdftoppm -rx 300 -ry 300 -png Plot/BLDC_4-B_SilkS.pdf PNGs/B_Modules
+pdftoppm -rx 300 -ry 300 -png Plot/BLDC_4-F_SilkS.pdf PNGs/F_Modules
+

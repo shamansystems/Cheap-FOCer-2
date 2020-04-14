@@ -1,0 +1,201 @@
+EESchema Schematic File Version 4
+LIBS:Serious FOCer TO247-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+5V #PWR?
+U 1 1 5D97EE41
+P 6500 3800
+AR Path="/504F83BE/5D97EE41" Ref="#PWR?"  Part="1" 
+AR Path="/5D9B2F84/5D97EE41" Ref="#PWR0106"  Part="1" 
+AR Path="/5D97EE41" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0106" H 6500 3890 20  0001 C CNN
+F 1 "+5V" H 6500 3950 30  0000 C CNN
+F 2 "" H 6500 3800 60  0001 C CNN
+F 3 "" H 6500 3800 60  0001 C CNN
+	1    6500 3800
+	-1   0    0    1   
+$EndComp
+Text GLabel 6600 3800 3    50   Input ~ 0
+SERVO_IN
+Text GLabel 4400 3800 3    60   BiDi ~ 0
+USB_DM
+Text GLabel 6200 3800 3    60   Output ~ 0
+TX_SCL_MOSI
+Text HLabel 6300 3800 3    60   3State ~ 0
+RX_SDA_NSS
+Text HLabel 6400 3800 3    60   Input ~ 0
+SCK_ADC_EXT
+Text GLabel 6100 3800 3    60   Input ~ 0
+MISO_ADC_EXT2
+Wire Wire Line
+	5400 3800 5400 3750
+Wire Wire Line
+	6700 3800 6700 3750
+Wire Wire Line
+	6600 3800 6600 3750
+Wire Wire Line
+	6500 3800 6500 3750
+Wire Wire Line
+	6400 3800 6400 3750
+Wire Wire Line
+	6300 3800 6300 3750
+Wire Wire Line
+	6200 3800 6200 3750
+Wire Wire Line
+	6100 3800 6100 3750
+Wire Wire Line
+	6000 3800 6000 3750
+Wire Wire Line
+	5900 3800 5900 3750
+Wire Wire Line
+	5800 3800 5800 3750
+Wire Wire Line
+	5700 3750 5700 3800
+Wire Wire Line
+	5600 3800 5600 3750
+Wire Wire Line
+	5500 3800 5500 3750
+Wire Wire Line
+	5300 3800 5300 3750
+Wire Wire Line
+	5200 3800 5200 3750
+Wire Wire Line
+	5100 3800 5100 3750
+Wire Wire Line
+	5000 3800 5000 3750
+Wire Wire Line
+	4900 3800 4900 3750
+Wire Wire Line
+	4800 3800 4800 3750
+Wire Wire Line
+	4700 3800 4700 3750
+Wire Wire Line
+	4600 3800 4600 3750
+Wire Wire Line
+	4400 3800 4400 3750
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR?
+U 1 1 5D97EE64
+P 5500 3800
+AR Path="/5D97EE64" Ref="#PWR?"  Part="1" 
+AR Path="/5D9B2F84/5D97EE64" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 5500 3800 30  0001 C CNN
+F 1 "GND" H 5500 3730 30  0001 C CNN
+F 2 "" H 5500 3800 60  0001 C CNN
+F 3 "" H 5500 3800 60  0001 C CNN
+	1    5500 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 4900 3800 3    50   Input ~ 0
+SWITCH
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR?
+U 1 1 5D97EE6B
+P 6700 3800
+AR Path="/5D97EE6B" Ref="#PWR?"  Part="1" 
+AR Path="/5D9B2F84/5D97EE6B" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 6700 3800 30  0001 C CNN
+F 1 "GND" H 6700 3730 30  0001 C CNN
+F 2 "" H 6700 3800 60  0001 C CNN
+F 3 "" H 6700 3800 60  0001 C CNN
+	1    6700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR?
+U 1 1 5D97EE71
+P 6000 3800
+AR Path="/5D97EE71" Ref="#PWR?"  Part="1" 
+AR Path="/5D9B2F84/5D97EE71" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 6000 3800 30  0001 C CNN
+F 1 "GND" H 6000 3730 30  0001 C CNN
+F 2 "" H 6000 3800 60  0001 C CNN
+F 3 "" H 6000 3800 60  0001 C CNN
+	1    6000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x24 J?
+U 1 1 5D97EE77
+P 5500 3550
+AR Path="/5D97EE77" Ref="J?"  Part="1" 
+AR Path="/5D9B2F84/5D97EE77" Ref="J2"  Part="1" 
+F 0 "J2" V 5717 3496 50  0000 C CNN
+F 1 "Conn_01x24" V 5626 3496 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x24_P1.27mm_Horizontal" H 5500 3550 50  0001 C CNN
+F 3 "~" H 5500 3550 50  0001 C CNN
+	1    5500 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR?
+U 1 1 5D97EE7D
+P 5100 3800
+AR Path="/5D97EE7D" Ref="#PWR?"  Part="1" 
+AR Path="/5D9B2F84/5D97EE7D" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 5100 3800 30  0001 C CNN
+F 1 "GND" H 5100 3730 30  0001 C CNN
+F 2 "" H 5100 3800 60  0001 C CNN
+F 3 "" H 5100 3800 60  0001 C CNN
+	1    5100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D97EE83
+P 5200 3800
+AR Path="/504F83BE/5D97EE83" Ref="#PWR?"  Part="1" 
+AR Path="/5D9B2F84/5D97EE83" Ref="#PWR0115"  Part="1" 
+AR Path="/5D97EE83" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0115" H 5200 3890 20  0001 C CNN
+F 1 "+5V" H 5200 3950 30  0000 C CNN
+F 2 "" H 5200 3800 60  0001 C CNN
+F 3 "" H 5200 3800 60  0001 C CNN
+	1    5200 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L BLDC_4-rescue:VCC #PWR?
+U 1 1 5D97EE89
+P 5000 3800
+AR Path="/5D97EE89" Ref="#PWR?"  Part="1" 
+AR Path="/5D9B2F84/5D97EE89" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 5000 3900 30  0001 C CNN
+F 1 "VCC" V 5000 3950 30  0000 C CNN
+F 2 "" H 5000 3800 60  0001 C CNN
+F 3 "" H 5000 3800 60  0001 C CNN
+	1    5000 3800
+	-1   0    0    1   
+$EndComp
+Text HLabel 4600 3800 3    60   BiDi ~ 0
+USB_DP
+Text HLabel 5900 3800 3    60   Input ~ 0
+TEMP_IN
+Text HLabel 5700 3800 3    60   Input ~ 0
+HALL2_IN
+Text HLabel 5800 3800 3    60   Input ~ 0
+HALL_1
+Text HLabel 5600 3800 3    60   Input ~ 0
+HALL3_IN
+Text HLabel 5400 3800 3    60   Output ~ 0
+CANL
+Text HLabel 4700 3800 3    60   Output ~ 0
+LED_RED
+Text HLabel 4800 3800 3    60   Output ~ 0
+LED_GREEN
+Text HLabel 5300 3800 3    60   Input ~ 0
+CANH
+$EndSCHEMATC

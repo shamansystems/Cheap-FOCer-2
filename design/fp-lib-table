@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name CRF1)(type KiCad)(uri "$(KIPRJMOD)/Libraries/crf1.pretty")(options "")(descr ""))
+  (lib (name w_smd_inductors)(type Legacy)(uri "$(KIPRJMOD)/Libraries/w_smd_inductors.mod")(options "")(descr ""))
+  (lib (name w_smd_cap)(type Legacy)(uri "$(KIPRJMOD)/Libraries/w_smd_cap.mod")(options "")(descr ""))
+  (lib (name "JST conn")(type KiCad)(uri "$(KIPRJMOD)/Libraries/w_conn_jst-ph.pretty")(options "")(descr ""))
+  (lib (name w_smd_diode)(type Legacy)(uri "$(KIPRJMOD)/Libraries/w_smd_diode.mod")(options "")(descr ""))
+  (lib (name shapes3D)(type KiCad)(uri ${KIPRJMOD}/3D/shapes3D)(options "")(descr ""))
+)

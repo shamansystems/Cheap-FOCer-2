@@ -1,0 +1,11 @@
+(module inductor_smd_5.8mmx4.8hmm (layer F.Cu) (tedit 5082E8A9)
+  (fp_text reference inductor_smd_5.8mmx4.8hmm (at 0 4.39928) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_text value VAL** (at 0 -4.30022) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_circle (center 0 0) (end 2.90068 -0.09906) (layer F.SilkS) (width 0.20066))
+  (pad 1 smd rect (at 1.80086 0) (size 2.49936 5.99948) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -1.80086 0) (size 2.49936 5.99948) (layers F.Cu F.Paste F.Mask))
+)

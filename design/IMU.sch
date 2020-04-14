@@ -1,0 +1,235 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 8496 6906
+encoding utf-8
+Sheet 7 8
+Title "Cheap FOCer 2"
+Date "2020-04-08"
+Rev "0.9"
+Comp "Shaman Systems"
+Comment1 "Root"
+Comment2 ""
+Comment3 ""
+Comment4 "Top level"
+$EndDescr
+$Comp
+L BLDC_4-rescue:C-RESCUE-BLDC_4 C?
+U 1 1 5E6217F0
+P 5250 2600
+AR Path="/53F7501A/5E6217F0" Ref="C?"  Part="1" 
+AR Path="/504F83BE/5E6217F0" Ref="C?"  Part="1" 
+AR Path="/5E1710B0/5E6217F0" Ref="C60"  Part="1" 
+AR Path="/5E617907/5E6217F0" Ref="C60"  Part="1" 
+F 0 "C60" V 5200 2650 50  0000 L CNN
+F 1 "100n" V 5100 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5250 2600 60  0001 C CNN
+F 3 "" H 5250 2600 60  0001 C CNN
+	1    5250 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L BLDC_4-rescue:C-RESCUE-BLDC_4 C?
+U 1 1 5E6217F1
+P 5250 2900
+AR Path="/53F7501A/5E6217F1" Ref="C?"  Part="1" 
+AR Path="/504F83BE/5E6217F1" Ref="C?"  Part="1" 
+AR Path="/5E1710B0/5E6217F1" Ref="C64"  Part="1" 
+AR Path="/5E617907/5E6217F1" Ref="C64"  Part="1" 
+F 0 "C64" V 5300 2950 50  0000 L CNN
+F 1 "100n" V 5400 2800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5250 2900 60  0001 C CNN
+F 3 "" H 5250 2900 60  0001 C CNN
+	1    5250 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5E17755F
+P 3350 2750
+AR Path="/504F83BE/5E17755F" Ref="R?"  Part="1" 
+AR Path="/5E1710B0/5E17755F" Ref="R50"  Part="1" 
+AR Path="/5E617907/5E17755F" Ref="R70"  Part="1" 
+F 0 "R70" V 3450 2750 50  0000 C CNN
+F 1 "1k" V 3350 2750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3350 2750 60  0001 C CNN
+F 3 "" H 3350 2750 60  0001 C CNN
+	1    3350 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3000 2500 3000 2450
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5E17766B
+P 3000 2750
+AR Path="/504F83BE/5E17766B" Ref="R?"  Part="1" 
+AR Path="/5E1710B0/5E17766B" Ref="R49"  Part="1" 
+AR Path="/5E617907/5E17766B" Ref="R69"  Part="1" 
+F 0 "R69" V 2900 2750 50  0000 C CNN
+F 1 "1k" V 3000 2750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3000 2750 60  0001 C CNN
+F 3 "" H 3000 2750 60  0001 C CNN
+	1    3000 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2700 4950 2700
+Connection ~ 5050 2700
+Wire Wire Line
+	4900 2800 5050 2800
+Connection ~ 5050 2800
+Wire Wire Line
+	5050 2800 5050 2900
+$Comp
+L BLDC_4-rescue:VCC #PWR?
+U 1 1 5E6217F4
+P 3350 2350
+AR Path="/504F83BE/5E6217F4" Ref="#PWR?"  Part="1" 
+AR Path="/5E1710B0/5E6217F4" Ref="#PWR06"  Part="1" 
+AR Path="/5E617907/5E6217F4" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 3350 2450 30  0001 C CNN
+F 1 "VCC" H 3350 2500 30  0000 C CNN
+F 2 "" H 3350 2350 60  0001 C CNN
+F 3 "" H 3350 2350 60  0001 C CNN
+	1    3350 2350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4900 3600
+NoConn ~ 4900 3500
+NoConn ~ 4900 3100
+NoConn ~ 4900 3000
+Wire Wire Line
+	3350 3200 3700 3200
+Wire Wire Line
+	3350 3000 3350 3200
+Wire Wire Line
+	3700 3100 3000 3100
+Wire Wire Line
+	3000 3100 3000 3000
+Wire Wire Line
+	3350 2500 3350 2450
+Wire Wire Line
+	3000 2450 3350 2450
+Connection ~ 3350 2450
+Wire Wire Line
+	3350 2450 3350 2350
+Wire Wire Line
+	3350 2450 3700 2450
+Wire Wire Line
+	3700 2450 3700 3000
+$Comp
+L BLDC_4-rescue:VCC #PWR?
+U 1 1 5E6217F6
+P 4950 2600
+AR Path="/504F83BE/5E6217F6" Ref="#PWR?"  Part="1" 
+AR Path="/5E1710B0/5E6217F6" Ref="#PWR017"  Part="1" 
+AR Path="/5E617907/5E6217F6" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 4950 2700 30  0001 C CNN
+F 1 "VCC" H 4950 2750 30  0000 C CNN
+F 2 "" H 4950 2600 60  0001 C CNN
+F 3 "" H 4950 2600 60  0001 C CNN
+	1    4950 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2600 4950 2700
+Connection ~ 4950 2700
+Wire Wire Line
+	4950 2700 5050 2700
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR?
+U 1 1 5E17EA2A
+P 3450 3350
+AR Path="/5E17EA2A" Ref="#PWR?"  Part="1" 
+AR Path="/53F826DC/5E17EA2A" Ref="#PWR?"  Part="1" 
+AR Path="/5E1710B0/5E17EA2A" Ref="#PWR07"  Part="1" 
+AR Path="/5E617907/5E17EA2A" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 3450 3350 30  0001 C CNN
+F 1 "GND" H 3450 3280 30  0001 C CNN
+F 2 "" H 3450 3350 60  0001 C CNN
+F 3 "" H 3450 3350 60  0001 C CNN
+	1    3450 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3300 3450 3300
+Wire Wire Line
+	3450 3300 3450 3350
+NoConn ~ 3700 3500
+NoConn ~ 3700 3600
+Text HLabel 2850 3200 0    50   Input ~ 0
+SDA
+Text HLabel 2850 3100 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	2850 3100 3000 3100
+Connection ~ 3000 3100
+Wire Wire Line
+	3350 3200 2850 3200
+Connection ~ 3350 3200
+Connection ~ 4900 3900
+Wire Wire Line
+	4900 3900 4900 3950
+Wire Wire Line
+	4900 3800 4900 3900
+Wire Wire Line
+	5050 2700 5050 2800
+Wire Wire Line
+	5050 2600 5050 2700
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR?
+U 1 1 5E17A2F9
+P 4900 3950
+AR Path="/5E17A2F9" Ref="#PWR?"  Part="1" 
+AR Path="/53F826DC/5E17A2F9" Ref="#PWR?"  Part="1" 
+AR Path="/5E1710B0/5E17A2F9" Ref="#PWR012"  Part="1" 
+AR Path="/5E617907/5E17A2F9" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 4900 3950 30  0001 C CNN
+F 1 "GND" H 4900 3880 30  0001 C CNN
+F 2 "" H 4900 3950 60  0001 C CNN
+F 3 "" H 4900 3950 60  0001 C CNN
+	1    4900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cheap-FOCer-2-60mm-rescue:BMI160-IMU U6
+U 1 1 5E6217EF
+P 4300 3300
+AR Path="/5E6217EF" Ref="U6"  Part="1" 
+AR Path="/5E617907/5E6217EF" Ref="U6"  Part="1" 
+F 0 "U6" H 4300 4167 50  0000 C CNN
+F 1 "BMI160" H 4300 4076 50  0000 C CNN
+F 2 "Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm" H 4300 3300 50  0001 L BNN
+F 3 "" H 4300 3300 50  0001 L BNN
+F 4 "Bosch" H 4300 3300 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 4300 3300 50  0001 L BNN "Field5"
+F 6 "LGA-14 Bosch" H 4300 3300 50  0001 L BNN "Field6"
+F 7 "None" H 4300 3300 50  0001 L BNN "Field7"
+F 8 "BMI160" H 4300 3300 50  0001 L BNN "Field8"
+	1    4300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR?
+U 1 1 5E6217F8
+P 5550 2750
+AR Path="/5E6217F8" Ref="#PWR?"  Part="1" 
+AR Path="/53F826DC/5E6217F8" Ref="#PWR?"  Part="1" 
+AR Path="/5E1710B0/5E6217F8" Ref="#PWR0106"  Part="1" 
+AR Path="/5E617907/5E6217F8" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 5550 2750 30  0001 C CNN
+F 1 "GND" H 5550 2680 30  0001 C CNN
+F 2 "" H 5550 2750 60  0001 C CNN
+F 3 "" H 5550 2750 60  0001 C CNN
+	1    5550 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5450 2600 5450 2750
+Wire Wire Line
+	5550 2750 5450 2750
+Connection ~ 5450 2750
+Wire Wire Line
+	5450 2750 5450 2900
+$EndSCHEMATC

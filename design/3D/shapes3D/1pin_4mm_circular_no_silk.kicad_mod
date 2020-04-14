@@ -1,0 +1,12 @@
+(module 1pin_4mm_circular_no_silk (layer F.Cu) (tedit 5D50CB01)
+  (descr "module 1 pin (ou trou mecanique de percage)")
+  (tags DEV)
+  (clearance 0.1)
+  (fp_text reference P12 (at 0 -5.4) (layer F.SilkS)
+    (effects (font (size 2 2) (thickness 0.5)))
+  )
+  (fp_text value MOTOR3 (at 0 2.794) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (pad 1 smd circle (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
+)

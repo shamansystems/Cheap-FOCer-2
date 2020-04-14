@@ -1,0 +1,11 @@
+Kicad 3d Packages by W. Lain - kcswalter@member.fsf.org
+
+RELEASE NOTES:
+All the dimensions are taken from the maximum values and approximated for modeling convenience. Also, when converting between metric and imperial units, the author tried to maintain the correct dimensions while avoiding numbers with 5 or 6 decimal positions.
+
+For example:
+- if the dimension is 2.7 +- 0.1 mm, you will probably find something like 0.11" instead of 0.110236;
+- if the dimension is 0.85"-0.92", 0.9" will be used ( the same if 0.92"-0.97"-->0.95");
+- ... and so on.
+
+For any dimension not reported on the datasheets, the author measured the dimension on a real component (when available) or tried to extrapolate it from the others.

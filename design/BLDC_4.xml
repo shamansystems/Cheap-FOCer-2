@@ -1,0 +1,1785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Desktop\KiCAD Projects\VESC\bldc-hardware-master\design\BLDC_4.sch</source>
+    <date>3/4/2019 6:28:04 PM</date>
+    <tool>Eeschema (5.0.2)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Super FOCer</title>
+        <company>Shaman Systems</company>
+        <rev>1</rev>
+        <date>2019-02-21</date>
+        <source>BLDC_4.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Top level"/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power MOSFETS/" tstamps="/53F826DC/">
+      <title_block>
+        <title>Super FOCer</title>
+        <company>Shaman Systems</company>
+        <rev>1</rev>
+        <date>2019-02-21</date>
+        <source>mosfets.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Top level"/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/NTC temp sensor/" tstamps="/53FFB3E2/">
+      <title_block>
+        <title>Super FOCer</title>
+        <company>Shaman Systems</company>
+        <rev>1</rev>
+        <date>2019-02-21</date>
+        <source>temp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Top level"/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/CAN bus transceiver/" tstamps="/53FFB6E1/">
+      <title_block>
+        <title>Super FOCer</title>
+        <company>Shaman Systems</company>
+        <rev>1</rev>
+        <date>2019-02-21</date>
+        <source>CAN.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Top level"/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Filters/" tstamps="/53FBA77E/">
+      <title_block>
+        <title>Super FOCer</title>
+        <company>Shaman Systems</company>
+        <rev>1</rev>
+        <date>2019-02-21</date>
+        <source>hall_filters.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Top level"/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Mosfet driver/" tstamps="/504F83BE/">
+      <title_block>
+        <title>Super FOCer</title>
+        <company>Shaman Systems</company>
+        <rev>1</rev>
+        <date>2019-02-21</date>
+        <source>Power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Top level"/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/MCU/" tstamps="/53F7501A/">
+      <title_block>
+        <title>Super FOCer</title>
+        <company>Shaman Systems</company>
+        <rev>1</rev>
+        <date>2019-02-21</date>
+        <source>STM32F4 64LQFP.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Top level"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>HALL/Encoder</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="BLDC_4-rescue" part="CONN_6" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>522DA047</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>522DA0A7</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>522DA0AD</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>522DA0B3</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>SERVO</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="BLDC_4-rescue" part="CONN_3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>522DA0C0</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>522DA0D4</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>39k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>522DA0DA</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>MINI-USB-SHIELD-32005-201</value>
+      <footprint>CRF1:USB-UX60R-MB-5ST</footprint>
+      <libsource lib="BLDC_4-rescue" part="MINI-USB-SCHIELD-32005-201" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>522DA102</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>IN-</value>
+      <footprint>CRF1:1PAD_4x5mm</footprint>
+      <libsource lib="BLDC_4-rescue" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FA5B63</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>IN+</value>
+      <footprint>CRF1:1PAD_4x5mm</footprint>
+      <libsource lib="BLDC_4-rescue" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FA5B6A</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FCA251</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FCA272</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FC020B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>RED</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="BLDC_4-rescue" part="LED-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FC0212</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FC130C</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>GREEN</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="BLDC_4-rescue" part="LED-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FC1313</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="BLDC_4-rescue" part="LED-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FC6A60</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FC6A67</tstamp>
+    </comp>
+    <comp ref="P101">
+      <value>CANBUS</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="BLDC_4-rescue" part="CONN_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>540360D1</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>PWR_COMM</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <libsource lib="BLDC_4-rescue" part="CONN_01X07" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D4F5E0</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>MOTOR1</value>
+      <footprint>CRF1:1PAD_4x5mm</footprint>
+      <libsource lib="BLDC_4-rescue" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FA5B7F</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>MOTOR2</value>
+      <footprint>CRF1:1PAD_4x5mm</footprint>
+      <libsource lib="BLDC_4-rescue" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FA5B78</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>MOTOR3</value>
+      <footprint>CRF1:1PAD_4x5mm</footprint>
+      <libsource lib="BLDC_4-rescue" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FA5B71</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRFS7530</value>
+      <footprint>Package_TO_SOT_THT:TO-247-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>53F8E63D</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>IRFS7530</value>
+      <footprint>Package_TO_SOT_THT:TO-247-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>53F8E67A</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>IRFS7530</value>
+      <footprint>Package_TO_SOT_THT:TO-247-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>53F8E673</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>0.0005R</value>
+      <footprint>Resistor_SMD:R_4020_10251Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5C64A038</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>0.0005R</value>
+      <footprint>Resistor_SMD:R_4020_10251Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5C657B2D</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>0.0005R</value>
+      <footprint>Resistor_SMD:R_4020_10251Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5C658CE8</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>22u,100V</value>
+      <footprint>w_capacitors:CP_16x25mm_hor</footprint>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5C6CA3F1</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>22u,100V</value>
+      <footprint>w_capacitors:CP_16x25mm_hor</footprint>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5C6CB436</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>22u,100V</value>
+      <footprint>w_capacitors:CP_16x25mm_hor</footprint>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5C6CC5C5</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>IRFS7530</value>
+      <footprint>Package_TO_SOT_THT:TO-247-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>53F8E644</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>IRFS7530</value>
+      <footprint>Package_TO_SOT_THT:TO-247-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>53F8E66C</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>IRFS7530</value>
+      <footprint>Package_TO_SOT_THT:TO-247-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>53F8E681</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>NTC 10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/NTC temp sensor/" tstamps="/53FFB3E2/"/>
+      <tstamp>5426DA2F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/NTC temp sensor/" tstamps="/53FFB3E2/"/>
+      <tstamp>5426DAA6</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/NTC temp sensor/" tstamps="/53FFB3E2/"/>
+      <tstamp>5426DADD</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>SN65HVD232</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="BLDC_4-rescue" part="MCP2551-I_SN-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/CAN bus transceiver/" tstamps="/53FFB6E1/"/>
+      <tstamp>53F59F90</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/CAN bus transceiver/" tstamps="/53FFB6E1/"/>
+      <tstamp>53F59FA3</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>NI</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/CAN bus transceiver/" tstamps="/53FFB6E1/"/>
+      <tstamp>540030A8</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/CAN bus transceiver/" tstamps="/53FFB6E1/"/>
+      <tstamp>5C9F5AB9</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/CAN bus transceiver/" tstamps="/53FFB6E1/"/>
+      <tstamp>5C9F5B37</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Filters/" tstamps="/53FBA77E/"/>
+      <tstamp>53FBB581</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Filters/" tstamps="/53FBA77E/"/>
+      <tstamp>53FBB5B8</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Filters/" tstamps="/53FBA77E/"/>
+      <tstamp>53FBB5BF</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Filters/" tstamps="/53FBA77E/"/>
+      <tstamp>53FBB5C6</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Filters/" tstamps="/53FBA77E/"/>
+      <tstamp>5C7712C3</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>39k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>504F8F6F</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>504F8F75</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>504F8F93</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>39k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>504F8F99</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>39k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>504F8FA3</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>504F8FA9</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>0.01uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>504FA75E</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>22u</value>
+      <footprint>w_smd_inductors:inductor_smd_8x5mm</footprint>
+      <libsource lib="BLDC_4-rescue" part="INDUCTOR" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>504FBBC5</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>50500B3A</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>50500B52</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TC2117</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <libsource lib="BLDC_4-rescue" part="NCP1117ST33T3G" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>53E7AF36</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>TVS 5V</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="BLDC_4-rescue" part="DIODE" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>548EDCBC</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>56B21E07</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5C55BAD4</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5C61C68C</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5C76C2DF</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>DRV8353RS</value>
+      <footprint>Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm_ThermalVias</footprint>
+      <libsource lib="BLDC_4-rescue" part="DRV8353RS" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>504FA417</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.47uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5C696230</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>39k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5CA2E68B</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5CA36489</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>300k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5CA3E2C4</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>300k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5CAD920C</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>4.7nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5CAF4390</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>DIODESCH</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="BLDC_4-rescue" part="DIODESCH" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5CCB59F1</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>22u,100V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5CD5AF03</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5CD6269D</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TPS562200</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps563200.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="TPS562200" description="2A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6"/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5C6FB098</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>22u</value>
+      <footprint>w_smd_inductors:inductor_smd_8x5mm</footprint>
+      <libsource lib="BLDC_4-rescue" part="INDUCTOR" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5C74D4FA</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5C755264</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5C7947D2</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5C79CE65</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>22u,100V</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5C7F4674</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>22u,100V</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5C857977</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5C7C1C80</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/Mosfet driver/" tstamps="/504F83BE/"/>
+      <tstamp>5CA2479B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>STM32F40X_LQFP64</value>
+      <footprint>Package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
+      <libsource lib="BLDC_4-rescue" part="STM32F40X_LQFP64" description=""/>
+      <sheetpath names="/MCU/" tstamps="/53F7501A/"/>
+      <tstamp>53F757A7</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/MCU/" tstamps="/53F7501A/"/>
+      <tstamp>53F757AE</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/MCU/" tstamps="/53F7501A/"/>
+      <tstamp>53F757B5</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>15p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/MCU/" tstamps="/53F7501A/"/>
+      <tstamp>53F757DB</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>15p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/MCU/" tstamps="/53F7501A/"/>
+      <tstamp>53F757E2</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/MCU/" tstamps="/53F7501A/"/>
+      <tstamp>53F757F8</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/MCU/" tstamps="/53F7501A/"/>
+      <tstamp>53F757FF</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/MCU/" tstamps="/53F7501A/"/>
+      <tstamp>53F75896</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>SWD</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/MCU/" tstamps="/53F7501A/"/>
+      <tstamp>53F77410</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/MCU/" tstamps="/53F7501A/"/>
+      <tstamp>53F77426</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/MCU/" tstamps="/53F7501A/"/>
+      <tstamp>53F7742D</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/MCU/" tstamps="/53F7501A/"/>
+      <tstamp>53F77434</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/MCU/" tstamps="/53F7501A/"/>
+      <tstamp>53F77447</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4" description=""/>
+      <sheetpath names="/MCU/" tstamps="/53F7501A/"/>
+      <tstamp>53F7744E</tstamp>
+    </comp>
+    <comp ref="X2">
+      <value>8MHz 10ppm</value>
+      <footprint>Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm</footprint>
+      <fields>
+        <field name="mfg#">ABM3B-8.0-10-1UT</field>
+      </fields>
+      <libsource lib="BLDC_4-rescue" part="CRYSTAL_SMD" description=""/>
+      <sheetpath names="/MCU/" tstamps="/53F7501A/"/>
+      <tstamp>540978A3</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BLDC_4-rescue" part="C-RESCUE-BLDC_4">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-BLDC_4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-rescue" part="CONN_01X07">
+      <footprints>
+        <fp>Pin_Header_Straight_1X07</fp>
+        <fp>Pin_Header_Angled_1X07</fp>
+        <fp>Socket_Strip_Straight_1X07</fp>
+        <fp>Socket_Strip_Angled_1X07</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X07</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-rescue" part="CONN_1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-rescue" part="CONN_3">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">CONN_3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-rescue" part="CONN_4">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-rescue" part="CONN_6">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-rescue" part="CRYSTAL_SMD">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL_SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="case" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-rescue" part="DIODE">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-rescue" part="DIODESCH">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODESCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-rescue" part="DRV8353RS">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV8353RS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VGLS" type="output"/>
+        <pin num="3" name="CPL" type="input"/>
+        <pin num="4" name="CPH" type="input"/>
+        <pin num="5" name="VM" type="power_in"/>
+        <pin num="6" name="VDRAIN" type="output"/>
+        <pin num="7" name="VCP" type="input"/>
+        <pin num="8" name="GHA" type="input"/>
+        <pin num="9" name="SHA" type="input"/>
+        <pin num="10" name="GLA" type="input"/>
+        <pin num="11" name="SPA" type="input"/>
+        <pin num="12" name="SNA" type="input"/>
+        <pin num="13" name="SNB" type="power_out"/>
+        <pin num="14" name="SPB" type="power_out"/>
+        <pin num="15" name="GLB" type="power_out"/>
+        <pin num="16" name="SHB" type="input"/>
+        <pin num="17" name="GHB" type="input"/>
+        <pin num="18" name="GHC" type="input"/>
+        <pin num="19" name="SHC" type="input"/>
+        <pin num="20" name="GLC" type="input"/>
+        <pin num="21" name="SPC" type="input"/>
+        <pin num="22" name="SNC" type="input"/>
+        <pin num="23" name="SOC" type="power_out"/>
+        <pin num="24" name="SOB" type="input"/>
+        <pin num="25" name="SOA" type="input"/>
+        <pin num="26" name="VREF" type="input"/>
+        <pin num="27" name="AGND" type="output"/>
+        <pin num="28" name="nFAULT" type="input"/>
+        <pin num="29" name="SDO" type="output"/>
+        <pin num="30" name="SDI" type="power_out"/>
+        <pin num="31" name="SCLK" type="input"/>
+        <pin num="32" name="nSCS" type="output"/>
+        <pin num="33" name="ENABLE" type="input"/>
+        <pin num="34" name="INHA" type="output"/>
+        <pin num="35" name="INLA" type="power_out"/>
+        <pin num="36" name="INHB" type="input"/>
+        <pin num="37" name="INLB" type="output"/>
+        <pin num="38" name="INHC" type="input"/>
+        <pin num="39" name="INLC" type="output"/>
+        <pin num="40" name="DVDD" type="power_out"/>
+        <pin num="41" name="DGND" type="input"/>
+        <pin num="42" name="SW" type="output"/>
+        <pin num="43" name="VIN" type="passive"/>
+        <pin num="44" name="VCC" type="power_out"/>
+        <pin num="45" name="BST" type="power_in"/>
+        <pin num="46" name="RCL" type="power_in"/>
+        <pin num="47" name="RT/SD" type="input"/>
+        <pin num="48" name="FB" type="input"/>
+        <pin num="49" name="GND(POWER_PAD)" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-rescue" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-rescue" part="LED-RESCUE-BLDC_4">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-BLDC_4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-rescue" part="MCP2551-I_SN-RESCUE-BLDC_4">
+      <footprints>
+        <fp>SO8*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP2551-I_SN-RESCUE-BLDC_4</field>
+        <field name="Footprint">SO8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="RXD" type="output"/>
+        <pin num="5" name="Vref" type="input"/>
+        <pin num="6" name="CANL" type="BiDi"/>
+        <pin num="7" name="CANH" type="BiDi"/>
+        <pin num="8" name="Rs" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-rescue" part="MINI-USB-SCHIELD-32005-201">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">MINI-USB-SCHIELD-32005-201</field>
+        <field name="Footprint">con-cypressindustries-32005-201</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="M1" name="S1" type="passive"/>
+        <pin num="M2" name="S2" type="passive"/>
+        <pin num="M3" name="S3" type="passive"/>
+        <pin num="M4" name="S4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-rescue" part="NCP1117ST33T3G">
+      <footprints>
+        <fp>SOT223</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP1117ST33T3G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-BLDC_4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-rescue" part="STM32F40X_LQFP64">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F40X_LQFP64</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13_(RTC_AF1)" type="BiDi"/>
+        <pin num="3" name="PC14-OSC32_IN" type="BiDi"/>
+        <pin num="4" name="PC15-OSC32_OUT" type="power_in"/>
+        <pin num="5" name="PH0-OSC_IN" type="BiDi"/>
+        <pin num="6" name="PH1-OSC_OUT" type="BiDi"/>
+        <pin num="7" name="NRST" type="BiDi"/>
+        <pin num="8" name="PC0(ADC123_IN10)" type="BiDi"/>
+        <pin num="9" name="PC1(ADC123_IN11)" type="BiDi"/>
+        <pin num="10" name="PC2(ADC123_IN12)" type="BiDi"/>
+        <pin num="11" name="PC3(ADC123_IN13)" type="BiDi"/>
+        <pin num="12" name="VSSA" type="power_in"/>
+        <pin num="13" name="VDDA" type="power_in"/>
+        <pin num="14" name="PA0(ADC123_IN0/WKUP)" type="BiDi"/>
+        <pin num="15" name="PA1(ADC123_IN1)" type="BiDi"/>
+        <pin num="16" name="PA2(ADC123_IN2)" type="BiDi"/>
+        <pin num="17" name="PA3(ADC123_IN3)" type="BiDi"/>
+        <pin num="18" name="VSS" type="power_in"/>
+        <pin num="19" name="VDD" type="power_in"/>
+        <pin num="20" name="PA4(ADC12_IN4/DAC1_OUT)" type="BiDi"/>
+        <pin num="21" name="PA5(ADC12_IN5/DAC2_OUT)" type="BiDi"/>
+        <pin num="22" name="PA6(ADC12_IN6)" type="BiDi"/>
+        <pin num="23" name="PA7(ADC12_IN7)" type="BiDi"/>
+        <pin num="24" name="PC4(ADC12_IN14)" type="BiDi"/>
+        <pin num="25" name="PC5(ADC12_IN15)" type="BiDi"/>
+        <pin num="26" name="PB0(ADC12_IN8)" type="BiDi"/>
+        <pin num="27" name="PB1(ADC12_IN9)" type="BiDi"/>
+        <pin num="28" name="PB2-BOOT1" type="BiDi"/>
+        <pin num="29" name="PB10" type="BiDi"/>
+        <pin num="30" name="PB11" type="BiDi"/>
+        <pin num="31" name="VCAP1" type="power_out"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB12" type="BiDi"/>
+        <pin num="34" name="PB13(OTG_HS_VBUS)" type="BiDi"/>
+        <pin num="35" name="PB14" type="BiDi"/>
+        <pin num="36" name="PB15" type="BiDi"/>
+        <pin num="37" name="PC6" type="BiDi"/>
+        <pin num="38" name="PC7" type="BiDi"/>
+        <pin num="39" name="PC8" type="BiDi"/>
+        <pin num="40" name="PC9" type="BiDi"/>
+        <pin num="41" name="PA8" type="BiDi"/>
+        <pin num="42" name="PA9(OTG_FS_VBUS)" type="BiDi"/>
+        <pin num="43" name="PA10" type="BiDi"/>
+        <pin num="44" name="PA11" type="BiDi"/>
+        <pin num="45" name="PA12" type="BiDi"/>
+        <pin num="46" name="PA13(JTMS-SWDIO)" type="BiDi"/>
+        <pin num="47" name="VCAP2" type="power_out"/>
+        <pin num="48" name="VDD" type="power_in"/>
+        <pin num="49" name="PA14(JTCK-SWCLK)" type="BiDi"/>
+        <pin num="50" name="PA15(JTDI)" type="BiDi"/>
+        <pin num="51" name="PC10" type="BiDi"/>
+        <pin num="52" name="PC11" type="BiDi"/>
+        <pin num="53" name="PC12" type="BiDi"/>
+        <pin num="54" name="PD2" type="BiDi"/>
+        <pin num="55" name="PB3(JTDO/TRACESWO)" type="BiDi"/>
+        <pin num="56" name="PB4(NJTRST)" type="BiDi"/>
+        <pin num="57" name="PB5" type="BiDi"/>
+        <pin num="58" name="PB6" type="BiDi"/>
+        <pin num="59" name="PB7" type="BiDi"/>
+        <pin num="60" name="BOOT0(VPP)" type="input"/>
+        <pin num="61" name="PB8" type="BiDi"/>
+        <pin num="62" name="PB9" type="BiDi"/>
+        <pin num="63" name="VSS" type="power_in"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TPS562200">
+      <aliases>
+        <alias>TPS563200</alias>
+      </aliases>
+      <description>2A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps563200.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS562200</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="SW" type="output"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="VFB" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="VBST" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BLDC_4-rescue">
+      <uri>D:\Desktop\KiCAD Projects\VESC\bldc-hardware-master\design/BLDC_4-rescue.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Switching.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Filters/HALL3_IN">
+      <node ref="P1" pin="5"/>
+      <node ref="U1" pin="39"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="2" name="/CAN bus transceiver/CANH">
+      <node ref="U401" pin="7"/>
+      <node ref="C33" pin="2"/>
+      <node ref="R401" pin="1"/>
+      <node ref="P101" pin="3"/>
+    </net>
+    <net code="3" name="/CAN bus transceiver/CANL">
+      <node ref="R401" pin="2"/>
+      <node ref="C34" pin="1"/>
+      <node ref="P101" pin="2"/>
+      <node ref="U401" pin="6"/>
+    </net>
+    <net code="4" name="/SCK_ADC_EXT">
+      <node ref="P3" pin="4"/>
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="5" name="/TX_SDA">
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="6" name="/RX_SCL_MOSI">
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C23" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U3" pin="27"/>
+      <node ref="U3" pin="41"/>
+      <node ref="U3" pin="49"/>
+      <node ref="C7" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="D4" pin="1"/>
+      <node ref="U1" pin="18"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U3" pin="13"/>
+      <node ref="P2" pin="3"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="12"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C43" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="R33" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U1" pin="63"/>
+      <node ref="U3" pin="22"/>
+      <node ref="U1" pin="60"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="X2" pin="3"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="P101" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="X1" pin="5"/>
+      <node ref="C5" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C32" pin="2"/>
+      <node ref="U401" pin="2"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C401" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="P3" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="K1" pin="3"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="8" name="/Filters/HALL2_IN">
+      <node ref="U1" pin="38"/>
+      <node ref="P1" pin="4"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="9" name="/Mosfet driver/H3_VS">
+      <node ref="P6" pin="1"/>
+      <node ref="R32" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="10" name="/Mosfet driver/GL_C">
+      <node ref="U3" pin="20"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="11" name="/Mosfet driver/GH_C">
+      <node ref="Q1" pin="1"/>
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="12" name="/Mosfet driver/GL_B">
+      <node ref="U3" pin="15"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="13" name="/Mosfet driver/GH_B">
+      <node ref="U3" pin="17"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="14" name="/Mosfet driver/GL_A">
+      <node ref="U3" pin="10"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="15" name="/CAN bus transceiver/CAN_TX">
+      <node ref="U401" pin="1"/>
+      <node ref="U1" pin="62"/>
+    </net>
+    <net code="16" name="/MCU/LED_GREEN">
+      <node ref="R37" pin="2"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="17" name="/MCU/LED_RED">
+      <node ref="R38" pin="2"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="18" name="/MCU/USB_DP">
+      <node ref="R104" pin="1"/>
+      <node ref="U1" pin="45"/>
+    </net>
+    <net code="19" name="/MCU/USB_DM">
+      <node ref="R103" pin="1"/>
+      <node ref="U1" pin="44"/>
+    </net>
+    <net code="20" name="Net-(R104-Pad2)">
+      <node ref="R104" pin="2"/>
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="21" name="Net-(R103-Pad2)">
+      <node ref="R103" pin="2"/>
+      <node ref="X1" pin="2"/>
+    </net>
+    <net code="22" name="/Mosfet driver/GH_A">
+      <node ref="Q5" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="23" name="/CAN bus transceiver/CAN_RX">
+      <node ref="U401" pin="4"/>
+      <node ref="U1" pin="61"/>
+    </net>
+    <net code="24" name="/Filters/TEMP_IN">
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="24"/>
+      <node ref="R7" pin="1"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="25" name="/Filters/HALL1_IN">
+      <node ref="P1" pin="3"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="26" name="Net-(K1-Pad1)">
+      <node ref="K1" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="27" name="/MCU/H3">
+      <node ref="U1" pin="43"/>
+      <node ref="U3" pin="38"/>
+    </net>
+    <net code="29" name="/MCU/BR_SO1">
+      <node ref="U1" pin="8"/>
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="30" name="/MCU/SENS3">
+      <node ref="R33" pin="2"/>
+      <node ref="R32" pin="2"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="31" name="/MCU/SENS2">
+      <node ref="U1" pin="15"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="32" name="/MCU/SENS1">
+      <node ref="R24" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="33" name="/MCU/FAULT">
+      <node ref="U3" pin="28"/>
+      <node ref="U1" pin="59"/>
+    </net>
+    <net code="34" name="/MCU/BR_SO2">
+      <node ref="U3" pin="24"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="35" name="/MCU/L3">
+      <node ref="U3" pin="39"/>
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="36" name="/MCU/L2">
+      <node ref="U3" pin="37"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="37" name="/MCU/H2">
+      <node ref="U3" pin="36"/>
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="38" name="/MCU/L1">
+      <node ref="U3" pin="35"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="39" name="/MCU/H1">
+      <node ref="U3" pin="34"/>
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="40" name="/MCU/EN_GATE">
+      <node ref="U1" pin="57"/>
+      <node ref="U3" pin="33"/>
+    </net>
+    <net code="41" name="/MCU/AN_IN">
+      <node ref="R3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="42" name="/Mosfet driver/H1_VS">
+      <node ref="R23" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="P9" pin="1"/>
+      <node ref="Q6" pin="2"/>
+    </net>
+    <net code="43" name="/Mosfet driver/H2_VS">
+      <node ref="Q4" pin="2"/>
+      <node ref="P7" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="U3" pin="16"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="44" name="/MCU/BR_SO3">
+      <node ref="U3" pin="23"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="45" name="/MCU/SERVO">
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="58"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="46" name="/MCU/ADC_TEMP">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="17"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C41" pin="1"/>
+    </net>
+    <net code="47" name="+5V">
+      <node ref="K1" pin="2"/>
+      <node ref="L2" pin="2"/>
+      <node ref="P101" pin="4"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C32" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="48" name="/Mosfet driver/H2_LOW">
+      <node ref="U3" pin="14"/>
+      <node ref="R15" pin="2"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="49" name="/Mosfet driver/H3_LOW">
+      <node ref="R14" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="50" name="/Mosfet driver/H1_LOW">
+      <node ref="Q6" pin="3"/>
+      <node ref="U3" pin="11"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="51" name="/MISO_RX_SCL">
+      <node ref="U1" pin="22"/>
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="52" name="VCC">
+      <node ref="C22" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C401" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="19"/>
+      <node ref="U401" pin="3"/>
+      <node ref="C24" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="64"/>
+      <node ref="P3" pin="2"/>
+      <node ref="U3" pin="26"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="48"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U1" pin="32"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C16" pin="2"/>
+    </net>
+    <net code="53" name="Net-(X1-Pad4)">
+      <node ref="X1" pin="4"/>
+    </net>
+    <net code="54" name="V_SUPPLY">
+      <node ref="C10" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U3" pin="43"/>
+      <node ref="P4" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="55" name="Net-(X1-Pad1)">
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="56" name="Net-(D2-Pad1)">
+      <node ref="R38" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="57" name="Net-(D3-Pad1)">
+      <node ref="R22" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="58" name="Net-(D1-Pad1)">
+      <node ref="R37" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="59" name="/Mosfet driver/SLCK">
+      <node ref="U3" pin="31"/>
+    </net>
+    <net code="60" name="/Mosfet driver/CS">
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="61" name="/Mosfet driver/SDI">
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="62" name="/Mosfet driver/SDO">
+      <node ref="U3" pin="29"/>
+    </net>
+    <net code="63" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="U3" pin="44"/>
+    </net>
+    <net code="64" name="Net-(C29-Pad2)">
+      <node ref="C29" pin="2"/>
+      <node ref="U3" pin="45"/>
+    </net>
+    <net code="65" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U3" pin="46"/>
+    </net>
+    <net code="66" name="Net-(C26-Pad2)">
+      <node ref="U3" pin="40"/>
+      <node ref="C26" pin="2"/>
+    </net>
+    <net code="67" name="Net-(C1-Pad2)">
+      <node ref="U3" pin="7"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="68" name="Net-(C37-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="C37" pin="1"/>
+    </net>
+    <net code="69" name="Net-(C43-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="C43" pin="2"/>
+    </net>
+    <net code="70" name="Net-(C37-Pad2)">
+      <node ref="C37" pin="2"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="71" name="Net-(C31-Pad1)">
+      <node ref="C31" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="72" name="Net-(C31-Pad2)">
+      <node ref="U4" pin="6"/>
+      <node ref="C31" pin="2"/>
+    </net>
+    <net code="73" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="74" name="Net-(R19-Pad2)">
+      <node ref="U4" pin="4"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="75" name="12V">
+      <node ref="C9" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="R18" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="76" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="U3" pin="47"/>
+    </net>
+    <net code="77" name="Net-(C29-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="U3" pin="42"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="78" name="Net-(C6-Pad2)">
+      <node ref="U3" pin="48"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="79" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="80" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="81" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="82" name="Net-(U1-Pad56)">
+      <node ref="U1" pin="56"/>
+    </net>
+    <net code="83" name="Net-(U1-Pad50)">
+      <node ref="U1" pin="50"/>
+    </net>
+    <net code="84" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="85" name="Net-(C15-Pad1)">
+      <node ref="U1" pin="47"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="86" name="Net-(C14-Pad1)">
+      <node ref="U1" pin="31"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="87" name="Net-(C19-Pad1)">
+      <node ref="C19" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="X2" pin="2"/>
+    </net>
+    <net code="88" name="/MCU/CS">
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="89" name="SWDIO">
+      <node ref="U1" pin="46"/>
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="90" name="SWCLK">
+      <node ref="U1" pin="49"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="91" name="/MCU/SLCK">
+      <node ref="U1" pin="51"/>
+    </net>
+    <net code="92" name="/MCU/SDI">
+      <node ref="U1" pin="52"/>
+    </net>
+    <net code="93" name="/MCU/SDO">
+      <node ref="U1" pin="53"/>
+    </net>
+    <net code="94" name="Net-(U1-Pad54)">
+      <node ref="U1" pin="54"/>
+    </net>
+    <net code="95" name="Net-(U1-Pad55)">
+      <node ref="U1" pin="55"/>
+    </net>
+    <net code="96" name="/MCU/PB12">
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="97" name="/MCU/RX_SDA_NSS">
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="98" name="/MCU/TX_SCL_MOSI">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="99" name="Net-(C13-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="X2" pin="1"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="100" name="NRST">
+      <node ref="P2" pin="5"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="101" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="102" name="/MCU/RX_SDA_NSS">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="103" name="/MCU/TX_SCL_MOSI">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="104" name="Net-(U401-Pad8)">
+      <node ref="U401" pin="8"/>
+    </net>
+    <net code="105" name="Net-(U401-Pad5)">
+      <node ref="U401" pin="5"/>
+    </net>
+  </nets>
+</export>

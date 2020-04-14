@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name BLDC_4-rescue)(type Legacy)(uri ${KIPRJMOD}/BLDC_4-rescue.lib)(options "")(descr ""))
+  (lib (name Serious-FOCer-TO247-rescue)(type Legacy)(uri "${KIPRJMOD}/Serious FOCer TO247-rescue.lib")(options "")(descr ""))
+  (lib (name Cheap-FOCer-2-60mm-rescue)(type Legacy)(uri "${KIPRJMOD}/Cheap FOCer 2 60mm-rescue.lib")(options "")(descr ""))
+)

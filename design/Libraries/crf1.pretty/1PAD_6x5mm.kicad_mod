@@ -1,0 +1,13 @@
+(module 1PAD_6x5mm (layer F.Cu) (tedit 512F0A94)
+  (fp_text reference P2 (at 0 -4.3 270) (layer F.SilkS)
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value BATT_- (at 0 4) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_line (start -3.3 -2.8) (end 3.3 -2.8) (layer F.SilkS) (width 0.15))
+  (fp_line (start 3.3 -2.8) (end 3.3 2.8) (layer F.SilkS) (width 0.15))
+  (fp_line (start 3.3 2.8) (end -3.3 2.8) (layer F.SilkS) (width 0.15))
+  (fp_line (start -3.3 2.8) (end -3.3 -2.8) (layer F.SilkS) (width 0.15))
+  (pad 1 smd rect (at 0 0) (size 6 5) (layers F.Cu F.Paste F.Mask))
+)

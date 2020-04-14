@@ -1,0 +1,95 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 8
+Title "Cheap FOCer 2"
+Date "2020-04-08"
+Rev "0.9"
+Comp "Shaman Systems"
+Comment1 "Root"
+Comment2 ""
+Comment3 ""
+Comment4 "Top level"
+$EndDescr
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 NTC1
+U 1 1 5426DA2F
+P 5800 3300
+F 0 "NTC1" V 5880 3300 40  0000 C CNN
+F 1 "NTC 10k" V 5807 3301 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5730 3300 30  0001 C CNN
+F 3 "" H 5800 3300 30  0000 C CNN
+	1    5800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R13
+U 1 1 5426DAA6
+P 5800 4000
+F 0 "R13" V 5880 4000 40  0000 C CNN
+F 1 "10k" V 5807 4001 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5730 4000 30  0001 C CNN
+F 3 "" H 5800 4000 30  0000 C CNN
+	1    5800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BLDC_4-rescue:C-RESCUE-BLDC_4 C5
+U 1 1 5426DADD
+P 5550 4000
+F 0 "C5" H 5550 4100 40  0000 L CNN
+F 1 "2.2u" H 5556 3915 40  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5588 3850 30  0001 C CNN
+F 3 "" H 5550 4000 60  0000 C CNN
+	1    5550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BLDC_4-rescue:VCC #PWR021
+U 1 1 5426DB11
+P 5800 2950
+F 0 "#PWR021" H 5800 3050 30  0001 C CNN
+F 1 "VCC" H 5800 3050 30  0000 C CNN
+F 2 "" H 5800 2950 60  0000 C CNN
+F 3 "" H 5800 2950 60  0000 C CNN
+	1    5800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BLDC_4-rescue:GND-RESCUE-BLDC_4 #PWR022
+U 1 1 5426DB25
+P 5800 4500
+F 0 "#PWR022" H 5800 4500 30  0001 C CNN
+F 1 "GND" H 5800 4430 30  0001 C CNN
+F 2 "" H 5800 4500 60  0000 C CNN
+F 3 "" H 5800 4500 60  0000 C CNN
+	1    5800 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4250 5800 4350
+Wire Wire Line
+	5550 4200 5550 4350
+Wire Wire Line
+	5550 4350 5800 4350
+Connection ~ 5800 4350
+Wire Wire Line
+	5800 3550 5800 3650
+Wire Wire Line
+	5550 3650 5800 3650
+Wire Wire Line
+	5550 3650 5550 3800
+Connection ~ 5800 3650
+Wire Wire Line
+	5800 2950 5800 3050
+Text HLabel 5950 3650 2    60   Input ~ 0
+Temp
+Wire Wire Line
+	5800 4350 5800 4500
+Wire Wire Line
+	5800 3650 5800 3750
+Wire Wire Line
+	5800 3650 5950 3650
+$EndSCHEMATC
