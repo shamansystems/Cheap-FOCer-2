@@ -36,6 +36,8 @@ pinouts
 
 - Significantly improved layout to reduce current loops and facilitate low-noise operation of both the power stage and control circuitry for more stable opertion
 
+- Has IMU for balancing applications
+
 - Lower profile
 
 - Handles lower inductance motors much better
