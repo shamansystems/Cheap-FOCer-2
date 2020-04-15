@@ -1,8 +1,8 @@
 # Cheap-FOCer-2
 Low-Cost Motor Controller based on the VESC 6
 
-![alt text](https://github.com/shamansystems/Cheap-FOCer/blob/master/Beta.jpeg)
-![alt text](https://github.com/shamansystems/Cheap-FOCer/blob/master/v1.0%20bottom.JPG)
+![alt text](https://github.com/shamansystems/Cheap-FOCer-2/blob/master/design/Images/Front.PNG)
+![alt text](https://github.com/shamansystems/Cheap-FOCer-2/blob/master/design/Images/Back.PNG)
 
 ![alt text](https://github.com/shamansystems/Cheap-FOCer/blob/master/Header%20Pinout.jpg)
 pinouts
@@ -35,6 +35,8 @@ pinouts
 - VESC 6 based instead of VESC 4.12
 
 - Significantly improved layout to reduce current loops and facilitate low-noise operation of both the power stage and control circuitry for more stable opertion
+
+- Has IMU for balancing applications
 
 - Lower profile
 
