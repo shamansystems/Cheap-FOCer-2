@@ -30,6 +30,14 @@ pinouts
 
 - “Living” LCSC BOM to come. BOM document to be continuously updated with compatible and stocked components from LCSC
 
+## Capabilities
+
+- 35A continuous and 70A peak with good heat sinking. These are real values. Not marketing numbers
+
+- Up to 12S operating voltage
+
+- Compatible with the VESC Tool for configuration
+
 ## Advantages over Cheap FOCer 1
 
 - VESC 6 based instead of VESC 4.12
@@ -63,7 +71,7 @@ pinouts
 - https://github.com/shamansystems/Cheap-FOCer-2/blob/master/design/JLCPCB%20and%20LCSC/JLCPCB%20and%20LCSC%20Ordering%20Guide.docx
 
 ## Warning
-- Issues may be present with VESC firmware 4.0 and above. Recommended to use firmware versions before 3.62
+- You are liable for any and all controllers built using this design. This product is intended for hobbyists and not intended for commercial use. 
 
 ## Support Thread
 - https://forum.esk8.news/t/cheap-focer-2-open-source-low-cost-vesc-6-based-esc-prototyped-materials-arrived-for-test-batch/13631/1
