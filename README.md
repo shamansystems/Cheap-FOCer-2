@@ -7,6 +7,17 @@ Low-Cost Motor Controller based on the VESC 6
 ![alt text](https://github.com/shamansystems/Cheap-FOCer-2/blob/master/design/Images/pinout.PNG)
 pinouts
 
+## Capabilities
+
+- 35A continuous and 70A peak with good heat sinking. These are real values. Not marketing numbers
+
+- Up to 12S operating voltage
+
+- Compatible with the VESC Tool for configuration
+
+- Open source enclosure design to come
+
+- “Living” LCSC BOM to come. BOM document to be continuously updated with compatible and stocked components from LCSC
 
 ## Advantages over VESC 6
 
@@ -24,25 +35,15 @@ pinouts
 
 - ESD protected I/O
 
-- Hardware open sourced after validation/testing
+- Hardware open sourced
 
-- Open source enclosure design to come
-
-- “Living” LCSC BOM to come. BOM document to be continuously updated with compatible and stocked components from LCSC
-
-## Capabilities
-
-- 35A continuous and 70A peak with good heat sinking. These are real values. Not marketing numbers
-
-- Up to 12S operating voltage
-
-- Compatible with the VESC Tool for configuration
+- Designed with direct meme integration
 
 ## Advantages over Cheap FOCer 1
 
 - VESC 6 based instead of VESC 4.12
 
-- Significantly improved layout to reduce current loops and facilitate low-noise operation of both the power stage and control circuitry for more stable opertion
+- Significantly improved layout to reduce current loops and facilitate low-noise operation of both the power stage and control circuitry for more stable operation
 
 - Has IMU for balancing applications
 
