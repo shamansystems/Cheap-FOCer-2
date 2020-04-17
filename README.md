@@ -1,4 +1,4 @@
-# Cheap FOCer 2 v0.9
+# Cheap FOCer 2 (v0.9)
 Low-Cost Motor Controller based on the VESC 6
 
 ![alt text](https://github.com/shamansystems/Cheap-FOCer-2/blob/master/design/Images/Front.PNG)
@@ -14,11 +14,11 @@ pinouts
 
 - TO-220 FETs allow for big heat sink attachment for better thermal performance
 
-- 2-layer PCB for cheap boards from JLCPCB
+- 2-layer PCB that enables low-cost manufacturing from JLCPCB
 
 - Designed with JLCPCB’s SMT assembly service in mind
 
-- Added optional ON/OFF capability to turn off control circuitry when controller is not in use. A simple mechanical switch will achieve this when connected to the “ON/OFF” 2-pin connector.
+- Added optional ON/OFF connector to turn off control circuitry when controller is not in use
 
 - CAN connector changed to 2-pin to avoid improper connections that can cause damage
 
@@ -60,11 +60,9 @@ pinouts
 
 ## Disadvantages (that I know of)
 
-- Larger than original VESC 6. Cheap FOCer 2 is about 49mm x 100mm x 14mm without enclosure/heatsink
+- Larger than original VESC 6. Cheap FOCer 2 is about 60mm x 100mm x 14mm without enclosure/heatsink
 
-- Additional assembly steps to beef up high-current traces. 2 layers of 1oz copper can’t handle the current flowing through during operation. Assembler will have to apply wire/solder wick/bus bar to the exposed Power, Ground, and Phase areas.
-
-- Will need custom firmware that’s not currently supported in the VESC project. Will make firmware available on GitHub until Cheap FOCer 2 is added to and supported by the VESC project.
+- Uses custom firmware that’s not currently supported in the VESC project. Will make firmware available on GitHub until Cheap FOCer 2 is added to and supported by the official VESC project.
 
 ## JLCPCB and LCSC Ordering Instructions
 
