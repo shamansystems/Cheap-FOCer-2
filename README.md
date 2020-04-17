@@ -58,6 +58,10 @@ pinouts
 
 - Will need custom firmware that’s not currently supported in the VESC project. Will make firmware available on GitHub until Cheap FOCer 2 is added to and supported by the VESC project.
 
+## JLCPCB and LCSC Ordering Instructions
+
+- https://github.com/shamansystems/Cheap-FOCer-2/blob/master/design/JLCPCB%20and%20LCSC/JLCPCB%20and%20LCSC%20Ordering%20Guide.docx
+
 ## Warning
 - Issues may be present with VESC firmware 4.0 and above. Recommended to use firmware versions before 3.62
 
