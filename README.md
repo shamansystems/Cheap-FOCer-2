@@ -11,7 +11,7 @@ pinouts
 
 - 35A continuous and 70A peak with good heat sinking. These are real values. Not marketing numbers
 
-- Up to 12S operating voltage
+- Up to 50.4V(12s) safe operating voltage
 
 - Compatible with the VESC Tool for configuration
 
