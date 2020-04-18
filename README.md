@@ -14,8 +14,6 @@ Pin outs:
 
 ## [JLCPCB and LCSC Ordering Instructions](./orderingGuide/guide.md)
 
-![alt text](./design/Images/pinout.PNG)
-pinouts
 
 ## Capabilities
 
