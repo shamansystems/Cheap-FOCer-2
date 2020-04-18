@@ -50,7 +50,7 @@
 
 1. Go to [LCSC's boom tool](https://lcsc.com/bom.html#/upload)
 
-1. Click `select a file` and upload [bomLcsc.xlsx](../bomLcsc.xlsx)
+1. Click `select a file` and upload [bomLcsc.csv](../bomLcsc.csv)
 ![](a33759f1b319649d610ba648f7687170_html_9af9f958.png)
 
 
