@@ -1,6 +1,6 @@
 <font size="4"><u>**JLCPCB and LCSC Ordering Guide**</u></font>
 
-1. Clone or [download](../archive/master.zip) the Cheap FOCer 2 repository and have the files available.
+1. Clone or [download](https://github.com/shamansystems/Cheap-FOCer-2/archive/master.zip) the Cheap FOCer 2 repository and have the files available.
 
 1. [Create an account](https://passport.easyeda.com/register) with JLCPCB.com. This account will also carry over to LCSC.com since they are the same company.
 
