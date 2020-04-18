@@ -24,15 +24,14 @@
 
 1.  Click `Next` to continue
 
-![](a33759f1b319649d610ba648f7687170_html_2654915a.png)
+1. 
+    You will now see the parts selected by JLCPCB based on the BOM that was uploaded. This list of parts includes every possible component available by JLCPCB to be assemble onto the Cheap FOCer 2. 
+    
+    ## This includes certain `Extended Parts` such as the DRV8301 and the 100v rated components.
 
-![](a33759f1b319649d610ba648f7687170_html_76858566.png)
+    The only parts that you should see as `No part selected` are the (10uF, 100V) caps, the 22uH inductor, the BMI160 IMU, and the (4.7uF, 100V) caps. These components plus the MOSFETs must be acquired and assembled external to JLCPCB. Ordering these remaining components from LCSC.com will be covered [later in this guide](#orderingAdditonalComponents).
 
-You will now see the parts selected by JLCPCB based on the BOM that was uploaded. This list of parts includes every possible component available by JLCPCB to be assemble onto the Cheap FOCer 2\. Note that this includes certain `Extended Parts` such as the DRV8301 or any of the 100v rated components.
-
-The only parts that you should see as `No part selected` are the (10uF, 100V) caps, the 22uH inductor, the BMI160 IMU, and the (4.7uF, 100V) caps. These components plus the MOSFETs must be acquired and assembled external to JLCPCB. Ordering these remainder components from LCSC.com will be covered later in this guide.
-
-Click `Next to continue`
+    Click `Next to continue`
 
 <u>**Warning:**</u> You will have to solder the BMI160 IMU yourself. This is a leadless component which requires a reflow station to solder. This part is only necessary for balancing applications like the onewheel or electric unicycles.
 
