@@ -7,6 +7,7 @@
 1. Go to: [https://cart.jlcpcb.com/quote](https://cart.jlcpcb.com/quote) 
 
 1. Click the `Add your gerber file` button and select the [gerber.zip](../gerber.zip) file from the root directory. ![](a33759f1b319649d610ba648f7687170_html_362cf7f7.png)
+<img src="a33759f1b319649d610ba648f7687170_html_362cf7f7.png" width="400">
 
 1. You should now see the CFOC2 front and back in the preview as shown below. ![](a33759f1b319649d610ba648f7687170_html_94f708f.png)
 
