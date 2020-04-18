@@ -4,10 +4,10 @@
 
 1. [Create an account](https://passport.easyeda.com/register) with JLCPCB.com. This account will also carry over to LCSC.com since they are the same company.
 
-1. Go to [JLCPCB.com](http://JLCPCB.com) and select the `QUOTE NOW` button from the home page. ![](a33759f1b319649d610ba648f7687170_html_d98323df.png)
+1. Go to [https://cart.jlcpcb.com/quote](https://cart.jlcpcb.com/quote)
 
 
-1. Click the `Add your gerber file` button. Find the JLCPCB and LCSC folder and select the [Cheap FOCer 2 60mm.zip](../gerber.zip) file. ![](a33759f1b319649d610ba648f7687170_html_362cf7f7.png)
+1. Click the `Add your gerber file` button. Find the JLCPCB and LCSC folder and select the [Cheap FOCer 2 60mm.zip](../gerber.zip) file from the root directory. ![](a33759f1b319649d610ba648f7687170_html_362cf7f7.png)
 
 
 
