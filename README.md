@@ -1,8 +1,18 @@
 # Cheap FOCer 2 (v0.9)
 Low-Cost Motor Controller based on the VESC 6
 
-![alt text](./design/Images/Front.PNG)
-![alt text](./design/Images/Back.PNG)
+Front and Back:
+
+![](./design/Images/Front.PNG) ![](./design/Images/Back.PNG)
+
+Pin outs: 
+![](./design/Images/pinout.PNG)
+
+
+## [Support Thread](https://forum.esk8.news/t/cheap-focer-2-open-source-low-cost-vesc-6-based-esc-prototyped-materials-arrived-for-test-batch/13631/1)
+
+
+## [JLCPCB and LCSC Ordering Instructions](./orderingGuide/guide.md)
 
 ![alt text](./design/Images/pinout.PNG)
 pinouts
