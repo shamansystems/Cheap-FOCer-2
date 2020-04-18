@@ -50,20 +50,19 @@
 
 1. Go to [LCSC's boom tool](https://lcsc.com/bom.html#/upload)
 
-1. Click `select a file` and upload [bomLcsc.csv](../bomLcsc.csv)
+1. Click `select a file` and upload [5XBomLcsc.csv](../5XBomLcsc.csv)
 ![](a33759f1b319649d610ba648f7687170_html_9af9f958.png)
 
-1. There should now be a list that has loaded on your screen. You will have to manually select the column header for each column from the drop-down menus. Simply select the same name you see in row 1 for that column. If there is no matching name then leave it blank and the BOM Tool will figure it out. I have done column 1 in the image above.
-
-    Click `Next` to continue.
+1. There should now be a list that has loaded on your screen. You will need to select the column header the `Quantity` and `Manufacture Part Number` columns from the drop-down menus as shown below.
     ![](bomLcscColumnSelection.png)
 
+1. Click `Next` to continue.
 
-1. You should now see a page showing the parts that LCSC has chosen to fit the parts described in the BOM that was uploaded. They should be the same exact parts as described in the BOM unless LCSC happens to be out of stock of a component. Scroll through the list to verify that all parts are present and accounted for. Notice that certain components, like the inductor, have a minimum order quantity of 5. This is common.
+1. You should now see a page showing the parts that LCSC has chosen to fit the parts described in the BOM that was uploaded. They should be the same exact parts as described in the BOM unless LCSC happens to be out of stock of a component. Scroll through the list to verify that all parts are present and accounted for. Notice that certain components, like the inductor, have a minimum order quantity of 5.  
 ![](a33759f1b319649d610ba648f7687170_html_fab8b969.png)
 
 
-    **Note that quantities of parts in this list are for only 1 CFOC2. Please scale up the quantities per amount of CFOC2 PCBs you have ordered from JLCPCB. Note that the CFOC2 only requires 1x 22uH inductor despite the minimum order quantity of 5 seen in the image above.**
+    **Note that quantities of parts in this list are for 5 CFOC2. Please scale up the quantities per amount of CFOC2 PCBs you have ordered from JLCPCB. Note that the CFOC2 only requires 1x 22uH inductor despite the minimum order quantity of 5 seen in the image above.**
 
     **If anything is out of stock, then you will have to find an alternative. This will most likely happen to the MOSFETs at some point. Please choose a MOSFET with similar properties as the one from the BOM. Do the same for any other out of stock component by choosing something with the closest properties of the original component from the BOM.**
 
