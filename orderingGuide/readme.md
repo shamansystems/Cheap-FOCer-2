@@ -53,11 +53,10 @@
 1. Click `select a file` and upload [bomLcsc.csv](../bomLcsc.csv)
 ![](a33759f1b319649d610ba648f7687170_html_9af9f958.png)
 
-
 1. There should now be a list that has loaded on your screen. You will have to manually select the column header for each column from the drop-down menus. Simply select the same name you see in row 1 for that column. If there is no matching name then leave it blank and the BOM Tool will figure it out. I have done column 1 in the image above.
 
     Click `Next` to continue.
-    ![](a33759f1b319649d610ba648f7687170_html_5603b8d1.png)
+    ![](bomLcscColumnSelection.png)
 
 
 1. You should now see a page showing the parts that LCSC has chosen to fit the parts described in the BOM that was uploaded. They should be the same exact parts as described in the BOM unless LCSC happens to be out of stock of a component. Scroll through the list to verify that all parts are present and accounted for. Notice that certain components, like the inductor, have a minimum order quantity of 5. This is common.
