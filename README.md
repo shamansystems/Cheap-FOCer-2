@@ -73,16 +73,9 @@ Pin outs:
 
 - Uses custom firmware that’s not currently supported in the VESC project. Will make firmware available on GitHub until Cheap FOCer 2 is added to and supported by the official VESC project.
 
-## JLCPCB and LCSC Ordering Instructions
-
-- ./design/JLCPCB%20and%20LCSC/JLCPCB%20and%20LCSC%20Ordering%20Guide.docx
-
 ## Warning
 - The Cheap FOCer 2 has been bench tested but is still being field tested. Hardware or firmware flaws could still exist and affect user operation. 
 - You are liable for any and all controllers built using this design. This product is intended for hobbyists and not intended for commercial use. 
-
-## Support Thread
-- https://forum.esk8.news/t/cheap-focer-2-open-source-low-cost-vesc-6-based-esc-prototyped-materials-arrived-for-test-batch/13631/1
 
 ## License
 Cheap FOCer 2 is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
