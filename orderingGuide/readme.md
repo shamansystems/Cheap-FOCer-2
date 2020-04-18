@@ -29,7 +29,7 @@
     
     ## This includes certain `Extended Parts` such as the DRV8301 and the 100v rated components.
 
-    The only parts that you should see as `No part selected` are the (10uF, 100V) caps, the 22uH inductor, the BMI160 IMU, and the (4.7uF, 100V) caps. These components plus the MOSFETs must be acquired and assembled external to JLCPCB. Ordering these remaining components from LCSC.com will be covered [later in this guide](#orderingAdditonalComponents).
+    The only parts that you should see as `No part selected` are the (10uF, 100V) caps, the 22uH inductor, the BMI160 IMU, and the (4.7uF, 100V) caps. These components plus the MOSFETs must be acquired and assembled external to JLCPCB. Ordering these remaining components from LCSC.com will be covered [later in this guide](#remaining-components-from-lcsccom).
     ![](noPartsSelected.png)
 
     Click `Next to continue`
@@ -41,7 +41,7 @@
 1. You should now see a preview of the parts placement on the CFOC2. The placement of the DRV8301 and a few other multi-pin components will appear wrongly placed. **This is ok.** JLCPCB will correct this later in what they call a `DFM review`. I have had no issues in letting JLCPCB handle the correction of component placement in all of my many orders. ![](a33759f1b319649d610ba648f7687170_html_a3977b4e.png)
 
 1. 
-    Scroll down and you will see a list of `Unselected Parts`. The LCSC BOM file [later in this guide](#orderingAdditonalComponents) covers the remaining parts. If you excluded certain parts on your own or if JLCPCB was out of stock of something, then I advise selecting the `Download Unselected Parts List`. This will then be a list of what you still need to acquire external to JLCPCB.
+    Scroll down and you will see a list of `Unselected Parts`. The LCSC BOM file [later in this guide](#remaining-components-from-lcsccom) covers the remaining parts. If you excluded certain parts on your own or if JLCPCB was out of stock of something, then I advise selecting the `Download Unselected Parts List`. This will then be a list of what you still need to acquire external to JLCPCB.
 
     Next click `Save to Cart` and proceed through the checkout process. If you’ve made it this far then congratulations! The hardest part is over and we will now proceed to ordering the remaining components from LCSC.com.
 ![](unselectedParts.png)
