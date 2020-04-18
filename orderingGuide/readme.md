@@ -48,11 +48,9 @@
 
 # Remaining Components from [LCSC.com](http://lcsc.com)
 
-1. Go to LCSC.com, login, and select the `BOM Tool`
-![](a33759f1b319649d610ba648f7687170_html_dd67901f.png)
+1. Go to [LCSC's boom tool](https://lcsc.com/bom.html#/upload)
 
-
-1. Click `select a file` and find the <u>**LCSC BOM Cheap FOCer 2.xlsx**</u> in the JLCPCB and LCSC folder.
+1. Click `select a file` and upload [bomLcsc.xlsx](../bomLcsc.xlsx)
 ![](a33759f1b319649d610ba648f7687170_html_9af9f958.png)
 
 
