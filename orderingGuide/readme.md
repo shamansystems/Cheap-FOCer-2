@@ -38,44 +38,42 @@
 
     ## Please note that JLCPCB will often run out of stock on certain components. There is a chance you may have to find an alternative component with the same footprint and properties. Post to the [support thread](https://forum.esk8.news/t/cheap-focer-2-open-source-low-cost-vesc-6-based-esc-prototyped-materials-arrived-for-test-batch/13631/1) if you need help doing this.  
 
-![](a33759f1b319649d610ba648f7687170_html_a3977b4e.png)
+1. You should now see a preview of the parts placement on the CFOC2. The placement of the DRV8301 and a few other multi-pin components will appear wrongly placed. **This is ok.** JLCPCB will correct this later in what they call a `DFM review`. I have had no issues in letting JLCPCB handle the correction of component placement in all of my many orders. ![](a33759f1b319649d610ba648f7687170_html_a3977b4e.png)
 
-You should now see a preview of the parts placement on the CFOC2\. The placement of the DRV8301 and a few other multi-pin components will appear wrongly placed. <u>**This is ok.** </u>JLCPCB will correct this later in what they call a `DFM review`. I have had no issues in letting JLCPCB handle the correction of component placement in all of my many orders.
+1. 
+    Scroll down and you will see a list of `Unselected Parts`. The LCSC BOM file [later in this guide](#orderingAdditonalComponents) covers the remaining parts. If you excluded certain parts on your own or if JLCPCB was out of stock of something, then I advise selecting the `Download Unselected Parts List`. This will then be a list of what you still need to acquire external to JLCPCB.
 
-![](a33759f1b319649d610ba648f7687170_html_49c03df5.png)
+    Next click `Save to Cart` and proceed through the checkout process. If you’ve made it this far then congratulations! The hardest part is over and we will now proceed to ordering the remaining components from LCSC.com.
+![](unselectedParts.png)
 
-Scroll down and you will see a list of Unselected Parts. If all parts were available based on this guide so far, then the LCSC BOM later in this guide covers the remainder of the parts. If you excluded certain parts on your own or if JLCPCB was out of stock of something, then I advise selecting the `Download Unselected Parts List`. This will then be a list of what you still need to acquire external to JLCPCB.
+# Remaining Components from [LCSC.com](http://lcsc.com)
 
-Next click `Save to Cart` and proceed through the checkout process. If you’ve made it this far then congratulations! The hardest part is over and we will now proceed to ordering the remainder of the components from LCSC.com.
-
-<u>**LCSC Ordering Guide**</u>
-
+1. Go to LCSC.com, login, and select the `BOM Tool`
 ![](a33759f1b319649d610ba648f7687170_html_dd67901f.png)
 
-Go to LCSC.com, login, and select the `BOM Tool`
 
+1. Click `select a file` and find the <u>**LCSC BOM Cheap FOCer 2.xlsx**</u> in the JLCPCB and LCSC folder.
 ![](a33759f1b319649d610ba648f7687170_html_9af9f958.png)
 
-Click `select a file` and find the <u>**LCSC BOM Cheap FOCer 2.xlsx**</u> in the JLCPCB and LCSC folder.
 
-![](a33759f1b319649d610ba648f7687170_html_5603b8d1.png)
+1. There should now be a list that has loaded on your screen. You will have to manually select the column header for each column from the drop-down menus. Simply select the same name you see in row 1 for that column. If there is no matching name then leave it blank and the BOM Tool will figure it out. I have done column 1 in the image above.
 
-There should now be a list that has loaded on your screen. You will have to manually select the column header for each column from the drop-down menus. Simply select the same name you see in row 1 for that column. If there is no matching name then leave it blank and the BOM Tool will figure it out. I have done column 1 in the image above.
+    Click `Next` to continue.
+    ![](a33759f1b319649d610ba648f7687170_html_5603b8d1.png)
 
-Click `Next` to continue.
 
+1. You should now see a page showing the parts that LCSC has chosen to fit the parts described in the BOM that was uploaded. They should be the same exact parts as described in the BOM unless LCSC happens to be out of stock of a component. Scroll through the list to verify that all parts are present and accounted for. Notice that certain components, like the inductor, have a minimum order quantity of 5. This is common.
 ![](a33759f1b319649d610ba648f7687170_html_fab8b969.png)
 
-You should now see a page showing the parts that LCSC has chosen to fit the parts described in the BOM that was uploaded. They should be the same exact parts as described in the BOM unless LCSC happens to be out of stock of a component. Scroll through the list to verify that all parts are present and accounted for. Notice that certain components, like the inductor, have a minimum order quantity of 5\. This is common.
 
-**Note that quantities of parts in this list are for only 1 CFOC2\. Please scale up the quantities per amount of CFOC2 PCBs you have ordered from JLCPCB. Note that the CFOC2 only requires 1x 22uH inductor despite the minimum order quantity of 5 seen in the image above.**
+    **Note that quantities of parts in this list are for only 1 CFOC2. Please scale up the quantities per amount of CFOC2 PCBs you have ordered from JLCPCB. Note that the CFOC2 only requires 1x 22uH inductor despite the minimum order quantity of 5 seen in the image above.**
 
-**If anything is out of stock, then you will have to find an alternative. This will most likely happen to the MOSFETs at some point. Please choose a MOSFET with similar properties as the one from the BOM. Do the same for any other out of stock component by choosing something with the closest properties of the original component from the BOM.**
+    **If anything is out of stock, then you will have to find an alternative. This will most likely happen to the MOSFETs at some point. Please choose a MOSFET with similar properties as the one from the BOM. Do the same for any other out of stock component by choosing something with the closest properties of the original component from the BOM.**
 
-**Alternative MOSFETs:**
+    ## Alternative MOSFETs
+    1. NCEP60T20
+    1. SE80160GA20
 
-1.  **NCEP60T20**
+    After settling on the quantities you want, please add items to your cart and proceed with the checkout process.
 
-2.  **SE80160GA20**
-
-After settling on the quantities you want, please add items to your cart and proceed with the checkout process.
+    Next check out the [assembly guide](../assembly/) for suggested tools to assemble
