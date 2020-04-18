@@ -19,7 +19,7 @@ Pin outs:
 
 - 35A continuous and 70A peak with good heat sinking. These are real values. Not marketing numbers
 
-- Up to 50.4V(12s) safe operating voltage
+- Up to 50.4V(12s) safe operating voltage.  For 20s version take a look at [these FOCers](https://forum.esk8.news/t/some-new-focers-84v-vesc-6-based-controllers/1513). 
 
 - Compatible with the VESC Tool for configuration
 
