@@ -20,9 +20,7 @@
 
 1.  Select the `confirm` button to continue
 
-1.  Click the `Add BOM File` and add the [bom.xlsx](../bom.xlsx) file in the root directory![](a33759f1b319649d610ba648f7687170_html_f09ce745.png)
-
-1.  Click the `Add CPL File` and select the <u>JLCPCB SMT POS Cheap FOCer 2.csv</u> in the JLCPCB and LCSC folder.
+1.  Add the [bom.xlsx](../bom.xlsx) and [cpl.csv](../cpl.csv) files in the root directory ![](a33759f1b319649d610ba648f7687170_html_f09ce745.png)
 
 1.  Click `Next` to continue
 
