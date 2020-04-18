@@ -1,7 +1,7 @@
 # Cheap FOCer 2 (v0.9)
 Low-Cost Motor Controller based on the VESC 6
 
-![alt text](https://github.com/shamansystems/Cheap-FOCer-2/blob/master/design/Images/Front.PNG)
+![alt text](./design/Images/Front.PNG)
 ![alt text](https://github.com/shamansystems/Cheap-FOCer-2/blob/master/design/Images/Back.PNG)
 
 ![alt text](https://github.com/shamansystems/Cheap-FOCer-2/blob/master/design/Images/pinout.PNG)
