@@ -15,9 +15,7 @@
 
 
 
-![](a33759f1b319649d610ba648f7687170_html_c9b46488.png)
-
-There are a few properties that you can customize if you want. The PCB quantity (the amount you want made), thickness, color, and surface finish are all I recommend adjusting to preference. Note that certain choices of these options will affect pricing. By default, the cheapest options are already selected.
+1. There are a few properties that you can customize if you want. The PCB quantity (the amount you want made), thickness, color, and surface finish are all I recommend adjusting to preference. Note that certain choices of these options will affect pricing. By default, the cheapest options are already selected. ![](a33759f1b319649d610ba648f7687170_html_c9b46488.png)
 
 ![](a33759f1b319649d610ba648f7687170_html_ab889d60.png)
 
