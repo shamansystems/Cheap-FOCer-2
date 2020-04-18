@@ -2,9 +2,9 @@
 Low-Cost Motor Controller based on the VESC 6
 
 ![alt text](./design/Images/Front.PNG)
-![alt text](https://github.com/shamansystems/Cheap-FOCer-2/blob/master/design/Images/Back.PNG)
+![alt text](./design/Images/Back.PNG)
 
-![alt text](https://github.com/shamansystems/Cheap-FOCer-2/blob/master/design/Images/pinout.PNG)
+![alt text](./design/Images/pinout.PNG)
 pinouts
 
 ## Capabilities
@@ -67,7 +67,7 @@ pinouts
 
 ## JLCPCB and LCSC Ordering Instructions
 
-- https://github.com/shamansystems/Cheap-FOCer-2/blob/master/design/JLCPCB%20and%20LCSC/JLCPCB%20and%20LCSC%20Ordering%20Guide.docx
+- ./design/JLCPCB%20and%20LCSC/JLCPCB%20and%20LCSC%20Ordering%20Guide.docx
 
 ## Warning
 - The Cheap FOCer 2 has been bench tested but is still being field tested. Hardware or firmware flaws could still exist and affect user operation. 
