@@ -20,7 +20,7 @@
 
 1.  Select the `confirm` button to continue
 
-<a href="https://github.com/shamansystems/Cheap-FOCer-2/raw/bjChanges/bom.csv" target="_blank">Download</a>
+<a download="bom.csv" href="https://github.com/shamansystems/Cheap-FOCer-2/raw/bjChanges/bom.csv" target="_blank">Download</a>
 
 1.  Add the [bom.csv](../bom.csv) and [cpl.csv](../cpl.csv) files in the root directory ![](a33759f1b319649d610ba648f7687170_html_f09ce745.png)
 
