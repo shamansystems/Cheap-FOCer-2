@@ -32,7 +32,7 @@
     The only parts that you should see as `No part selected` are the (10uF, 100V) caps, the 22uH inductor, the BMI160 IMU, and the (4.7uF, 100V) caps. These components plus the MOSFETs must be acquired and assembled external to JLCPCB. Ordering these remaining components from LCSC.com will be covered [later in this guide](#remaining-components-from-lcsccom).
     ![](noPartsSelected.png)
 
-    If you intend to use your FOCer for balancing applications such as a onewheel or unicycle you will have to solder the BMI160 IMU yourself. This is a leadless component which requires a [reflow station](linkToReflowStation).
+    If you intend to use your FOCer for balancing applications such as a onewheel or unicycle you will have to solder the BMI160 IMU yourself. This is a leadless component which requires a [reflow station](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28).
 
     Please note that JLCPCB will often run **out of stock** on certain components. There is a chance you may have to find an alternative component with the same footprint and properties. Post a github issue when a part is out of stock and where you found a new part so that others can see and we can update the docs appropriately.  You can also see [this page](outOfStock.md) for suggestions on where to get out of stock components.  
 
