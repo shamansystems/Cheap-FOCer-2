@@ -32,19 +32,19 @@
     The only parts that you should see as `No part selected` are the (10uF, 100V) caps, the 22uH inductor, the BMI160 IMU, and the (4.7uF, 100V) caps. These components plus the MOSFETs must be acquired and assembled external to JLCPCB. Ordering these remaining components from LCSC.com will be covered [later in this guide](#remaining-components-from-lcsccom).
     ![](noPartsSelected.png)
 
-    Click `Next to continue`
+    If you intend to use your FOCer for balancing applications such as a onewheel or unicycle you will have to solder the BMI160 IMU yourself. This is a leadless component which requires a [reflow station](linkToReflowStation).
 
-    ## If you intend to use your FOCer for balancing applications such as a onewheel or unicycle you will have to solder the BMI160 IMU yourself. This is a leadless component which requires a [reflow station](linkToReflowStation). 
+    Please note that JLCPCB will often run **out of stock** on certain components. There is a chance you may have to find an alternative component with the same footprint and properties. Post a github issue when a part is out of stock and where you found a new part so that others can see and we can update the docs appropriately.
 
-    ## Please note that JLCPCB will often run out of stock on certain components. There is a chance you may have to find an alternative component with the same footprint and properties. Post to the [support thread](https://forum.esk8.news/t/cheap-focer-2-open-source-low-cost-vesc-6-based-esc-prototyped-materials-arrived-for-test-batch/13631/1) if you need help doing this.  
+1. Click `Next` to continue
 
 1. You should now see a preview of the parts placement on the CFOC2. The placement of the DRV8301 and a few other multi-pin components will appear wrongly placed. **This is ok.** JLCPCB will correct this later in what they call a `DFM review`. I have had no issues in letting JLCPCB handle the correction of component placement in all of my many orders. ![](a33759f1b319649d610ba648f7687170_html_a3977b4e.png)
 
 1. 
     Scroll down and you will see a list of `Unselected Parts`. The LCSC BOM file [later in this guide](#remaining-components-from-lcsccom) covers the remaining parts. If you excluded certain parts on your own or if JLCPCB was out of stock of something, then I advise selecting the `Download Unselected Parts List`. This will then be a list of what you still need to acquire external to JLCPCB.
+    ![](unselectedParts.png)
 
     Next click `Save to Cart` and proceed through the checkout process. If you’ve made it this far then congratulations! The hardest part is over and we will now proceed to ordering the remaining components from LCSC.com.
-![](unselectedParts.png)
 
 # Remaining Components from [LCSC.com](http://lcsc.com)
 
@@ -62,7 +62,7 @@
 ![](a33759f1b319649d610ba648f7687170_html_fab8b969.png)
 
 
-    **Note that quantities of parts in this list are for 5 CFOC2. Please scale up the quantities per amount of CFOC2 PCBs you have ordered from JLCPCB. Note that the CFOC2 only requires 1x 22uH inductor despite the minimum order quantity of 5 seen in the image above.**
+    Quantities of parts in this list are for 5 CFOC2. Please scale up the quantities per amount of CFOC2 PCBs you have ordered from JLCPCB. Note that the CFOC2 only requires 1x 22uH inductor despite the minimum order quantity of 5 seen in the image above.
 
     **If anything is out of stock, then you will have to find an alternative. This will most likely happen to the MOSFETs at some point. Please choose a MOSFET with similar properties as the one from the BOM. Do the same for any other out of stock component by choosing something with the closest properties of the original component from the BOM.**
 
