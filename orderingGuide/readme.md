@@ -20,7 +20,7 @@
 
 1.  Select the `confirm` button to continue
 
-1.  Add the [bom.xlsx](../bom.xlsx) and [cpl.csv](../cpl.csv) files in the root directory ![](a33759f1b319649d610ba648f7687170_html_f09ce745.png)
+1.  Add the [bom.csv](../bom.csv) and [cpl.csv](../cpl.csv) files in the root directory ![](a33759f1b319649d610ba648f7687170_html_f09ce745.png)
 
 1.  Click `Next` to continue
 
