@@ -34,17 +34,20 @@
 
     If you intend to use your FOCer for balancing applications such as a onewheel or unicycle you will have to solder the BMI160 IMU yourself. This is a leadless component which requires a [reflow station](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28).
 
-    Please note that JLCPCB will often run **out of stock** on certain components. There is a chance you may have to find an alternative component with the same footprint and properties. Post a github issue when a part is out of stock and where you found a new part so that others can see and we can update the docs appropriately.  You can also see [this page](outOfStock.md) for suggestions on where to get out of stock components.  
+    If you have components that are out of stock or discontinued please see this note below.
 
 1. Click `Next` to continue
 
 1. You should now see a preview of the parts placement on the CFOC2. The placement of the DRV8301 and a few other multi-pin components will appear wrongly placed. **This is ok.** JLCPCB will correct this later in what they call a `DFM review`. I have had no issues in letting JLCPCB handle the correction of component placement in all of my many orders. ![](a33759f1b319649d610ba648f7687170_html_a3977b4e.png)
 
 1. 
-    Scroll down and you will see a list of `Unselected Parts`. The LCSC BOM file [later in this guide](#remaining-components-from-lcsccom) covers the remaining parts. If you excluded certain parts on your own or if JLCPCB was out of stock of something, then I advise selecting the `Download Unselected Parts List`. This will then be a list of what you still need to acquire external to JLCPCB.
+    Scroll down and you will see a list of `Unselected Parts`. The [LCSC BOM file](../5XBomLcsc.csv) covered [later in this guide](#remaining-components-from-lcsccom) will fulfill the remaining parts. 
     ![](unselectedParts.png)
+    
+    If you excluded certain parts on your own or if JLCPCB was out of stock of something, then I advise selecting the `Download Unselected Parts List`. This will then be a list of what you still need to acquire external to JLCPCB.
+    
 
-    Next click `Save to Cart` and proceed through the checkout process. If you’ve made it this far then congratulations! The hardest part is over and we will now proceed to ordering the remaining components from LCSC.com.
+1. Next click `Save to Cart` and proceed through the checkout process. If you’ve made it this far then congratulations! The hardest part is over and we will now proceed to ordering the remaining components from LCSC.com.
 
 # Remaining Components from [LCSC.com](http://lcsc.com)
 
@@ -73,3 +76,6 @@
     After settling on the quantities you want, please add items to your cart and proceed with the checkout process.
 
     Next check out the [assembly guide](../assembly/) for suggested tools to assemble
+
+# Out of Stock or Discontinued Components
+Please note that JLCPCB and LCSC will often run out of stock on certain components. There is a chance you may have to find an alternative component with the same footprint and properties. Check [this page](outOfStock.md) to see if there are alternatives listed for your part.  If not, post a github issue of where you found a new part so that others can see and we can update [this page](outOfStock.md).  
