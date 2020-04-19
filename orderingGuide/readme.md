@@ -34,7 +34,7 @@
 
     If you intend to use your FOCer for balancing applications such as a onewheel or unicycle you will have to solder the BMI160 IMU yourself. This is a leadless component which requires a [reflow station](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28).
 
-    If you have components that are out of stock or discontinued please see this note below.
+    If you have components that are **out of stock** or discontinued please see [this note](#out-of-stock-or-discontinued-components) below.
 
 1. Click `Next` to continue
 
@@ -67,15 +67,11 @@
 
     Quantities of parts in this list are for 5 CFOC2. Please scale up the quantities per amount of CFOC2 PCBs you have ordered from JLCPCB. Note that the CFOC2 only requires 1x 22uH inductor despite the minimum order quantity of 5 seen in the image above.
 
-    **If anything is out of stock, then you will have to find an alternative. This will most likely happen to the MOSFETs at some point. Please choose a MOSFET with similar properties as the one from the BOM. Do the same for any other out of stock component by choosing something with the closest properties of the original component from the BOM.**
+    If you have components that are **out of stock** or discontinued please see [this note](#out-of-stock-or-discontinued-components) below.
+    
+1. After settling on the quantities you want, please add items to your cart and proceed with the checkout process.
 
-    ## Alternative MOSFETs
-    1. NCEP60T20
-    1. SE80160GA20
-
-    After settling on the quantities you want, please add items to your cart and proceed with the checkout process.
-
-    Next check out the [assembly guide](../assembly/) for suggested tools to assemble
+1. Next check out the prerequisites section of the [assembly guide](../assembly/) to prepare for when your PCB arrives
 
 # Out of Stock or Discontinued Components
 Please note that JLCPCB and LCSC will often run out of stock on certain components. There is a chance you may have to find an alternative component with the same footprint and properties. Check [this page](outOfStock.md) to see if there are alternatives listed for your part.  If not, post a github issue of where you found a new part so that others can see and we can update [this page](outOfStock.md).  
