@@ -19,8 +19,10 @@
     * [thermal pad](https://www.aliexpress.com/item/32810504639.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK)
         - 1mm thick [thermal pad](thermalPad.jpeg) 60mm x 60mm
         - Thermal pad for thermally coupling the MOSFETs to the heatsink surface.  This also electrically insulates the MOSFET tabs from the heatsink (very important). 0.5mm thick thermal pad may not be sufficient to fill the gap between MOSFET tabs and heat sink surface.
+    * [Screws](https://www.aliexpress.com/item/32810872544.html?spm=a2g0o.productlist.0.0.19df1cfe0f2m9D&algo_pvid=769b47e8-4242-4481-b8b9-cfd8b43c02cf&algo_expid=769b47e8-4242-4481-b8b9-cfd8b43c02cf-6&btsid=0ab6f82115870812021408548e17a4&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
+        - m3 x 12mm hex socket [screws](screws.jpeg)
+        - 5 per controller
     * Spacers
-    * bults
     * nuts
 
 1. Wire and cables and connectors
@@ -48,3 +50,9 @@
 
 1. case
     * link to 3d printable one
+
+1. JST PH 2.0 Pigtails: ([AliExpress](https://www.aliexpress.com/item/32733307616.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK))
+		 Used for quick setup and configuration of external accessories. 
+
+1. 60 MM 5v Fan ([AliExpress](https://www.aliexpress.com/item/32571979071.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK)): 
+		Can be mounted to Heat Sink Fins to provide additional cooling potential. 

@@ -1,16 +1,3 @@
-remove me after importing to partsList.md
-
-**Cheap FOCer 2 Hardware List**
-
-
-
-
-**[M3 x 12mm Hex Socket screws:]{.underline}** 5 per controller
-
-![](image3.jpeg){width="2.727777777777778in"
-height="1.4699693788276464in"}
-
-<https://www.aliexpress.com/item/32810872544.html?spm=a2g0o.productlist.0.0.19df1cfe0f2m9D&algo_pvid=769b47e8-4242-4481-b8b9-cfd8b43c02cf&algo_expid=769b47e8-4242-4481-b8b9-cfd8b43c02cf-6&btsid=0ab6f82115870812021408548e17a4&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_>
 
 **[M3/M4 5mm nylon spacers:]{.underline}** 5 per controller
 

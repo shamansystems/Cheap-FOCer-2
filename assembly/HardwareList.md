@@ -22,7 +22,4 @@
 
 ## Optional Hardware: 
 
- - [ ] JST PH 2.0 Pigtails: ([AliExpress](https://www.aliexpress.com/item/32733307616.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK))
-		 Used for quick setup and configuration of external accessories. 
- - [ ] 60 MM 5v Fan ([AliExpress](https://www.aliexpress.com/item/32571979071.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK)): 
-		Can be mounted to Heat Sink Fins to provide additional cooling potential. 
+ 
