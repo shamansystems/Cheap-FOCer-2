@@ -7,6 +7,7 @@
 1. Heat shrink
     * For the PCB: 
 
+1. these things:![](theseThings.png)
 
 ## Optional Parts
 1.  [reflow station with soldering iron](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28)
