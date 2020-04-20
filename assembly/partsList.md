@@ -9,6 +9,7 @@
 
 1. Heat shrink
     * For the PCB: 
+    * for other wires(motor bullet connectors)
 
 1. these things:![](theseThings.png)
 
@@ -16,10 +17,11 @@
     * Spacers
     * bults
     * nuts
+    * thermal pad
 
 1. Wire and cables and connectors
     * Battery wire(xt connector)
-    * motor wires
+    * motor wires(5.5mm bullet connectors)
     * jst males with wires
 
 1. on/off switch
