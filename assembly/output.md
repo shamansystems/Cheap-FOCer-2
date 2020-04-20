@@ -1,14 +1,4 @@
 
-**[M3/M4 5mm nylon spacers:]{.underline}** 5 per controller
-
-Spacers to prevent overtightening of screws which cause warping/damage to the PCB.
-
-![OD7-5mm-Nylon-Round-Spacer-Standoff-For-M3-thread-Screw-Blot-QTY50](image4.jpeg){width="2.65in"
-height="2.65in"}
-
-<https://www.ebay.com/itm/OD7-5mm-Nylon-Round-Spacer-Standoff-For-M3-thread-Screw-Blot-QTY50/183743008473?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649>
-
-<https://www.aliexpress.com/item/33047891996.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK>
 
 **[M3 x 6mm x 1mm nylon washers:]{.underline}** 5 per controller
 
