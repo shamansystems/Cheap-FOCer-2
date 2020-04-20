@@ -44,7 +44,7 @@
     Scroll down and you will see a list of `Unselected Parts`. The [LCSC BOM file](../5XBomLcsc.csv) covered [later in this guide](#remaining-components-from-lcsccom) will fulfill the remaining parts. 
     ![](unselectedParts.png)
     
-    If you excluded certain parts on your own or if JLCPCB was out of stock of something, then I advise selecting the `Download Unselected Parts List`. This will then be a list of what you still need to acquire external to JLCPCB.
+    If you excluded certain parts on your own or if JLCPCB was out of stock of something, then click the `Download Unselected Parts List` button for a list of what you will need to acquire outside of this guide.
     
 
 1. Next click `Save to Cart` and proceed through the checkout process. If you’ve made it this far then congratulations! The hardest part is over and we will now proceed to ordering the remaining components from LCSC.com.
