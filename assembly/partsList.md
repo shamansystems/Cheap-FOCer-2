@@ -9,5 +9,18 @@
 
 1. these things:![](theseThings.png)
 
+1. heat sink stuffs
+    * Spacers
+    * bults
+    * nuts
+
+1. Wire and cables and connectors
+    * Battery wire(xt connector)
+    * motor wires
+    * jst males with wires
+
+1. on/off switch
 ## Optional Parts
 1.  [reflow station with soldering iron](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28)
+
+1. bluetooth module
