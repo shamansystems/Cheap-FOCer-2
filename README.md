@@ -1,17 +1,25 @@
 # Cheap FOCer 2 (v0.9)
-Low-Cost Motor Controller based on the VESC 6
+Low-Cost(around $100 for 5 boards and components) Motor Controller based on the VESC 6
 
-![alt text](https://github.com/shamansystems/Cheap-FOCer-2/blob/master/design/Images/Front.PNG)
-![alt text](https://github.com/shamansystems/Cheap-FOCer-2/blob/master/design/Images/Back.PNG)
+Front and Back:
 
-![alt text](https://github.com/shamansystems/Cheap-FOCer-2/blob/master/design/Images/pinout.PNG)
-pinouts
+![](./design/Images/Front.PNG) ![](./design/Images/Back.PNG)
+
+Pin outs: 
+![](./design/Images/pinout.PNG)
+
+
+## [Support Thread](https://forum.esk8.news/t/cheap-focer-2-open-source-low-cost-vesc-6-based-esc-prototyped-materials-arrived-for-test-batch/13631/1)
+
+
+## [Ordering Guide](./orderingGuide/readme.md)
+
 
 ## Capabilities
 
 - 35A continuous and 70A peak with good heat sinking. These are real values. Not marketing numbers
 
-- Up to 50.4V(12s) safe operating voltage
+- Up to 50.4V(12s) safe operating voltage.  For 20s version take a look at [these FOCers](https://forum.esk8.news/t/some-new-focers-84v-vesc-6-based-controllers/1513). 
 
 - Compatible with the VESC Tool for configuration
 
@@ -65,16 +73,9 @@ pinouts
 
 - Uses custom firmware that’s not currently supported in the VESC project. Will make firmware available on GitHub until Cheap FOCer 2 is added to and supported by the official VESC project.
 
-## JLCPCB and LCSC Ordering Instructions
-
-- https://github.com/shamansystems/Cheap-FOCer-2/blob/master/design/JLCPCB%20and%20LCSC/JLCPCB%20and%20LCSC%20Ordering%20Guide.docx
-
 ## Warning
 - The Cheap FOCer 2 has been bench tested but is still being field tested. Hardware or firmware flaws could still exist and affect user operation. 
 - You are liable for any and all controllers built using this design. This product is intended for hobbyists and not intended for commercial use. 
-
-## Support Thread
-- https://forum.esk8.news/t/cheap-focer-2-open-source-low-cost-vesc-6-based-esc-prototyped-materials-arrived-for-test-batch/13631/1
 
 ## License
 Cheap FOCer 2 is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
