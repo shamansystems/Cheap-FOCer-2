@@ -13,7 +13,7 @@
 
 1. these things:![](theseThings.png)
 
-1. heat sink stuffs![](https://github.com/shamansystems/Cheap-FOCer-2/blob/master/assembly/heatSink.jpeg)
+1. heat sink stuffs
     * heat sink([ali](https://www.aliexpress.com/item/32951112852.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK))
         - Any [generic heat sink](heatSink.jpeg) with a flat surface of at least 60mm x 100mm can be used. Below is the example low-cost heatsink used in the original CFOC2 testing. 
     * thermal pad([ali](https://www.aliexpress.com/item/32810504639.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK))
