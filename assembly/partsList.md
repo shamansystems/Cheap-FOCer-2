@@ -3,6 +3,9 @@
 
 1. Soldering iron
     * https://www.amazon.com/X-Tronic-3020-XTS-Digital-Display-Soldering/dp/B01DGZFSNE
+    * special tips? 
+
+1. Solder
 
 1. Heat shrink
     * For the PCB: 
@@ -24,3 +27,18 @@
 1.  [reflow station with soldering iron](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28)
 
 1. bluetooth module
+
+1. multimeter
+
+1. solder wick
+
+1. flux
+
+1. magnifier/microscope
+
+1. helping hands
+
+1. remote recommendations
+
+1. case
+    * link to 3d printable one
