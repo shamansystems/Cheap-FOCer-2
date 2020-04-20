@@ -13,13 +13,15 @@
 
 1. these things:![](theseThings.png)
 
-1. heat sink
-    #### Any [generic heat sink](heatSink.jpeg) with a flat surface of at least 60mm x 100mm can be used. Below is the example low-cost heatsink used in the original CFOC2 testing. 
+1. heat sink stuffs
     * [heat sink](https://www.aliexpress.com/item/32951112852.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK)
+        - Any [generic heat sink](heatSink.jpeg) with a flat surface of at least 60mm x 100mm can be used. Below is the example low-cost heatsink used in the original CFOC2 testing. 
+    * [thermal pad](https://www.aliexpress.com/item/32810504639.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK)
+        - 1mm thick [thermal pad](thermalPad.jpeg) 60mm x 60mm
+        - Thermal pad for thermally coupling the MOSFETs to the heatsink surface.  This also electrically insulates the MOSFET tabs from the heatsink (very important). 0.5mm thick thermal pad may not be sufficient to fill the gap between MOSFET tabs and heat sink surface.
     * Spacers
     * bults
     * nuts
-    * thermal pad
 
 1. Wire and cables and connectors
     * Battery wire(xt connector)
