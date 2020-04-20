@@ -61,13 +61,12 @@
 
 1. Click `Next` to continue.
 
-1. You should now see a page showing the parts that LCSC has chosen to fit the parts described in the BOM that was uploaded. They should be the same exact parts as described in the BOM unless LCSC happens to be out of stock of a component. Scroll through the list to verify that all parts are present and accounted for. Notice that certain components, like the inductor, have a minimum order quantity of 5.  
-![](a33759f1b319649d610ba648f7687170_html_fab8b969.png)
+1. You should now see a page showing the parts that LCSC has chosen to fit the parts described in the BOM that was uploaded. Scroll through the list to verify that all parts are present and accounted for. Notice that certain components, have a minimum order quantities and you will need to update the quantities of these items to meet the minimum requirements
+    ![](a33759f1b319649d610ba648f7687170_html_fab8b969.png)
 
+1. Quantities of parts in this list are for 5 CFOC2. Please scale up the quantities per amount of CFOC2 PCBs you have ordered from JLCPCB. 
 
-    Quantities of parts in this list are for 5 CFOC2. Please scale up the quantities per amount of CFOC2 PCBs you have ordered from JLCPCB. Note that the CFOC2 only requires 1x 22uH inductor despite the minimum order quantity of 5 seen in the image above.
-
-    If you have components that are **out of stock** or discontinued please see [this note](#out-of-stock-or-discontinued-components) below.
+1. If you have components that are **out of stock** or discontinued please see [this note](#out-of-stock-or-discontinued-components) below.
     
 1. After settling on the quantities you want, please add items to your cart and proceed with the checkout process.
 
