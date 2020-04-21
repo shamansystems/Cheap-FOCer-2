@@ -36,7 +36,7 @@
         - 1 male per board
     * motor/phase wires- [ali](https://www.aliexpress.com/item/33057076463.html)
         * 10AWG is coo or 12AWG 
-        * 2 meters should do(100mm*3*5=1500mm)
+        * 2 meters should do(100mm\*3\*5=1500mm)
     * motor connectors- [ali](https://www.aliexpress.com/item/32926203705.html)
         - 5.5mm 
         - need 3 females per board
