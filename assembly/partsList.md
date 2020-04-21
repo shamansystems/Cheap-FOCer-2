@@ -76,6 +76,7 @@
     * Easier to use than solder wick, not consumable
 1. multimeter
 1. magnifier/microscope
+1. Tweezers- [ali](https://aliexpress.com/item/33019151832.html)
 
 ## Optional Parts
 1. 60 MM 5v Fan([ali](https://www.aliexpress.com/item/32571979071.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK))-   Can be mounted to Heat Sink Fins to provide additional cooling potential. 
