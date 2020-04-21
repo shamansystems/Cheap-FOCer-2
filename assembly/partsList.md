@@ -9,6 +9,8 @@
 
 1. Heat shrink
     * For the PCB: 
+        - 70mm diameter for PCs with heat sink 
+        - https://a.aliexpress.com/_dUNLfKc
     * for other wires(motor bullet connectors)
 
 1. these things:![](theseThings.png)
