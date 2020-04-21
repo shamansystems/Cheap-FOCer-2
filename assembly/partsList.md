@@ -1,9 +1,8 @@
 # Parts List
 1. PCB with basic parts placed and soldered from PCB manufacture.  Follow [this guide](../orderingGuide/readme.md). 
 
-1. Soldering iron
-    * https://www.amazon.com/X-Tronic-3020-XTS-Digital-Display-Soldering/dp/B01DGZFSNE
-    * special tips? 
+1. Soldering iron- [ali](https://www.aliexpress.com/item/4000019437594.html)
+    * [amazon](https://www.amazon.com/X-Tronic-3020-XTS-Digital-Display-Soldering/dp/B01DGZFSNE)
     * [How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/)
 
 1. Solder- [ali](https://www.aliexpress.com/item/32946643268.html?spm=a2g0o.productlist.0.0.5c4b7b4cWwKAVN&algo_pvid=e2dfc1eb-2f33-41f9-9aba-6cc189489ac6&algo_expid=e2dfc1eb-2f33-41f9-9aba-6cc189489ac6-0&btsid=0ab6f82315874884613205893e4228&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
@@ -43,15 +42,17 @@
     * Battery connector- [ali](https://www.aliexpress.com/item/32546847748.html)
         - [xt90 male](xt90MvF.jpg) is coo- [ali](https://www.aliexpress.com/item/32546847748.html)
         - anti spark xt90 is coo too[ali](https://www.aliexpress.com/item/4000001105491.html)
+        - 1 male per board
     * motor/phase wires- [ali](https://www.aliexpress.com/item/33057076463.html)
-        * 2 meters should do(100mm*3*5=1500mm)
         * 10AWG is coo or 12AWG 
+        * 2 meters should do(100mm*3*5=1500mm)
     * motor connectors- [ali](https://www.aliexpress.com/item/32926203705.html)
-        - need 3 per board
-        - 5.5mm bullet/banana connectors good for 10AWG or smaller wire 
-    * jst males with wires
+        - 5.5mm 
+        - need 3 females per board
 
-1. on/off switch
+1. on/off switch- [ali](https://www.aliexpress.com/item/4000358463924.html)
+    * just need to open/close the circuit
+    * 1 per board
 
 ## Optional Parts
 
@@ -61,7 +62,8 @@
 1. 60 MM 5v Fan([ali](https://www.aliexpress.com/item/32571979071.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK))-   Can be mounted to Heat Sink Fins to provide additional cooling potential. 
 1.  reflow station with soldering iron([amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28))
 
-1. bluetooth module
+1. bluetooth module- [ali]()
+    * 
 
 1. multimeter
 
