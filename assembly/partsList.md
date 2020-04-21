@@ -14,7 +14,7 @@
     * for other wires(motor bullet connectors)
         - [ali](https://www.aliexpress.com/item/33008449230.html?spm=a2g0o.productlist.0.0.4abe5faa5S4oV0&algo_pvid=d3b60cb9-4673-4cd5-8ac6-e6abb70e4246&algo_expid=d3b60cb9-4673-4cd5-8ac6-e6abb70e4246-0&btsid=0be3769015874869483454159e47a6&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
 
-1. these things:![](theseThings.png)
+1. [Pin headers](pinHeaders.png)- [ali](https://www.aliexpress.com/item/4000909558952.html?spm=a2g0o.productlist.0.0.7b585306lMMAjD&algo_pvid=fd1d054e-44a8-469a-84ec-c4b4fd743e28&algo_expid=fd1d054e-44a8-469a-84ec-c4b4fd743e28-0&btsid=0ab6f82315874882006221885e425b&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
 
 1. heat sink stuffs
     * heat sink([ali](https://www.aliexpress.com/item/32951112852.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK))
