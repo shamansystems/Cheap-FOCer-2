@@ -1,18 +1,6 @@
 # Parts List
 1. PCB with basic parts placed and soldered from PCB manufacture.  Follow [this guide](../orderingGuide/readme.md). 
 
-1. Soldering iron- [ali](https://www.aliexpress.com/item/4000019437594.html)
-    * [amazon](https://www.amazon.com/X-Tronic-3020-XTS-Digital-Display-Soldering/dp/B01DGZFSNE)
-    * [How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/)
-
-1. Solder- [ali](https://www.aliexpress.com/item/32946643268.html?spm=a2g0o.productlist.0.0.5c4b7b4cWwKAVN&algo_pvid=e2dfc1eb-2f33-41f9-9aba-6cc189489ac6&algo_expid=e2dfc1eb-2f33-41f9-9aba-6cc189489ac6-0&btsid=0ab6f82315874884613205893e4228&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
-    * .5mm to 1mm
-    * if you can get .5
-    * rosin core is for electronics
-
-1. Flux- [ali](https://www.aliexpress.com/item/32828595199.html)
-    * one tube should do
-
 1. Heat shrink
     * For the PCB- [ali](https://a.aliexpress.com/_dUNLfKc)
         - 70mm diameter for PCs with heat sink 
@@ -63,25 +51,46 @@
     * just need to open/close the circuit
     * 1 per board
 
+## Consumables
+1. Solder- [ali](https://www.aliexpress.com/item/32946643268.html?spm=a2g0o.productlist.0.0.5c4b7b4cWwKAVN&algo_pvid=e2dfc1eb-2f33-41f9-9aba-6cc189489ac6&algo_expid=e2dfc1eb-2f33-41f9-9aba-6cc189489ac6-0&btsid=0ab6f82315874884613205893e4228&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
+    * .5mm to 1mm
+    * if you can get .5
+    * rosin core is for electronics
+### Consumables (Optional)
+1. Solder wick - To remove solder
+
+1. Flux - Makes soldering work better [ali](https://www.aliexpress.com/item/32828595199.html)
+    * one tube should do
+
+## Tools List
+1. Soldering iron- [ali](https://www.aliexpress.com/item/4000019437594.html)
+    * [amazon](https://www.amazon.com/X-Tronic-3020-XTS-Digital-Display-Soldering/dp/B01DGZFSNE)
+    * [How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/)
+
+### Tools List (Optional)
+1. helping hands ([amazon](https://www.amazon.com/gp/product/B078N9DPQ5/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1))
+   * This should pretty much be mandatory
+1.  reflow station with soldering iron([amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28)) 
+   * Mandatory if you plan to add the IMU (BMI160)
+
+1. Solder sucker - To remove solder
+   * Easier to use than solder wick, not consumable
+   
+1. multimeter
+
+1. magnifier/microscope
+
 ## Optional Parts
-
 1. 60 MM 5v Fan([ali](https://www.aliexpress.com/item/32571979071.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK))-   Can be mounted to Heat Sink Fins to provide additional cooling potential. 
-1.  reflow station with soldering iron([amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28))
 
+1. case
+    * link to 3d printable one
+
+
+## Accessories (This should probably be another file)
 1. bluetooth module- [ali](https://www.aliexpress.com/item/32833817130.html)
     * https://www.youtube.com/watch?v=PFFiVxFHDM4&feature=emb_title
     * https://vesc-project.com/node/234
     * I was able to get a [HM-10 Bluetooth 4.0](https://www.aliexpress.com/item/32888733000.html) working with [ackmaniac's](http://esk8.news/how-to-ackmaniac-esc-tool/) firmware on my vesc at 9600 baud rate
 
-1. multimeter
-
-1. solder wick
-
-1. magnifier/microscope
-
-1. helping hands
-
 1. remote recommendations
-
-1. case
-    * link to 3d printable one
