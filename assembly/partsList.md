@@ -68,10 +68,10 @@
 1. 60 MM 5v Fan([ali](https://www.aliexpress.com/item/32571979071.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK))-   Can be mounted to Heat Sink Fins to provide additional cooling potential. 
 1.  reflow station with soldering iron([amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28))
 
-1. bluetooth module- [ali](https://www.aliexpress.com/item/32972390624.html)
+1. bluetooth module- [ali](https://www.aliexpress.com/item/32833817130.html)
     * https://www.youtube.com/watch?v=PFFiVxFHDM4&feature=emb_title
     * https://vesc-project.com/node/234
-    * I was able to get a [HM-10 Bluetooth 4.0](https://www.aliexpress.com/item/32888733000.html) working with [ackmaniac's](http://esk8.news/how-to-ackmaniac-esc-tool/) firmware at 9600 baud rate
+    * I was able to get a [HM-10 Bluetooth 4.0](https://www.aliexpress.com/item/32888733000.html) working with [ackmaniac's](http://esk8.news/how-to-ackmaniac-esc-tool/) firmware on my vesc at 9600 baud rate
 
 1. multimeter
 
