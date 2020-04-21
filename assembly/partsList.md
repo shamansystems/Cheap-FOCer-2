@@ -12,6 +12,7 @@
         - 70mm diameter for PCs with heat sink 
         - https://a.aliexpress.com/_dUNLfKc
     * for other wires(motor bullet connectors)
+        - [ali](https://www.aliexpress.com/item/33008449230.html?spm=a2g0o.productlist.0.0.4abe5faa5S4oV0&algo_pvid=d3b60cb9-4673-4cd5-8ac6-e6abb70e4246&algo_expid=d3b60cb9-4673-4cd5-8ac6-e6abb70e4246-0&btsid=0be3769015874869483454159e47a6&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
 
 1. these things:![](theseThings.png)
 
