@@ -32,7 +32,7 @@
         - [the shorter the better](https://www.youtube.com/watch?v=54bb9zpDdZU)
     * Battery connector- [ali](https://www.aliexpress.com/item/32546847748.html)
         - [xt90 male](xt90MvF.jpg) is coo- [ali](https://www.aliexpress.com/item/32546847748.html)
-        - anti spark xt90 is coo too[ali](https://www.aliexpress.com/item/4000001105491.html)
+        - anti spark xt90 is coo too- [ali](https://www.aliexpress.com/item/4000001105491.html)
         - 1 male per board
     * motor/phase wires- [ali](https://www.aliexpress.com/item/33057076463.html)
         * 10AWG is coo or 12AWG 
