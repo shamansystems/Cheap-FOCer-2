@@ -65,7 +65,7 @@
 ## Tools List
 1. Soldering iron- [ali](https://www.aliexpress.com/item/4000019437594.html)
     * [amazon](https://www.amazon.com/X-Tronic-3020-XTS-Digital-Display-Soldering/dp/B01DGZFSNE)
-    * [How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/)
+    * [How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/) [youtube](https://youtu.be/b9FC9fAlfQE)
 
 ### Tools List (Optional)
 1. helping hands ([amazon](https://www.amazon.com/gp/product/B078N9DPQ5/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1))
