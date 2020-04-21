@@ -69,15 +69,12 @@
 
 ### Tools List (Optional)
 1. helping hands ([amazon](https://www.amazon.com/gp/product/B078N9DPQ5/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1))
-   * This should pretty much be mandatory
-1.  reflow station with soldering iron([amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28)) 
-   * Mandatory if you plan to add the IMU (BMI160)
-
+	 * This is pretty much mandatory trust us
+1.  reflow station with soldering iron ([amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28))
+	 * Mandatory if you plan to add the IMU (BMI160)
 1. Solder sucker - To remove solder
-   * Easier to use than solder wick, not consumable
-   
+    * Easier to use than solder wick, not consumable
 1. multimeter
-
 1. magnifier/microscope
 
 ## Optional Parts
