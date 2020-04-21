@@ -52,7 +52,7 @@
     * 1 per board
 
 ## Consumables
-1. Solder- [ali](https://www.aliexpress.com/item/32946643268.html?spm=a2g0o.productlist.0.0.5c4b7b4cWwKAVN&algo_pvid=e2dfc1eb-2f33-41f9-9aba-6cc189489ac6&algo_expid=e2dfc1eb-2f33-41f9-9aba-6cc189489ac6-0&btsid=0ab6f82315874884613205893e4228&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
+1. Solder- [ali](https://www.aliexpress.com/item/32946643268.html?spm=a2g0o.productlist.0.0.5c4b7b4cWwKAVN&algo_pvid=e2dfc1eb-2f33-41f9-9aba-6cc189489ac6&algo_expid=e2dfc1eb-2f33-41f9-9aba-6cc189489ac6-0&btsid=0ab6f82315874884613205893e4228&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) [Amazon No Clean Flux Core (EASY TO USE)](https://www.amazon.com/MG-Chemicals-Leaded-Solder-Pocket/dp/B072JQ1N4G/ref=sr_1_6?crid=8U549PSVXD19&dchild=1&keywords=mg+chemicals+solder+60%2F40&qid=1587498968&sprefix=mg+chemicals+60%2Caps%2C192&sr=8-6)
     * .5mm to 1mm
     * if you can get .5
     * rosin core is for electronics
