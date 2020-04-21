@@ -6,9 +6,12 @@
     * [How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/)
 
 1. Solder- [ali](https://www.aliexpress.com/item/32946643268.html?spm=a2g0o.productlist.0.0.5c4b7b4cWwKAVN&algo_pvid=e2dfc1eb-2f33-41f9-9aba-6cc189489ac6&algo_expid=e2dfc1eb-2f33-41f9-9aba-6cc189489ac6-0&btsid=0ab6f82315874884613205893e4228&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
-    * .5mm to 1mm should work
+    * .5mm to 1mm
     * if you can get .5
     * rosin core is for electronics
+
+1. Flux- [ali](https://www.aliexpress.com/item/32828595199.html)
+    * one tube should do
 
 1. Heat shrink
     * For the PCB- [ali](https://a.aliexpress.com/_dUNLfKc)
@@ -21,7 +24,7 @@
     * heat sink- [ali](https://www.aliexpress.com/item/32951112852.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK)
         - Any [generic heat sink](heatSink.jpeg) with a flat surface of at least 60mm x 100mm can be used. Below is the example low-cost heatsink used in the original CFOC2 testing. 
     * thermal pad- [ali](https://www.aliexpress.com/item/32810504639.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK)
-        - 1mm thick [thermal pad](thermalPad.jpeg) 60mm x 60mm
+        - 1mm thick [thermal pad](thermalPad.jpeg) **60mm x 60mm per controller**
         - Thermal pad for thermally coupling the MOSFETs to the heatsink surface.  This also electrically insulates the MOSFET tabs from the heatsink (very important). 0.5mm thick thermal pad may not be sufficient to fill the gap between MOSFET tabs and heat sink surface.
     * Screws- [ali](https://www.aliexpress.com/item/32810872544.html?spm=a2g0o.productlist.0.0.19df1cfe0f2m9D&algo_pvid=769b47e8-4242-4481-b8b9-cfd8b43c02cf&algo_expid=769b47e8-4242-4481-b8b9-cfd8b43c02cf-6&btsid=0ab6f82115870812021408548e17a4&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
         - m3 x 12mm hex socket [screws](screws.jpeg)
@@ -49,6 +52,12 @@
     * motor connectors- [ali](https://www.aliexpress.com/item/32926203705.html)
         - 5.5mm 
         - need 3 females per board
+    * JST PH 2.0 Pigtails([ali](https://www.aliexpress.com/item/32733307616.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK))
+        - Used for quick setup and configuration of external accessories
+        - 2x2pin per board
+        - 1x3pin per board
+        - 1x6pin per board
+        - 1x7pin per board
 
 1. on/off switch- [ali](https://www.aliexpress.com/item/4000358463924.html)
     * just need to open/close the circuit
@@ -56,20 +65,17 @@
 
 ## Optional Parts
 
-1. JST PH 2.0 Pigtails([ali](https://www.aliexpress.com/item/32733307616.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK))- 
-		 Used for quick setup and configuration of external accessories. 
-
 1. 60 MM 5v Fan([ali](https://www.aliexpress.com/item/32571979071.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK))-   Can be mounted to Heat Sink Fins to provide additional cooling potential. 
 1.  reflow station with soldering iron([amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28))
 
-1. bluetooth module- [ali]()
-    * 
+1. bluetooth module- [ali](https://www.aliexpress.com/item/32972390624.html)
+    * https://www.youtube.com/watch?v=PFFiVxFHDM4&feature=emb_title
+    * https://vesc-project.com/node/234
+    * I was able to get a [HM-10 Bluetooth 4.0](https://www.aliexpress.com/item/32888733000.html) working with [ackmaniac's](http://esk8.news/how-to-ackmaniac-esc-tool/) firmware at 9600 baud rate
 
 1. multimeter
 
 1. solder wick
-
-1. flux
 
 1. magnifier/microscope
 
