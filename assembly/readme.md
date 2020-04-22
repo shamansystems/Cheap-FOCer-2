@@ -4,26 +4,23 @@ The following guide explains correct procedures on how to assemble the Cheap FOC
 ## Prerequisites
 * [Ordering Guide](../orderingGuide)
 * [Parts](partsList.md)
+    -   Drill press or drill
 
+    -   2.5mm drill bit
 
+    -   Needle nose pliers
 
--   Drill press or drill
-
--   2.5mm drill bit
-
--   Needle nose pliers
-
--   Solder/reflow station
+    -   Solder/reflow station
 
 ![](./images/image1.jpeg) ![](./images/image2.jpeg)
 
 The assumption is made that you have had most or all SMD components assembled. The CFOC2 is the following example was created and partially assembled by JLCPCB. Note the DRV8301 is absent on the board due to lack of stock at the time this was ordered. It is recommended that JLCPCB provide and assemble the DRV8301 when ppssible.
 
-![](./images/image3.jpeg){width="4.95489501312336in" height="3.65in"}
+![](./images/image3.jpeg)
 
 Figure x. heatsink(left) and CFOC2 PCB(right)
 
-![](./images/image4.jpeg){width="5.291666666666667in" height="3.96875in"}
+![](./images/image4.jpeg)
 
 Figure x. PCB temporarily fastened to heatsink surface
 
@@ -63,7 +60,7 @@ It is imperative that all MOSFETs be placed and held flush to the PCB surface. F
 
 Figure x. Initial MOSFET solder location
 
-![C:\\Users\\lucas\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\IMG\_1101c.jpg](./images/image11.jpeg){width="3.5259951881014873in" height="3.891025809273841in"}
+![C:\\Users\\lucas\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\IMG\_1101c.jpg](./images/image11.jpeg)
 
 Figure x. Pressure applied to MOSFET
 
@@ -71,13 +68,13 @@ At this time solder the MOSFET legs that go through the square pad as highlighte
 
 It is advised to apply pressure to the MOSFET in order to ensure it stays flush to the PCB during soldering. Double check all MOSFETs after soldering to verify that the MOSFET bodies are flush to the PCB.
 
-![C:\\Users\\lucas\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\IMG\_1106ccc.jpg](./images/image12.jpeg){width="6.5in" height="1.9743055555555555in"}
+![C:\\Users\\lucas\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\IMG\_1106ccc.jpg](./images/image12.jpeg)
 
 Figure x. MOSFET Legs Bent into Proper Position
 
 Flip PCB over and bend the relevant MOSFET legs into their positions as shown in figure x above. Note that not all legs get bent. Bending the legs like this will add copper to the high-current portions of the PCB which helps handle the current.
 
-![C:\\Users\\lucas\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\IMG\_1108c.jpg](./images/image13.jpeg){width="6.49375in" height="1.75in"}
+![C:\\Users\\lucas\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\IMG\_1108c.jpg](./images/image13.jpeg)
 
 Figure x. Legs Soldered from the Top
 
@@ -87,7 +84,7 @@ Do not add excess solder to the legs close to the large circular hole. This hole
 
 Make sure that no solder bridges exist between legs.
 
-![C:\\Users\\lucas\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\IMG\_1109ccc.jpg](./images/image14.jpeg){width="4.631944444444445in" height="3.4727198162729658in"}
+![C:\\Users\\lucas\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\IMG\_1109ccc.jpg](./images/image14.jpeg)
 
 Figure x. MOSFET Legs Soldered from Bottom
 
@@ -95,7 +92,7 @@ Flip PCB over and solder MOSFET legs from the bottom side. Soldering from both t
 
 It is advised to apply excess solder to the thinner portions of the legs up to the point to where the legs widen. This adds more conductive material to the MOSFET legs where it is needed. Be sure to not create solder bridges between MOSFET legs.
 
-![](./images/image15.jpeg){width="6.5in" height="4.698611111111111in"}
+![](./images/image15.jpeg)
 
 Figure x. Fully assembled CFOC2 PCB(left) next to prepared heatsink(middle) and fastening hardware(right)
 
@@ -103,7 +100,7 @@ Now solder all remaining components to include cables to the PCB. Be sure to tri
 
 Prepare the fastening hardware and a 60mm x 51mm portion of 1mm thick thermal pad as seen in the image above.
 
-![](./images/image16.jpeg){width="6.5in" height="3.527083333333333in"}
+![](./images/image16.jpeg)
 
 Make sure there is not any thermal pad being pinched between the nylon spacers in the heatsink. This will cause a misalignment in spacing which could cause excess stress to the PCB later.
 
