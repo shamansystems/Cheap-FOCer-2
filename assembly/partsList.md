@@ -42,13 +42,11 @@
 ## Wires, cables and connectors
 1. **Battery & Motor Phase Wire**: [aliexpress](https://www.aliexpress.com/item/32846336149.html?spm=a2g0o.productlist.0.0.82d02c62sTWH1m&algo_pvid=273b7ba1-bc60-4ca6-aafd-01195d275418&algo_expid=273b7ba1-bc60-4ca6-aafd-01195d275418-1&btsid=0ab6f83a15874895351727963e46c7&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
 	* 100mm of 12AWG or 10AWG Silicone Stranded Wire
-    * 1 red & 3 black per FOCer
-    * [the shorter the better](https://www.youtube.com/watch?v=54bb9zpDdZU)
+    * 1 red & 4 black(500mm total) per FOCer
+    * [the shorter the better on the battery side](https://www.youtube.com/watch?v=54bb9zpDdZU)
 2. **Battery connector**: [aliexpress](https://www.aliexpress.com/item/32546847748.html) [aliexpress](https://www.aliexpress.com/item/32546847748.html) [aliexpress](https://www.aliexpress.com/item/4000001105491.html)
-	* XT60 or [XT90](xt90MvF.jpg) or XT90s male connector
+    * XT60 or [XT90](xt90MvF.jpg) male connector
     * 1 per FOCer
-    * XT90s is spark proof we like it!
-    * There is no XT90s for the male side, why are we even talking about this lol!
 3. **motor connectors**: [aliexpress](https://www.aliexpress.com/item/32926203705.html)
 	* 4mm bullet connectors 
 	* 3 per FOCer
