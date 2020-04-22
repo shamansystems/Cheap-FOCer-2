@@ -1,4 +1,5 @@
 # Parts List
+## Required Parts
 1. **Completed PCB**
     * [Cheap FOCer V2 fully assembled PCB](../orderingGuide/readme.md)
     * 1 per FOCer
@@ -23,7 +24,7 @@
     * 5 per FOCer
 1. **Nuts? are we drilling and tapping the Heat sink? WHAT IS THE PLANNNNNN????**
 
-#### Optional
+### Optional Parts
 1. **Pin headers**:  [aliexpress](https://www.aliexpress.com/item/4000909558952.html)
     * [Pin headers](pinHeaders.png)
     * a bunch per FOCer
@@ -51,7 +52,6 @@
     * 4mm bullet connectors 
     * 3 per FOCer
      * Other options: 4.5mm/5mm/5.5mm/etc. bullet connectors, MT60
-#### Optional
 1. **JST PH 2.0 Pigtails**: [aliexpress](https://www.aliexpress.com/item/32733307616.html)
     * 2x2pin per FOCer
     * 1x3pin per FOCer
@@ -64,14 +64,10 @@
     * For other wires(motor bullet connectors)- [ali express](https://www.aliexpress.com/item/33008449230.html)
 
 ## Consumables
-1. **Solder**: [ali express](https://www.aliexpress.com/item/32946643268.html) [Amazon No Clean Flux Core (EASY TO USE)](https://www.amazon.com/MG-Chemicals-Leaded-Solder-Pocket/dp/B072JQ1N4G)
-    * .5mm to 1mm
-    * if you can get .5
+1. **Solder(required)**: [ali express](https://www.aliexpress.com/item/32946643268.html) [Amazon No Clean Flux Core (EASY TO USE)](https://www.amazon.com/MG-Chemicals-Leaded-Solder-Pocket/dp/B072JQ1N4G)
+    * 0.5mm to 1mm
+    * if you can, get 0.5
     * rosin core is for electronics
-    * Some amount per FOCer
-    * I dOn'T evEn KnoW HOw tO OrgAniZe ThIS seCtiOn
-
-### Consumables (Optional)
 1. **Solder wick**
     * Braided copper solder wick
     * 1 roll for the rest of your life, if you dont fuck up too much
@@ -81,27 +77,21 @@
     * Makes soldering work better 
 
 ## Tools List
-### Required
-1. **Soldering iron**: [aliexpress](https://www.aliexpress.com/item/4000019437594.html)
+1. **Soldering iron(required)**: [aliexpress](https://www.aliexpress.com/item/4000019437594.html)
     * [amazon](https://www.amazon.com/X-Tronic-3020-XTS-Digital-Display-Soldering/dp/B01DGZFSNE)
     * [How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/) [youtube](https://youtu.be/b9FC9fAlfQE)
-
-### Optional
-1. **helping hands**: [amazon](https://www.amazon.com/gp/product/B078N9DPQ5)
-     * This is pretty much mandatory trust us
-1.  **reflow station with soldering iron**: [amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28)
-     * Mandatory if you plan to add the IMU (BMI160)
+1. **helping hands**- highly recommended: [amazon](https://www.amazon.com/gp/product/B078N9DPQ5)
+1.  **reflow station with soldering iron**- Mandatory for the IMU(BMI160): [amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28)
 1. **Solder sucker** 
     * To remove solder
     * Easier to use than solder wick, not consumable
 1. **multimeter**
 1. **magnifier/microscope**
-1. **Tweezers**: [ali express](https://aliexpress.com/item/33019151832.html)
+1. **Tweezers**- to place small parts: [ali express](https://aliexpress.com/item/33019151832.html)
 
 ## Accessories (This should probably be another file)
 1. **bluetooth module**- [ali express](https://www.aliexpress.com/item/32833817130.html)
     * https://www.youtube.com/watch?v=PFFiVxFHDM4&feature=emb_title
     * https://vesc-project.com/node/234
     * I was able to get a [HM-10 Bluetooth 4.0](https://www.aliexpress.com/item/32888733000.html) working with [ackmaniac's](http://esk8.news/how-to-ackmaniac-esc-tool/) firmware on my vesc at 9600 baud rate
-1. **remote** 
-    * recommendations
+1. **remote**- recommendations:
