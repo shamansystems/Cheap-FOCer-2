@@ -1,6 +1,6 @@
 # Parts List
 ## Required Parts
-#### **SMD Assembled PCB PCB**
+#### **SMD Assembled PCB**
 * Follow [this guide](../orderingGuide/readme.md)
 * 1 per FOCer
 #### **Heat sink**: [AliExpress](https://www.AliExpress.com/item/32951112852.html)
