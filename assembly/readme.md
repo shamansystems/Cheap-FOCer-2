@@ -3,7 +3,7 @@ The following guide explains correct procedures on how to assemble the Cheap FOC
 
 # Prerequisites
 * Follow the [Ordering Guide](../orderingGuide) and receive  SMD assembled PCB
-* Have all required [Parts](partsList.md)
+* Obtain all required [Parts](partsList.md)
 
 ## What your board should look like:
 ![](./images/image1.jpeg)
