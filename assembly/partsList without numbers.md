@@ -79,7 +79,7 @@
 * Braided copper solder wick
 * 1 roll for the rest of your life, if you dont fuck up too much
 * To remove solder
-3. **Flux**: [AliExpress](https://www.AliExpress.com/item/32828595199.html)
+* **Flux**: [AliExpress](https://www.AliExpress.com/item/32828595199.html)
 * One tube should do
 * Makes soldering work better 
 
