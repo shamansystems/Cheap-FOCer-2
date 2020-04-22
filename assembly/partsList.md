@@ -77,7 +77,7 @@
     * Makes soldering work better 
 
 ## Tools List
-1. **M3 screw driver**(required): [aliexpress](https://www.aliexpress.com/item/32676647238.html)
+1. **M3 socket**(required): [aliexpress](https://www.aliexpress.com/item/32676647238.html)
 1. **Soldering iron**(required): [aliexpress](https://www.aliexpress.com/item/4000019437594.html)
     * [amazon](https://www.amazon.com/X-Tronic-3020-XTS-Digital-Display-Soldering/dp/B01DGZFSNE)
     * [How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/) [youtube](https://youtu.be/b9FC9fAlfQE)
