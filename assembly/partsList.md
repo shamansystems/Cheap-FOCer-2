@@ -13,7 +13,7 @@
     * This electrically insulates the MOSFET tabs from the heatsink (very important).
     * 0.5mm thick thermal pad **will NOT be sufficient** to fill the gap between MOSFET tabs and heat sink surface.
 1. **Thermal paste**: 
-    * 60mm x 60mm x 1mm non conductive [Thermal pad](./images/thermalPad.jpeg)
+    * Any Thermal Paste
     * 2 dabs per FOCer
     * Yes you need both pads and paste
     * Paste is used to help connect a MOSFET to the thermocouple
