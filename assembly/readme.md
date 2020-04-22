@@ -2,15 +2,16 @@
 The following guide explains correct procedures on how to assemble the Cheap FOCer 2 (CFOC2) and mount it to a flat heat sink surface. Please pay close attention to details else you will risk damaging the controller in assembly or causing damage later in operation. This is not time for "TLDR".
 
 ## Prerequisites
-* [Ordering Guide](../orderingGuide)
-* [Parts](partsList.md)
-    -   Drill press or drill
+* Follow the [Ordering Guide](../orderingGuide) and receive  SMD assembled PCB
+* Have all reequired [Parts](partsList.md)
+    - **TODO:** add these to the parts doc then remove from this doc:
+        -   Drill press or drill
 
-    -   2.5mm drill bit
+        -   2.5mm drill bit
 
-    -   Needle nose pliers
+        -   Needle nose pliers
 
-    -   Solder/reflow station
+        -   Solder/reflow station
 
 ![](./images/image1.jpeg) ![](./images/image2.jpeg)
 
