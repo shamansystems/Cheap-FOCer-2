@@ -13,9 +13,7 @@ The following guide explains correct procedures on how to assemble the Cheap FOC
 
         -   Solder/reflow station
 
-![](./images/image1.jpeg) ![](./images/image2.jpeg)
-
-The assumption is made that you have had most or all SMD components assembled. The CFOC2 is the following example was created and partially assembled by JLCPCB. Note the DRV8301 is absent on the board due to lack of stock at the time this was ordered. It is recommended that JLCPCB provide and assemble the DRV8301 when ppssible.
+This is what your PCB should look like after the CFOC2 is the following example was created and partially assembled by JLCPCB. Note the DRV8301 is absent on the board due to lack of stock at the time this was ordered. It is recommended that JLCPCB provide and assemble the DRV8301 when ppssible.
 
 ![](./images/image3.jpeg)
 
