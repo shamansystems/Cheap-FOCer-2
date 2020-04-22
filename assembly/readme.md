@@ -2,10 +2,12 @@
 
 The following guide explains correct procedures on how to assemble the Cheap FOCer 2 (CFOC2) and mount it to a flat heat sink surface. Please pay close attention to details else you will risk damaging the controller in assembly or causing damage later in operation. **This is not time for "TLDR"**.
 
-# Prerequisites
+## Prerequisites
 
 * Follow the [Ordering Guide](../orderingGuide) and receive  SMD assembled PCB
 * Obtain all required [Parts](partsList.md)
+* Learn [how to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/)
+[youtube](https://youtu.be/b9FC9fAlfQE)
 
 ## What your board should look like
 
@@ -106,10 +108,3 @@ Carefully tighten machine screws in the same manor as tightening lug nuts on a t
 It is now time to power on the controller to conduct a quick test. It is preferable to conduct this initial power up with a current-limited power supply set to 100mA. When powered on, the controller should only draw as much roughly 70mA. If a current-limited power supply is not available, then powering up through an anti-spark connector is second best. The blue LED should illuminate if power is successfully flowing through the controller.
 
 The controller is now ready to be programed. Please follow [this guide](https://electric-skateboard.builders/t/vesc-boot-loader-installation-tutorial/32103?source_topic_id=52813) to install the bootloader and CFOC2 firmware located in the firmware folder of the repository files.
-
-# Coming soon
-
-In the meantime get ready for your boards to arrive by making sure you have the tools you need in the [parts list](./partsList.md).
-
-[How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/)
-[youtube](https://youtu.be/b9FC9fAlfQE)
