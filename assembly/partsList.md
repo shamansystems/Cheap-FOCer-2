@@ -1,32 +1,32 @@
 # Parts List
 1. **Completed PCB**
-	* [Cheap FOCer V2 fully assembled PCB](../orderingGuide/readme.md)
-	* 1 per FOCer
+    * [Cheap FOCer V2 fully assembled PCB](../orderingGuide/readme.md)
+    * 1 per FOCer
 3. **Heat sink**: [aliexpress](https://www.aliexpress.com/item/32951112852.html)
-	* 60mm x 100mm ( x 10mm) flat surface [Heat sink](heatSink.jpeg) 
-	* 1 per FOCer
-	* Any [generic heat sink](heatSink.jpeg) with a flat surface of at least 60mm x 100mm can be used
+    * 60mm x 100mm ( x 10mm) flat surface [Heat sink](heatSink.jpeg) 
+    * 1 per FOCer
+    * Any [generic heat sink](heatSink.jpeg) with a flat surface of at least 60mm x 100mm can be used
 4. **Thermal pad**: [aliexpress](https://www.aliexpress.com/item/32810504639.html)
-	* 60mm x 60mm x 1mm non conductive [Thermal pad](thermalPad.jpeg)
-	* 1 per FOCer
+    * 60mm x 60mm x 1mm non conductive [Thermal pad](thermalPad.jpeg)
+    * 1 per FOCer
     * This electrically insulates the MOSFET tabs from the heatsink (very important).
     * 0.5mm thick thermal pad **will NOT be sufficient** to fill the gap between MOSFET tabs and heat sink surface.
 5. **Screws**: [aliexpress](https://www.aliexpress.com/item/32810872544.html)
-	* m3 x 12mm hex socket [screws](screws.jpeg)
-	* 5 per FOCer
+    * m3 x 12mm hex socket [screws](screws.jpeg)
+    * 5 per FOCer
 1. **Spacers**: [aliexpress](https://www.aliexpress.com/item/33047891996.html),  [ebay](https://www.ebay.com/itm/OD7-5mm-Nylon-Round-Spacer-Standoff-For-M3-thread-Screw-Blot-QTY50/183743008473) [thingiverse](https://www.thingiverse.com/thing:2876367)
-	* M3/M4 5mm nylon [spacers](spacers.jpeg)
-	* 5 per FOCer
-	* Spacers to prevent over-tightening of screws, which cause warping/damage to the PCB.
+    * M3/M4 5mm nylon [spacers](spacers.jpeg)
+    * 5 per FOCer
+    * Spacers to prevent over-tightening of screws, which cause warping/damage to the PCB.
 1. **Washers**: [aliexpress](https://www.aliexpress.com/item/33021883302.html)
-	* M3 x 6mm x 1 mm Nylon [Washers](washers.jpeg) 
-	* 5 per FOCer
+    * M3 x 6mm x 1 mm Nylon [Washers](washers.jpeg) 
+    * 5 per FOCer
 1. **Nuts? are we drilling and tapping the Heat sink? WHAT IS THE PLANNNNNN????**
 
 #### Optional
 1. **Pin headers**:  [aliexpress](https://www.aliexpress.com/item/4000909558952.html)
-	* [Pin headers](pinHeaders.png)
-	* a bunch per FOCer
+    * [Pin headers](pinHeaders.png)
+    * a bunch per FOCer
 1. **Power switch**: [aliexpress](https://www.aliexpress.com/item/4000358463924.html)
     * 2 position switch
     * 1 per FOCer
@@ -41,22 +41,22 @@
 
 ## Wires, cables and connectors
 1. **Battery & Motor Phase Wire**: [aliexpress](https://www.aliexpress.com/item/33057076463.html)
-	* 100mm of 12AWG or 10AWG Silicone Stranded Wire
+    * 100mm of 12AWG or 10AWG Silicone Stranded Wire
     * 1 red & 4 black(500mm total) per FOCer
     * [the shorter the better on the battery side](https://www.youtube.com/watch?v=54bb9zpDdZU)
 2. **Battery connector**: [aliexpress](https://www.aliexpress.com/item/32546847748.html)
     * XT60 or XT90 [male](xt90MvF.jpg) **Amass** connector
     * 1 per FOCer
 3. **motor connectors**: [aliexpress](https://www.aliexpress.com/item/32926203705.html)
-	* 4mm bullet connectors 
-	* 3 per FOCer
+    * 4mm bullet connectors 
+    * 3 per FOCer
      * Other options: 4.5mm/5mm/5.5mm/etc. bullet connectors, MT60
 #### Optional
 1. **JST PH 2.0 Pigtails**: [aliexpress](https://www.aliexpress.com/item/32733307616.html)
-	* 2x2pin per FOCer
-	* 1x3pin per FOCer
-	* 1x6pin per FOCer
-	* 1x7pin per FOCer
+    * 2x2pin per FOCer
+    * 1x3pin per FOCer
+    * 1x6pin per FOCer
+    * 1x7pin per FOCer
     * Used for quick setup and configuration of external accessories
 1. **Heat shrink**
     * For the PCB- [ali express](https://a.aliexpress.com/_dUNLfKc)
@@ -73,9 +73,9 @@
 
 ### Consumables (Optional)
 1. **Solder wick**
-	* Braided copper solder wick
-	* 1 roll for the rest of your life, if you dont fuck up too much
-	* To remove solder
+    * Braided copper solder wick
+    * 1 roll for the rest of your life, if you dont fuck up too much
+    * To remove solder
 3. **Flux**: [aliexpress](https://www.aliexpress.com/item/32828595199.html)
     * One tube should do
     * Makes soldering work better 
@@ -88,9 +88,9 @@
 
 ### Optional
 1. **helping hands**: [amazon](https://www.amazon.com/gp/product/B078N9DPQ5)
-	 * This is pretty much mandatory trust us
+     * This is pretty much mandatory trust us
 1.  **reflow station with soldering iron**: [amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28)
-	 * Mandatory if you plan to add the IMU (BMI160)
+     * Mandatory if you plan to add the IMU (BMI160)
 1. **Solder sucker** 
     * To remove solder
     * Easier to use than solder wick, not consumable
