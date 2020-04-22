@@ -1,14 +1,17 @@
 # Assembly Guide
+
 The following guide explains correct procedures on how to assemble the Cheap FOCer 2 (CFOC2) and mount it to a flat heat sink surface. Please pay close attention to details else you will risk damaging the controller in assembly or causing damage later in operation. **This is not time for "TLDR"**.
 
 # Prerequisites
+
 * Follow the [Ordering Guide](../orderingGuide) and receive  SMD assembled PCB
 * Obtain all required [Parts](partsList.md)
 
-## What your board should look like:
+## What your board should look like
+
 ![](./images/image1.jpeg)
 ![](./images/image2.jpeg)
-This is what your PCB should look like after the CFOC2 is the following example was created and SMD assembled by JLCPCB. Note the DRV8301 is absent on the board due to lack of stock at the time this was ordered. It is recommended that JLCPCB provide and assemble the DRV8301 when possible.  Otherwise, you will have to do something like [this](https://youtu.be/k5N07ByY6Hc?t=399) to put it on. 
+This is what your PCB should look like after the CFOC2 is the following example was created and SMD assembled by JLCPCB. Note the DRV8301 is absent on the board due to lack of stock at the time this was ordered. It is recommended that JLCPCB provide and assemble the DRV8301 when possible.  Otherwise, you will have to do something like [this](https://youtu.be/k5N07ByY6Hc?t=399) to put it on.
 
 ![](./images/image3.jpeg)
 
@@ -104,9 +107,8 @@ It is now time to power on the controller to conduct a quick test. It is prefera
 
 The controller is now ready to be programed. Please follow [this guide](https://electric-skateboard.builders/t/vesc-boot-loader-installation-tutorial/32103?source_topic_id=52813) to install the bootloader and CFOC2 firmware located in the firmware folder of the repository files.
 
-
-
 # Coming soon
+
 In the meantime get ready for your boards to arrive by making sure you have the tools you need in the [parts list](./partsList.md).
 
 [How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/)
