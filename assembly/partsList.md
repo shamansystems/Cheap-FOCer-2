@@ -1,5 +1,4 @@
-# Parts List
-## Required Parts
+## Parts
 #### **SMD Assembled PCB**
 * Follow [this guide](../orderingGuide/readme.md)
 * 1 per FOCer
