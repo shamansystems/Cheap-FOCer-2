@@ -6,13 +6,13 @@
 
 1. Go to: [https://cart.jlcpcb.com/quote](https://cart.jlcpcb.com/quote) 
 
-1. Click the `Add your gerber file` button and select the [gerber.zip](../gerber.zip) file from the root directory ![](a33759f1b319649d610ba648f7687170_html_362cf7f7.png)
+1. Click the `Add your gerber file` button and select the [gerber.zip](../gerber.zip) file from the root directory ![](./images/addGerber.png)
 
-1. You should now see the CFOC2 front and back in the preview as shown below ![](a33759f1b319649d610ba648f7687170_html_94f708f.png)
+1. You should now see the CFOC2 front and back in the preview as shown below ![](./images/a33759f1b319649d610ba648f7687170_html_94f708f.png)
 
-1. There are a few properties that you can customize if you want. The PCB quantity (the amount you want made), thickness, color, and surface finish are all I recommend adjusting to preference. Note that certain choices of these options will affect pricing. By default, the cheapest options are already selected. ![](a33759f1b319649d610ba648f7687170_html_c9b46488.png)
+1. There are a few properties that you can customize if you want. The PCB quantity (the amount you want made), thickness, color, and surface finish are all I recommend adjusting to preference. Note that certain choices of these options will affect pricing. By default, the cheapest options are already selected. ![](./images/a33759f1b319649d610ba648f7687170_html_c9b46488.png)
 
-1.  Select the toggle button to enable SMT Assembly ![](a33759f1b319649d610ba648f7687170_html_ab889d60.png)
+1.  Select the toggle button to enable SMT Assembly ![](./images/a33759f1b319649d610ba648f7687170_html_ab889d60.png)
 
 1.  Select the `Assemble top side` option
 
@@ -20,7 +20,7 @@
 
 1.  Select the `confirm` button to continue
 
-1.  Add the [bom.csv](../bom.csv) and [cpl.csv](../cpl.csv) files in the root directory.  To download from github click the `Raw` button then save as from your browser.  Before saving you may need to change the extension from txt to csv.  ![](downloadCsvFromGithub.gif)![](a33759f1b319649d610ba648f7687170_html_f09ce745.png)
+1.  Add the [bom.csv](../bom.csv) and [cpl.csv](../cpl.csv) files in the root directory.  To download from github click the `Raw` button then save as from your browser.  Before saving you may need to change the extension from txt to csv.  ![](./images/downloadCsvFromGithub.gif)![](./images/a33759f1b319649d610ba648f7687170_html_f09ce745.png)
 
 1.  Click `Next` to continue
 
@@ -30,7 +30,7 @@
     The `Extended Parts` such as the DRV8301 and the 100v rated components cost more but will be much better if JLCPCB solders it for you.  The DRV8301 chip is one of the hardest things to solder by hand.
 
     The only parts that you should see as `No part selected` are the (10uF, 100V) caps, the 22uH inductor, the BMI160 IMU, and the (4.7uF, 100V) caps. These components plus the MOSFETs must be acquired and assembled external to JLCPCB. Ordering these remaining components from LCSC.com will be covered [later in this guide](#remaining-components-from-lcsccom).
-    ![](noPartsSelected.png)
+    ![](./images/noPartsSelected.png)
 
     If you intend to use your FOCer for balancing applications such as a onewheel or unicycle you will have to solder the BMI160 IMU yourself. This is a leadless component which requires a [reflow station](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28).
 
@@ -38,11 +38,11 @@
 
 1. Click `Next` to continue
 
-1. You should now see a preview of the parts placement on the CFOC2. The placement of the DRV8301 and a few other multi-pin components will appear wrongly placed. **This is ok.** JLCPCB will correct this later in what they call a `DFM review`. I have had no issues in letting JLCPCB handle the correction of component placement in all of my many orders. ![](a33759f1b319649d610ba648f7687170_html_a3977b4e.png)
+1. You should now see a preview of the parts placement on the CFOC2. The placement of the DRV8301 and a few other multi-pin components will appear wrongly placed. **This is ok.** JLCPCB will correct this later in what they call a `DFM review`. I have had no issues in letting JLCPCB handle the correction of component placement in all of my many orders. ![](./images/a33759f1b319649d610ba648f7687170_html_a3977b4e.png)
 
 1. 
     Scroll down and you will see a list of `Unselected Parts`. The [LCSC BOM file](../5XBomLcsc.csv) covered [later in this guide](#remaining-components-from-lcsccom) will fulfill the remaining parts. 
-    ![](unselectedParts.png)
+    ![](./images/unselectedParts.png)
     
     If you excluded certain parts on your own or if JLCPCB was out of stock of something, then click the `Download Unselected Parts List` button for a list of what you will need to acquire outside of this guide.
     
@@ -54,15 +54,15 @@
 1. Go to [LCSC's boom tool](https://lcsc.com/bom.html#/upload)
 
 1. Click `select a file` and upload [5XBomLcsc.csv](../5XBomLcsc.csv)
-![](a33759f1b319649d610ba648f7687170_html_9af9f958.png)
+![](./images/a33759f1b319649d610ba648f7687170_html_9af9f958.png)
 
 1. There should now be a list that has loaded on your screen. You will need to select the column header the `Quantity` and `Manufacture Part Number` columns from the drop-down menus as shown below.
-    ![](bomLcscColumnSelection.png)
+    ![](./images/bomLcscColumnSelection.png)
 
 1. Click `Next` to continue.
 
 1. You should now see a page showing the parts that LCSC has chosen to fit the parts described in the BOM that was uploaded. Scroll through the list to verify that all parts are present and accounted for. Notice that certain components, have a minimum order quantities and you will need to update the quantities of these items to meet the minimum requirements
-    ![](a33759f1b319649d610ba648f7687170_html_fab8b969.png)
+    ![](./images/a33759f1b319649d610ba648f7687170_html_fab8b969.png)
 
 1. Quantities of parts in this list are for 5 CFOC2. Please scale up the quantities per amount of CFOC2 PCBs you have ordered from JLCPCB. 
 
