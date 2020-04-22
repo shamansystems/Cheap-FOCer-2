@@ -1,5 +1,5 @@
 # Parts List
-1. **Completed PCB**:
+1. **Completed PCB**
 	* [Cheap FOCer V2 fully assembled PCB](../orderingGuide/readme.md)
 	* 1 per FOCer
 3. **Heat sink**: [aliexpress](https://www.aliexpress.com/item/32951112852.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK)
@@ -23,7 +23,7 @@
 	* 5 per FOCer
 1. **Nuts? are we drilling and tapping the Heat sink? WHAT IS THE PLANNNNNN????**
 
-#### Optional:
+#### Optional
 1. **Pin headers**:  [aliexpress](https://www.aliexpress.com/item/4000909558952.html?spm=a2g0o.productlist.0.0.7b585306lMMAjD&algo_pvid=fd1d054e-44a8-469a-84ec-c4b4fd743e28&algo_expid=fd1d054e-44a8-469a-84ec-c4b4fd743e28-0&btsid=0ab6f82315874882006221885e425b&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
 	* [Pin headers](pinHeaders.png)
 	* a bunch per FOCer
@@ -51,7 +51,7 @@
 	* 4mm bullet connectors 
 	* 3 per FOCer
      * Other options: 4.5mm/5mm/5.5mm/etc. bullet connectors, MT60
-#### Optional:
+#### Optional
 1. **JST PH 2.0 Pigtails**: [aliexpress](https://www.aliexpress.com/item/32733307616.html?spm=a2g0s.9042311.0.0.7a894c4dYDsoaK)
 	* 2x2pin per FOCer
 	* 1x3pin per FOCer
