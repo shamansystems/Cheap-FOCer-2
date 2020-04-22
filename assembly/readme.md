@@ -3,22 +3,22 @@ The following guide explains correct procedures on how to assemble the Cheap FOC
 
 ## Prerequisites
 * Follow the [Ordering Guide](../orderingGuide) and receive  SMD assembled PCB
-* Have all reequired [Parts](partsList.md)
+* Have all required [Parts](partsList.md)
 
 ## What your board should look like:
 ![](./images/image1.jpeg)
 ![](./images/image2.jpeg)
-This is what your PCB should look like after the CFOC2 is the following example was created and partially assembled by JLCPCB. Note the DRV8301 is absent on the board due to lack of stock at the time this was ordered. It is recommended that JLCPCB provide and assemble the DRV8301 when ppssible.
+This is what your PCB should look like after the CFOC2 is the following example was created and partially assembled by JLCPCB. Note the DRV8301 is absent on the board due to lack of stock at the time this was ordered. It is recommended that JLCPCB provide and assemble the DRV8301 when possible.
 
 ![](./images/image3.jpeg)
 
-Figure x. heatsink(left) and CFOC2 PCB(right)
+Figure x. heat sink(left) and CFOC2 PCB(right)
 
 ![](./images/image4.jpeg)
 
-Figure x. PCB temporarily fastened to heatsink surface
+Figure x. PCB temporarily fastened to heat sink surface
 
-Use a fresh CFOC2 PCB to act as a drill pattern for the mounting holes in your heatsink. Align and temporarily fasten the PCB to the heatsink. The images above are an example of this using the recommended heatsink.
+Use a fresh CFOC2 PCB to act as a drill pattern for the mounting holes in your heat sink. Align and temporarily fasten the PCB to the heat sink. The images above are an example of this using the recommended heat sink.
 
 Drill and tap the 6 mounting holes for M3 screws. I recommend drilling the holes with a 2.5mm drill bit and then tapping the threads. If you do not have a tap and die set, you can *carefully* tap the threads by forcing one of the M3 screws through the holes. Turn the screw slowly and use some oil to help. If done too carelessly, the M3 screw could break off in the hole.
 
@@ -48,7 +48,7 @@ Figure x. Correct placement with MOSFET body is flush against PCB.
 
 Figure x. Incorrect placement with MOSFET body not Flush with PCB
 
-It is imperative that all MOSFETs be placed and held flush to the PCB surface. Failure to do so will cause a misalignment with the heatsink surface and cause potentially damage to the PCB.
+It is imperative that all MOSFETs be placed and held flush to the PCB surface. Failure to do so will cause a misalignment with the heat sink surface and cause potentially damage to the PCB.
 
 ![](./images/image10.jpeg)
 
@@ -88,17 +88,17 @@ It is advised to apply excess solder to the thinner portions of the legs up to t
 
 ![](./images/image15.jpeg)
 
-Figure x. Fully assembled CFOC2 PCB(left) next to prepared heatsink(middle) and fastening hardware(right)
+Figure x. Fully assembled CFOC2 PCB(left) next to prepared heat sink(middle) and fastening hardware(right)
 
-Now solder all remaining components to include cables to the PCB. Be sure to trim excess motor and DC power cable ends on the bottom of the PCB so that there is not risk of the cables being bridged to the heatsink.
+Now solder all remaining components to include cables to the PCB. Be sure to trim excess motor and DC power cable ends on the bottom of the PCB so that there is not risk of the cables being bridged to the heat sink.
 
 Prepare the fastening hardware and a 60mm x 51mm portion of 1mm thick thermal pad as seen in the image above.
 
 ![](./images/image16.jpeg)
 
-Make sure there is not any thermal pad being pinched between the nylon spacers in the heatsink. This will cause a misalignment in spacing which could cause excess stress to the PCB later.
+Make sure there is not any thermal pad being pinched between the nylon spacers in the heat sink. This will cause a misalignment in spacing which could cause excess stress to the PCB later.
 
-Carefully tighten machine screws in the same manor as tightening lug nuts on a tire. Start with the middle screws on the top and bottom. Tighten until just barely snug and then do the same to the other screws. Do not fully tighten until all screws have had some amount of tightening and there is a relatively even amount of pressure on the PCB from all mounting points. When done, there should be no air gaps in between the nylon spacers and pcb/heatsink and there should be no airgaps between the MOSFET tabs and the thermal pad.
+Carefully tighten machine screws in the same manor as tightening lug nuts on a tire. Start with the middle screws on the top and bottom. Tighten until just barely snug and then do the same to the other screws. Do not fully tighten until all screws have had some amount of tightening and there is a relatively even amount of pressure on the PCB from all mounting points. When done, there should be no air gaps in between the nylon spacers and pcb/heat sink and there should be no air gaps between the MOSFET tabs and the thermal pad.
 
 It is now time to power on the controller to conduct a quick test. It is preferable to conduct this initial power up with a current-limited power supply set to 100mA. When powered on, the controller should only draw as much roughly 70mA. If a current-limited power supply is not available, then powering up through an anti-spark connector is second best. The blue LED should illuminate if power is successfully flowing through the controller.
 
