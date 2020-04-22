@@ -4,14 +4,8 @@ The following guide explains correct procedures on how to assemble the Cheap FOC
 ## Prerequisites
 * Follow the [Ordering Guide](../orderingGuide) and receive  SMD assembled PCB
 * Have all reequired [Parts](partsList.md)
-    - **TODO:** add these to the parts doc then remove from this doc:
-        -   Drill press or drill
 
-        -   2.5mm drill bit
-
-        -   Needle nose pliers
-
-        -   Solder/reflow station
+## Your board
 
 This is what your PCB should look like after the CFOC2 is the following example was created and partially assembled by JLCPCB. Note the DRV8301 is absent on the board due to lack of stock at the time this was ordered. It is recommended that JLCPCB provide and assemble the DRV8301 when ppssible.
 
