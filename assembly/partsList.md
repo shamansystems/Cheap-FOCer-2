@@ -3,16 +3,21 @@
 1. **Completed PCB**
     * [Cheap FOCer V2 fully assembled PCB](../orderingGuide/readme.md)
     * 1 per FOCer
-3. **Heat sink**: [aliexpress](https://www.aliexpress.com/item/32951112852.html)
+1. **Heat sink**: [aliexpress](https://www.aliexpress.com/item/32951112852.html)
     * 60mm x 100mm ( x 10mm) flat surface [Heat sink](./images/heatSink.jpeg) 
     * 1 per FOCer
     * Any [generic heat sink](./images/heatSink.jpeg) with a flat surface of at least 60mm x 100mm can be used
-4. **Thermal pad**: [aliexpress](https://www.aliexpress.com/item/32810504639.html)
+1. **Thermal pad**: [aliexpress](https://www.aliexpress.com/item/32810504639.html)
     * 60mm x 60mm x 1mm non conductive [Thermal pad](./images/thermalPad.jpeg)
     * 1 per FOCer
     * This electrically insulates the MOSFET tabs from the heatsink (very important).
     * 0.5mm thick thermal pad **will NOT be sufficient** to fill the gap between MOSFET tabs and heat sink surface.
-5. **Screws**: [aliexpress](https://www.aliexpress.com/item/32810872544.html)
+1. **Thermal paste**: 
+    * Any Thermal Paste
+    * 2 dabs per FOCer
+    * Yes you need both pads and paste
+    * Paste is used to help connect a MOSFET to the thermocouple
+1. **Screws**: [aliexpress](https://www.aliexpress.com/item/32810872544.html)
     * m3 x 12mm hex socket [screws](./images/screws.jpeg)
     * 5 per FOCer
 1. **Spacers**: [aliexpress](https://www.aliexpress.com/item/33047891996.html),  [ebay](https://www.ebay.com/itm/OD7-5mm-Nylon-Round-Spacer-Standoff-For-M3-thread-Screw-Blot-QTY50/183743008473) [thingiverse](https://www.thingiverse.com/thing:2876367)
@@ -22,7 +27,6 @@
 1. **Washers**: [aliexpress](https://www.aliexpress.com/item/33021883302.html)
     * M3 x 6mm x 1 mm Nylon [Washers](./images/washers.jpeg) 
     * 5 per FOCer
-1. **Nuts? are we drilling and tapping the Heat sink? WHAT IS THE PLANNNNNN????**
 
 ### Optional Parts
 1. **Pin headers**:  [aliexpress](https://www.aliexpress.com/item/4000909558952.html)
@@ -88,7 +92,14 @@
     * Easier to use than solder wick, not consumable
 1. **multimeter**
 1. **magnifier/microscope**
-1. **Tweezers**- to place small parts: [ali express](https://aliexpress.com/item/33019151832.html)
+1. **Tweezers**: [ali express](https://aliexpress.com/item/33019151832.html)
+    * To place small parts
+1. **Drill**
+    * For heatsink connection
+1. **2.5mm bit**
+    * For heatsink connection
+1. **M3 Tap**
+    * For heatsink connection
 
 ## Accessories (This should probably be another file)
 1. **bluetooth module**- [ali express](https://www.aliexpress.com/item/32833817130.html)
