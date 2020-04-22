@@ -44,8 +44,8 @@
 	* 100mm of 12AWG or 10AWG Silicone Stranded Wire
     * 1 red & 4 black(500mm total) per FOCer
     * [the shorter the better on the battery side](https://www.youtube.com/watch?v=54bb9zpDdZU)
-2. **Battery connector**: [aliexpress](https://www.aliexpress.com/item/32546847748.html) [aliexpress](https://www.aliexpress.com/item/32546847748.html) [aliexpress](https://www.aliexpress.com/item/4000001105491.html)
-    * XT60 or [XT90](xt90MvF.jpg) male **Amass** connector
+2. **Battery connector**: [aliexpress](https://www.aliexpress.com/item/32546847748.html)
+    * XT60 or XT90 [male](xt90MvF.jpg) **Amass** connector
     * 1 per FOCer
 3. **motor connectors**: [aliexpress](https://www.aliexpress.com/item/32926203705.html)
 	* 4mm bullet connectors 
