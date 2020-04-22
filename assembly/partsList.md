@@ -64,7 +64,7 @@
     * For other wires(motor bullet connectors)- [ali express](https://www.aliexpress.com/item/33008449230.html)
 
 ## Consumables
-1. **Solder(required)**: [ali express](https://www.aliexpress.com/item/32946643268.html) [Amazon No Clean Flux Core (EASY TO USE)](https://www.amazon.com/MG-Chemicals-Leaded-Solder-Pocket/dp/B072JQ1N4G)
+1. **Solder**(required): [ali express](https://www.aliexpress.com/item/32946643268.html) [Amazon No Clean Flux Core (EASY TO USE)](https://www.amazon.com/MG-Chemicals-Leaded-Solder-Pocket/dp/B072JQ1N4G)
     * 0.5mm to 1mm
     * if you can, get 0.5
     * rosin core is for electronics
@@ -77,7 +77,8 @@
     * Makes soldering work better 
 
 ## Tools List
-1. **Soldering iron(required)**: [aliexpress](https://www.aliexpress.com/item/4000019437594.html)
+1. **M3 screw driver**(required): [aliexpress](https://www.aliexpress.com/item/32676647238.html)
+1. **Soldering iron**(required): [aliexpress](https://www.aliexpress.com/item/4000019437594.html)
     * [amazon](https://www.amazon.com/X-Tronic-3020-XTS-Digital-Display-Soldering/dp/B01DGZFSNE)
     * [How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/) [youtube](https://youtu.be/b9FC9fAlfQE)
 1. **helping hands**- highly recommended: [amazon](https://www.amazon.com/gp/product/B078N9DPQ5)
