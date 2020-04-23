@@ -134,12 +134,12 @@
 ### **Drill**(required)
 
 * Electric Drill
-* To drill holes in the heatsink
+* To drill holes in the heat sink
 
 ### **Drill Bit**(required)
 
 * 2.5mm drill bit
-* For heatsink connection
+* For heat sink connection
 
 ### **Tap Wrench**(required)
 
