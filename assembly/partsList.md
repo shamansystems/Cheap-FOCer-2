@@ -177,12 +177,14 @@ I cant say where or why, but surely you'll need it for something
 
 To place small parts
 
-## Accessories (This should probably be another file)
+## Accessories
 
-### **bluetooth module**- [AliExpress](https://www.AliExpress.com/item/32833817130.html)
+### **Bluetooth Module**- [AliExpress](https://www.AliExpress.com/item/32833817130.html)
 
 * <https://www.youtube.com/watch?v=PFFiVxFHDM4&feature=emb_title>
 * <https://vesc-project.com/node/234>
 * I was able to get a [HM-10 Bluetooth 4.0](https://www.AliExpress.com/item/32888733000.html) working with [ackmaniac's](http://esk8.news/how-to-ackmaniac-esc-tool/) firmware on my vesc at 9600 baud rate
 
-### **remote**- recommendations
+### **Remote**
+
+TODO: Will any remote work?  What should they look for or avoid?
