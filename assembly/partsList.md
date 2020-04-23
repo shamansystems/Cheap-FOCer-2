@@ -89,13 +89,14 @@
 * 3 per FOCer
 * Other options: 4.5mm/5mm/5.5mm/etc. bullet connectors, MT60
 
-### **JST PH 2.0 Pigtails**: [AliExpress](https://www.AliExpress.com/item/32733307616.html)
+### **Pigtails**: [AliExpress](https://www.AliExpress.com/item/32733307616.html)
 
+* JST PH 2.0 Pigtails
 * 2x2pin per FOCer
 * 1x3pin per FOCer
 * 1x6pin per FOCer
 * 1x7pin per FOCer
-* Used for quick setup and configuration of external accessories
+* Used to connect external sensors & accessories
 
 ### **Heat shrink**
 
@@ -112,6 +113,10 @@
 * 0.5 for smaller parts and 1mm for larger wire
 * rosin core
 
+### **Cutting oil**(required)
+
+* For adding threaded holes to the heatsink
+
 ### **Solder wick**
 
 * Braided copper solder wick
@@ -123,16 +128,40 @@
 
 ## Tools List
 
-### **M3 socket**(required): [AliExpress](https://www.AliExpress.com/item/32676647238.html)
+### **Drill**(required)
+
+* Electric Drill
+* To drill holes in the heatsink
+
+### **Drill Bit**(required)
+
+* 2.5mm drill bit 
+* For heatsink connection
+
+### **Tap Wrench**(required)
+
+* For cutting threads in the heatsink
+### **Tap Wrench**(required)
+
+* M3 Tap
+* For cutting threads in the heatsink
+
+### **Tap**(required)
+
+* M3 Tap
+* For heatsink connection
+
+### **M3 Allen Key**(required): [AliExpress](https://www.AliExpress.com/item/32676647238.html)
 
 ### **Soldering iron**(required): [AliExpress](https://www.AliExpress.com/item/4000019437594.html)
 
 * [amazon](https://www.amazon.com/X-Tronic-3020-XTS-Digital-Display-Soldering/dp/B01DGZFSNE)
 * [How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/) [youtube](https://youtu.be/b9FC9fAlfQE)
 
-### **helping hands**- highly recommended: [amazon](https://www.amazon.com/gp/product/B078N9DPQ5)
 
 ### **Reflow Station**- Mandatory for the IMU(BMI160): [Amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28)
+
+### **helping hands**- highly recommended: [amazon](https://www.amazon.com/gp/product/B078N9DPQ5)
 
 ### **Solder sucker**
 
@@ -141,23 +170,13 @@
 
 ### **Multimeter**
 
+*I cant say where or why, but surely you'll need it for something!
+
 ### **Magnifier/Microscope**
 
 ### **Tweezers**: [AliExpress](https://AliExpress.com/item/33019151832.html)
 
 * To place small parts
-
-### **Drill**
-
-* For heatsink connection
-
-### **2.5mm Bit**
-
-* For heatsink connection
-
-### **M3 Tap**
-
-* For heatsink connection
 
 ## Accessories (This should probably be another file)
 
