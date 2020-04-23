@@ -2,7 +2,7 @@
 
 ### **SMD Assembled PCB**
 
-* Follow [this guide](../orderingGuide/readme.md)
+* Follow **[this guide](../orderingGuide/readme.md)**
 * 1 per FOCer
 
 ### **Heat sink**: [AliExpress](https://www.AliExpress.com/item/32951112852.html)
@@ -143,7 +143,9 @@
 
 ### **M3 Allen Key**(required): [AliExpress](https://www.AliExpress.com/item/32676647238.html)
 
-### **Soldering iron**(required): [AliExpress](https://www.AliExpress.com/item/4000019437594.html)
+### **Soldering iron**(required): [AliExpress](https://www.AliExpress.com/item/4000019437594.html), [Amazon](https://www.amazon.com/X-Tronic-3020-XTS-Digital-Display-Soldering/dp/B01DGZFSNE)
+
+[How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/) [youtube](https://youtu.be/b9FC9fAlfQE)
 
 ### **Tap Wrench**: [AliExpress](https://www.aliexpress.com/item/32788074995.html)
 
@@ -154,9 +156,6 @@
 
 * M3 Tap
 * For heat sink connection
-
-* [amazon](https://www.amazon.com/X-Tronic-3020-XTS-Digital-Display-Soldering/dp/B01DGZFSNE)
-* [How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/) [youtube](https://youtu.be/b9FC9fAlfQE)
 
 ### **Reflow Station**- Mandatory for the IMU(BMI160): [Amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28)
 
