@@ -35,7 +35,7 @@
 * M3/M4 5mm nylon [spacers](./images/spacers.jpeg)
 * 5 per FOCer
 * Spacers to prevent over-tightening of screws, which cause warping/damage to the PCB.
-* If printing, use PETG or ABS as PLA warps at around 60c
+* **If printing**, use PETG or ABS as PLA warps at around 60c
 
 ### **Washers**: [AliExpress](https://www.AliExpress.com/item/33021883302.html)
 
