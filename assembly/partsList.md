@@ -159,7 +159,7 @@
 
 ### **Reflow Station**- mandatory for the IMU(BMI160): [Amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28)
 
-### **helping hands**- highly recommended: [amazon](https://www.amazon.com/gp/product/B078N9DPQ5)
+### **Helping Hands**- highly recommended: [AliExpress](https://www.aliexpress.com/item/32974107958.html), [Amazon](https://www.amazon.com/gp/product/B078N9DPQ5)
 
 ### **Solder sucker**
 
