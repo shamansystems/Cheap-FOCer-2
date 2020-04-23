@@ -78,7 +78,7 @@
 
 * 100mm of 12AWG or 10AWG Silicone Stranded Wire
 * 1 red & 4 black(500mm total) per FOCer
-* [the shorter the better on the battery side](https://www.youtube.com/watch?v=54bb9zpDdZU)
+* [The shorter the better on the battery side](https://www.youtube.com/watch?v=54bb9zpDdZU)
 
 ### **Battery Connector**: [AliExpress](https://www.AliExpress.com/item/32546847748.html)
 
@@ -98,14 +98,12 @@
 * 1x3pin per FOCer
 * 1x6pin per FOCer
 * 1x7pin per FOCer
-* Used to connect external sensors & accessories
+* Used for **firmware flashing** and to connect external sensors and accessories
 
 ### **Heat Shrink**
 
 * For the PCB- [AliExpress](https://a.AliExpress.com/_dUNLfKc)
-
-* 70mm diameter for PCs with heat sink
-
+* 70mm diameter for PCBs with heat sink
 * For other wires(motor bullet connectors)- [AliExpress](https://www.AliExpress.com/item/33008449230.html)
 
 ## Consumables
