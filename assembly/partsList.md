@@ -52,7 +52,8 @@
 ### **Pin Headers**:  [AliExpress](https://www.AliExpress.com/item/4000909558952.html)
 
 * [Pin headers](pinHeaders.png)
-* a bunch per FOCer
+* A pack of 10 should do for 5 boards
+* Used for GPIO
 
 ### **Power Wwitch**: [AliExpress](https://www.AliExpress.com/item/4000358463924.html)
 
