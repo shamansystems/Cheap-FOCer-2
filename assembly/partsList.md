@@ -44,7 +44,7 @@
 ### **Firmware Flashing**
 
 * ST-Link V2: [AliExpress](https://www.AliExpress.com/item/32792513237.html)
-* 6-pin JST-PH 2mm male header for connecting to the VESC
+* 6-pin JST-PH 2mm male header for connecting to the VESC: [AliExpress](https://www.AliExpress.com/item/32733307616.html)
 
 ## Optional Parts
 
@@ -135,21 +135,18 @@
 
 ### **Drill Bit**(required)
 
-* 2.5mm drill bit 
+* 2.5mm drill bit
 * For heatsink connection
 
 ### **Tap Wrench**(required)
 
-* For cutting threads in the heatsink
-### **Tap Wrench**(required)
-
 * M3 Tap
-* For cutting threads in the heatsink
+* For cutting threads in the heat sink
 
 ### **Tap**(required)
 
 * M3 Tap
-* For heatsink connection
+* For heat sink connection
 
 ### **M3 Allen Key**(required): [AliExpress](https://www.AliExpress.com/item/32676647238.html)
 
@@ -157,7 +154,6 @@
 
 * [amazon](https://www.amazon.com/X-Tronic-3020-XTS-Digital-Display-Soldering/dp/B01DGZFSNE)
 * [How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/) [youtube](https://youtu.be/b9FC9fAlfQE)
-
 
 ### **Reflow Station**- Mandatory for the IMU(BMI160): [Amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28)
 
