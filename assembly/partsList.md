@@ -145,32 +145,36 @@
 
 ### **Soldering Iron**(required): [AliExpress](https://www.AliExpress.com/item/4000019437594.html), [Amazon](https://www.amazon.com/X-Tronic-3020-XTS-Digital-Display-Soldering/dp/B01DGZFSNE)
 
-[How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/) [youtube](https://youtu.be/b9FC9fAlfQE)
+* [How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/)
+* How to [video style](https://youtu.be/b9FC9fAlfQE)
 
 ### **Tap Wrench**: [AliExpress](https://www.aliexpress.com/item/32788074995.html)
 
 * Can also use a socket or vice grips
 * Just need something to hold the tap straight
 
-### **Tap**:[AliExpress](https://www.aliexpress.com/item/4000465103162.html)
+### **Tap**: [AliExpress](https://www.aliexpress.com/item/4000465103162.html)
 
 * M3 Tap
 * For heat sink connection
+* Can also use one of your steel screws to create threads in the aluminum
 
 ### **Reflow Station**- mandatory for the IMU(BMI160): [Amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28)
 
 ### **Helping Hands**- highly recommended: [AliExpress](https://www.aliexpress.com/item/32974107958.html), [Amazon](https://www.amazon.com/gp/product/B078N9DPQ5)
 
-### **Solder sucker**
+### **Solder Sucker**: [AliExpress](https://www.aliexpress.com/item/32864628837.html)
 
 * To remove solder
 * Easier to use than solder wick, not consumable
 
 ### **Multimeter**: [AliExpress](https://www.aliexpress.com/item/33046473408.html)
 
-I cant say where or why, but surely you'll need it for something
+Cant say where or why, but surely you'll need it for something
 
-### **Magnifier/Microscope**
+### **Magnifier/Microscope**: [AliExpress](https://www.aliexpress.com/item/32816285552.html)
+
+Not sure if the AliExpress one is any good.  Don't get the suction mount.
 
 ### **Tweezers**: [AliExpress](https://AliExpress.com/item/33019151832.html)
 
@@ -180,9 +184,9 @@ To place small parts
 
 ### **Bluetooth Module**- [AliExpress](https://www.AliExpress.com/item/32833817130.html)
 
-* <https://www.youtube.com/watch?v=PFFiVxFHDM4&feature=emb_title>
-* <https://vesc-project.com/node/234>
-* I was able to get a [HM-10 Bluetooth 4.0](https://www.AliExpress.com/item/32888733000.html) working with [ackmaniac's](http://esk8.news/how-to-ackmaniac-esc-tool/) firmware on my vesc at 9600 baud rate
+* [How to](https://www.youtube.com/watch?v=PFFiVxFHDM4)
+* [More info](https://vesc-project.com/node/234)
+* I was able to get a [HM-10 Bluetooth 4.0](https://www.AliExpress.com/item/32888733000.html) working with [Ackmaniac's](http://esk8.news/how-to-ackmaniac-esc-tool/) firmware on my vesc at 9600 baud rate
 
 ### **Remote**
 
