@@ -30,11 +30,12 @@
 * m3 x 12mm hex socket [screws](./images/screws.jpeg)
 * 5 per FOCer
 
-### **Spacers**: [AliExpress](https://www.AliExpress.com/item/33047891996.html),  [ebay](https://www.ebay.com/itm/OD7-5mm-Nylon-Round-Spacer-Standoff-For-M3-thread-Screw-Blot-QTY50/183743008473) [thingiverse](https://www.thingiverse.com/thing:2876367)
+### **Spacers**: [AliExpress](https://www.AliExpress.com/item/33047891996.html),  [ebay](https://www.ebay.com/itm/OD7-5mm-Nylon-Round-Spacer-Standoff-For-M3-thread-Screw-Blot-QTY50/183743008473), [thingiverse](https://www.thingiverse.com/thing:2876367)
 
 * M3/M4 5mm nylon [spacers](./images/spacers.jpeg)
 * 5 per FOCer
 * Spacers to prevent over-tightening of screws, which cause warping/damage to the PCB.
+* If printing, use PETG or ABS as PLA warps at around 60c
 
 ### **Washers**: [AliExpress](https://www.AliExpress.com/item/33021883302.html)
 
