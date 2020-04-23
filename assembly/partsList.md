@@ -5,20 +5,20 @@
 * Follow **[this guide](../orderingGuide/readme.md)**
 * 1 per FOCer
 
-### **Heat sink**: [AliExpress](https://www.AliExpress.com/item/32951112852.html)
+### **Heat Sink**: [AliExpress](https://www.AliExpress.com/item/32951112852.html)
 
 * 60mm x 100mm ( x 10mm) flat surface [Heat sink](./images/heatSink.jpeg)
 * 1 per FOCer
 * Any [generic heat sink](./images/heatSink.jpeg) with a flat surface of at least 60mm x 100mm can be used
 
-### **Thermal pad**: [AliExpress](https://www.AliExpress.com/item/32810504639.html)
+### **Thermal Pad**: [AliExpress](https://www.AliExpress.com/item/32810504639.html)
 
 * 60mm x 60mm x 1mm non conductive [Thermal pad](./images/thermalPad.jpeg)
 * 1 per FOCer
 * This electrically insulates the MOSFET tabs from the heat sink (very important).
 * 0.5mm thick thermal pad **will NOT be sufficient** to fill the gap between MOSFET tabs and heat sink surface.
 
-### **Thermal paste**: [AliExpress](https://www.aliexpress.com/item/4000082981600.html)
+### **Thermal Paste**: [AliExpress](https://www.aliexpress.com/item/4000082981600.html)
 
 * Any Thermal Paste
 * 2 dabs per FOCer
@@ -48,12 +48,12 @@
 
 ## Optional Parts
 
-### **Pin headers**:  [AliExpress](https://www.AliExpress.com/item/4000909558952.html)
+### **Pin Headers**:  [AliExpress](https://www.AliExpress.com/item/4000909558952.html)
 
 * [Pin headers](pinHeaders.png)
 * a bunch per FOCer
 
-### **Power switch**: [AliExpress](https://www.AliExpress.com/item/4000358463924.html)
+### **Power Wwitch**: [AliExpress](https://www.AliExpress.com/item/4000358463924.html)
 
 * 2 position switch
 * 1 per FOCer
@@ -70,7 +70,7 @@
 * 1 per FOCer
 * TODO: link to 3d printable one
 
-## Wires, cables and connectors
+## Wires, Cables and Connectors
 
 ### **Battery & Motor Phase Wire**: [AliExpress](https://www.AliExpress.com/item/33057076463.html)
 
@@ -78,12 +78,12 @@
 * 1 red & 4 black(500mm total) per FOCer
 * [the shorter the better on the battery side](https://www.youtube.com/watch?v=54bb9zpDdZU)
 
-### **Battery connector**: [AliExpress](https://www.AliExpress.com/item/32546847748.html)
+### **Battery Connector**: [AliExpress](https://www.AliExpress.com/item/32546847748.html)
 
 * XT60 or XT90 [male](./images/xt90MvF.jpg) **Amass** connector
 * 1 per FOCer
 
-### **Motor connectors**: [AliExpress](https://www.AliExpress.com/item/32926203705.html)
+### **Motor Connectors**: [AliExpress](https://www.AliExpress.com/item/32926203705.html)
 
 * 4mm female bullet connectors
 * 3 per FOCer
@@ -98,7 +98,7 @@
 * 1x7pin per FOCer
 * Used to connect external sensors & accessories
 
-### **Heat shrink**
+### **Heat Shrink**
 
 * For the PCB- [AliExpress](https://a.AliExpress.com/_dUNLfKc)
 
@@ -113,12 +113,12 @@
 * 0.5 for smaller parts and 1mm for larger wire
 * rosin core
 
-### **Cutting oil**
+### **Cutting Oil**
 
 * For adding threaded holes to the heat sink
 * Could use most any oil you have on hand
 
-### **Solder wick**: [AliExpress](https://www.aliexpress.com/item/32958719300.html)
+### **Solder Wick**: [AliExpress](https://www.aliexpress.com/item/32958719300.html)
 
 * Braided copper solder wick
 * 1 roll for the rest of your life, if you don't fuck up too much
@@ -143,7 +143,7 @@
 
 ### **M3 Allen Key**(required): [AliExpress](https://www.AliExpress.com/item/32676647238.html)
 
-### **Soldering iron**(required): [AliExpress](https://www.AliExpress.com/item/4000019437594.html), [Amazon](https://www.amazon.com/X-Tronic-3020-XTS-Digital-Display-Soldering/dp/B01DGZFSNE)
+### **Soldering Iron**(required): [AliExpress](https://www.AliExpress.com/item/4000019437594.html), [Amazon](https://www.amazon.com/X-Tronic-3020-XTS-Digital-Display-Soldering/dp/B01DGZFSNE)
 
 [How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/) [youtube](https://youtu.be/b9FC9fAlfQE)
 
@@ -157,7 +157,7 @@
 * M3 Tap
 * For heat sink connection
 
-### **Reflow Station**- Mandatory for the IMU(BMI160): [Amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28)
+### **Reflow Station**- mandatory for the IMU(BMI160): [Amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28)
 
 ### **helping hands**- highly recommended: [amazon](https://www.amazon.com/gp/product/B078N9DPQ5)
 
