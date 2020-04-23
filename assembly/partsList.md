@@ -122,7 +122,7 @@
 
 * Braided copper solder wick
 * 1 roll for the rest of your life, if you don't fuck up too much
-* To remove solder
+* Helps with removing bridges and [small chips](https://youtu.be/8yyUlABj29o)
 
 ### **Flux**: [AliExpress](https://www.AliExpress.com/item/32828595199.html)
 
