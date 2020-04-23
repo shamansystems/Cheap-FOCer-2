@@ -126,7 +126,7 @@
 
 ### **Flux**: [AliExpress](https://www.AliExpress.com/item/32828595199.html)
 
-* One tube should do
+* One tube should do for 5 or more boards
 * Makes soldering work better
 
 ## Tools List
@@ -136,7 +136,7 @@
 * Electric Drill
 * To drill holes in the heat sink
 
-### **Drill Bit**(required)
+### **Drill Bit**(required): [AliExpress](https://www.aliexpress.com/item/32483226736.html),[Amazon](https://www.amazon.com/gp/product/B07ZQGXWGL)
 
 * 2.5mm drill bit
 * For heat sink connection
