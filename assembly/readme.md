@@ -25,7 +25,7 @@ Figure x. PCB temporarily fastened to heat sink surface
 
 Use a fresh CFOC2 PCB to act as a drill pattern for the mounting holes in your heat sink. Align and temporarily fasten the PCB to the heat sink. The images above are an example of this using the recommended heat sink.
 
-Drill and tap the 6 mounting holes for M3 screws. I recommend drilling the holes with a 2.5mm drill bit and then tapping the threads. If you do not have a tap and die set, you can *carefully* tap the threads by forcing one of the M3 screws through the holes. Turn the screw slowly and use some oil to help. If done too carelessly, the M3 screw could break off in the hole.
+[Drill and tap](https://www.youtube.com/watch?v=LuqliWT1k5A) the 6 mounting holes for M3 screws. I recommend drilling the holes with a 2.5mm drill bit and then tapping the threads. If you do not have a tap and die set, you can *carefully* tap the threads by forcing one of the M3 screws through the holes. Turn the screw slowly and use some oil to help. If done too carelessly, the M3 screw could break off in the hole.
 
 ![](./images/image5.jpeg)
 
