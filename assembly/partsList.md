@@ -55,7 +55,7 @@
 * A pack of 10 should do for 5 boards
 * Used for GPIO
 
-### **Power Wwitch**: [AliExpress](https://www.AliExpress.com/item/4000358463924.html)
+### **Power Switch**: [AliExpress](https://www.AliExpress.com/item/4000358463924.html)
 
 * 2 position switch
 * 1 per FOCer
