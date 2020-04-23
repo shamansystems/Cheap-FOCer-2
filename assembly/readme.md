@@ -4,7 +4,7 @@ The following guide explains correct procedures on how to assemble the Cheap FOC
 
 ## Prerequisites
 
-* Follow the [Ordering Guide](../orderingGuide) and receive  SMD assembled PCB
+* Follow the [Ordering Guide](../orderingGuide) and receive mostly SMD assembled PCB
 * Obtain all required [Parts](partsList.md)
 * Learn [how to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/)
 [youtube](https://youtu.be/b9FC9fAlfQE)
