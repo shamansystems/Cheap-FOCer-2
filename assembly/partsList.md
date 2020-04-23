@@ -141,6 +141,10 @@
 * 2.5mm drill bit
 * For heat sink connection
 
+### **M3 Allen Key**(required): [AliExpress](https://www.AliExpress.com/item/32676647238.html)
+
+### **Soldering iron**(required): [AliExpress](https://www.AliExpress.com/item/4000019437594.html)
+
 ### **Tap Wrench**: [AliExpress](https://www.aliexpress.com/item/32788074995.html)
 
 * Can also use a socket or vice grips
@@ -150,10 +154,6 @@
 
 * M3 Tap
 * For heat sink connection
-
-### **M3 Allen Key**(required): [AliExpress](https://www.AliExpress.com/item/32676647238.html)
-
-### **Soldering iron**(required): [AliExpress](https://www.AliExpress.com/item/4000019437594.html)
 
 * [amazon](https://www.amazon.com/X-Tronic-3020-XTS-Digital-Display-Soldering/dp/B01DGZFSNE)
 * [How to solder tiny things](https://www.overclockers.com/how-to-solder-tiny-things/) [youtube](https://youtu.be/b9FC9fAlfQE)
@@ -167,15 +167,15 @@
 * To remove solder
 * Easier to use than solder wick, not consumable
 
-### **Multimeter**
+### **Multimeter**: [AliExpress](https://www.aliexpress.com/item/33046473408.html)
 
-*I cant say where or why, but surely you'll need it for something!
+I cant say where or why, but surely you'll need it for something
 
 ### **Magnifier/Microscope**
 
 ### **Tweezers**: [AliExpress](https://AliExpress.com/item/33019151832.html)
 
-* To place small parts
+To place small parts
 
 ## Accessories (This should probably be another file)
 
