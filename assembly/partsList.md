@@ -163,7 +163,7 @@ Wishlist for 5 FOCers: [AliExpress](https://my.aliexpress.com/wishlist/shared.ht
 * For heat sink connection
 * Can also use one of your steel screws to create threads in the aluminum
 
-### **Reflow Station**- mandatory for the IMU(BMI160): [Amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28)
+### **Reflow Station**- mandatory for the IMU(BMI160): [AliExpress](https://www.aliexpress.com/item/32747661606.html),[Amazon](https://www.amazon.com/Flexzion-Digital-Soldering-Station-Desoldering/dp/B0154G4A28)
 
 ### **Helping Hands**- highly recommended: [AliExpress](https://www.aliexpress.com/item/32974107958.html), [Amazon](https://www.amazon.com/gp/product/B078N9DPQ5)
 
