@@ -18,7 +18,7 @@
 * This electrically insulates the MOSFET tabs from the heat sink (very important).
 * 0.5mm thick thermal pad **will NOT be sufficient** to fill the gap between MOSFET tabs and heat sink surface.
 
-### **Thermal paste**
+### **Thermal paste**: [AliExpress](https://www.aliexpress.com/item/4000082981600.html)
 
 * Any Thermal Paste
 * 2 dabs per FOCer
@@ -102,7 +102,7 @@
 
 * For the PCB- [AliExpress](https://a.AliExpress.com/_dUNLfKc)
 
-- 70mm diameter for PCs with heat sink
+* 70mm diameter for PCs with heat sink
 
 * For other wires(motor bullet connectors)- [AliExpress](https://www.AliExpress.com/item/33008449230.html)
 
@@ -113,12 +113,12 @@
 * 0.5 for smaller parts and 1mm for larger wire
 * rosin core
 
-### **Cutting oil**(required)
+### **Cutting oil**
 
 * For adding threaded holes to the heat sink
 * Could use most any oil you have on hand
 
-### **Solder wick**
+### **Solder wick**: [AliExpress](https://www.aliexpress.com/item/32958719300.html)
 
 * Braided copper solder wick
 * 1 roll for the rest of your life, if you don't fuck up too much
@@ -141,12 +141,12 @@
 * 2.5mm drill bit
 * For heat sink connection
 
-### **Tap Wrench**(required)
+### **Tap Wrench**: [AliExpress](https://www.aliexpress.com/item/32788074995.html)
 
-* M3 Tap
-* For cutting threads in the heat sink
+* Can also use a socket or vice grips
+* Just need something to hold the tap straight
 
-### **Tap**(required)
+### **Tap**:[AliExpress](https://www.aliexpress.com/item/4000465103162.html)
 
 * M3 Tap
 * For heat sink connection
