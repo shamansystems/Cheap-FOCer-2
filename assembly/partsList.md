@@ -115,14 +115,17 @@
 
 ### **Cutting oil**(required)
 
-* For adding threaded holes to the heatsink
+* For adding threaded holes to the heat sink
+* Could use most any oil you have on hand
 
 ### **Solder wick**
 
 * Braided copper solder wick
-* 1 roll for the rest of your life, if you dont fuck up too much
+* 1 roll for the rest of your life, if you don't fuck up too much
 * To remove solder
-* **Flux**: [AliExpress](https://www.AliExpress.com/item/32828595199.html)
+
+### **Flux**: [AliExpress](https://www.AliExpress.com/item/32828595199.html)
+
 * One tube should do
 * Makes soldering work better
 
