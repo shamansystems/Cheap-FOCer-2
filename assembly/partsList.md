@@ -85,9 +85,9 @@
 
 ### **Motor connectors**: [AliExpress](https://www.AliExpress.com/item/32926203705.html)
 
-* 4mm bullet connectors
+* 4mm female bullet connectors
 * 3 per FOCer
-* Other options: 4.5mm/5mm/5.5mm/etc. bullet connectors, MT60
+* Other options: 4.5mm/5mm/5.5mm/etc. bullet connectors, [MT60](https://www.aliexpress.com/item/32801541697.html)
 
 ### **Pigtails**: [AliExpress](https://www.AliExpress.com/item/32733307616.html)
 
