@@ -133,7 +133,7 @@ Wishlist for 5 FOCers: [AliExpress](https://my.aliexpress.com/wishlist/shared.ht
 
 * ST-Link V2: [AliExpress](https://www.AliExpress.com/item/32792513237.html)
 * 5-pin 2.54mm male header for connecting to the VESC:  [AliExpress](https://www.AliExpress.com/item/4000909558952.html).  You should have already ordered this as part of the [5XBomLcsc.csv](../5XBomLcsc.csv)
-* Used to flash bootloader as part of the initial setup
+* Used to flash the VESC bootloader as part of the initial setup
 
 ### **Drill**(required): [AliExpress](https://www.aliexpress.com/item/4000642467959.html)
 
