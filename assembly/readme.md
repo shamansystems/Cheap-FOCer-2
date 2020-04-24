@@ -93,7 +93,15 @@ It is advised to apply excess solder to the thinner portions of the legs up to t
 
 Figure x. Fully assembled CFOC2 PCB(left) next to prepared heat sink(middle) and fastening hardware(right)
 
-Now solder all remaining components to include cables to the PCB. Be sure to trim excess motor and DC power cable ends on the bottom of the PCB so that there is not risk of the cables being bridged to the heat sink.
+Now solder all remaining components to include cables to the PCB.
+
+All [diodes](./images/diodPol.png) should be taken care of by JLCPCB. The only other polarized components are the [electrolytic caps](images/capPol.jpg). The circular PCB marking is positive and the square is for negative as shown below:
+![](images/capPolPositionOnPCB.png)
+
+If JLCPCB was out of stock for a polarized component please see the silkscreen marking on the PCB in white showing correct orientation for each polarized components as shown below:
+![]()
+
+Be sure to trim excess motor and DC power cable ends on the bottom of the PCB so that there is not risk of the cables being bridged to the heat sink.
 
 Prepare the fastening hardware and a 60mm x 51mm portion of 1mm thick thermal pad as seen in the image above.
 
