@@ -66,6 +66,7 @@
     ![](./images/a33759f1b319649d610ba648f7687170_html_fab8b969.png)
 
 1. Quantities of parts in this list are for 5 CFOC2. Please scale up the quantities per amount of CFOC2 PCBs you have ordered from JLCPCB.
+1. If this is your first time be sure to order extra parts incase you make a mistake
 
 1. If you have components that are **out of stock** or discontinued please see [this note](#out-of-stock-or-discontinued-components) below.
 
