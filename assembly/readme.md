@@ -15,34 +15,26 @@ Take a look at the front and back of the SMD assembled images below:
 ![front](images/smdFront.jpeg) ![back](images/smdBack.jpeg)
  This is what your PCB should look like after the CFOC2 is mostly SMD assembled by JLCPCB.  Note the DRV8301 is absent on the board due to lack of stock. It is recommended that JLCPCB provide and assemble the DRV8301 when possible.  Otherwise, you will have to do something like [this](https://youtu.be/k5N07ByY6Hc?t=399) to put it on.
 
-## Heat Sink
+## Tapping Heat Sink
 
 1. Grab your [heat sink and CFOC2 PCB](images/heatSinkAndPCB.jpeg)
 
-1. PCB temporarily fastened to heat sink surface like this:
-    ![](./images/image4.jpeg)
+1. Temporarily fasten PCB to heat sink like this:
+    ![](images/heatSinkTappedToPCB.jpeg)
 
-Use a fresh CFOC2 PCB to act as a drill pattern for the mounting holes in your heat sink. Align and temporarily fasten the PCB to the heat sink. The images above are an example of this using the recommended heat sink.
+1. Mark the center of the 6 mounting holes on the heat sink with a marker or a hammer and something sharp like a nail to [make a center hole punch](https://www.youtube.com/watch?v=r5vngxToqi4)
+1. [Drill and tap](https://www.youtube.com/watch?v=LuqliWT1k5A) the 6 mounting holes for M3 screws. Drill the holes with a 2.5mm drill bit and then tap the threads. If you do not have a tap, you can *carefully* tap the threads by forcing one of the steel M3 screws through the softer aluminum holes then backing out when there is resistance. Clean the screw/tap after backing out.  Turn the screw/tap slowly and use some oil to help. If done too carelessly, the M3 screw/tap could break off in the hole.  If you have a grinder you can also try [this](https://www.youtube.com/watch?v=7Ewu6VOrgU8)
 
-[Drill and tap](https://www.youtube.com/watch?v=LuqliWT1k5A) the 6 mounting holes for M3 screws. I recommend drilling the holes with a 2.5mm drill bit and then tapping the threads. If you do not have a tap and die set, you can *carefully* tap the threads by forcing one of the M3 screws through the holes. Turn the screw slowly and use some oil to help. If done too carelessly, the M3 screw could break off in the hole.  If you have a grinder you can also try [this](https://www.youtube.com/watch?v=7Ewu6VOrgU8)
+## MOSFETs
 
-![](./images/image5.jpeg)
+1. Bend all MOSFET legs at a 90-degree angle as shown in the figure below. Bend at the location just before the legs widen. Ideally a tool is used secure the body of the MOSFET and also to bend all the legs at once as per the guidance given in the "Lead Bending" section of [this document](http://www.aosmd.com/res/application_notes/package/AN101_TO220_Guidelines.pdf).
+    ![](images/bentFet.jpeg)
 
-Figure x. TO-220 MOSFET w/ 90 degree bent legs
+1. Locate the exposed pads on the backside of the PCB and apply a small amount of **thermal paste**. This ensures good thermal coupling of the NTC resistor that is responsible for measuring the temperature of the MOSFETs during operation.
+    ![](images/thermalPaste.jpeg)
 
-Bend all MOSFET legs at a 90-degree angle as shown in the figure above. Bend at the location just before the legs widen. Ideally a tool is used secure the body of the MOSFET and also to bend all the legs at once as per the guidance given in the "Lead Bending" section of [this document](http://www.aosmd.com/res/application_notes/package/AN101_TO220_Guidelines.pdf).
-
-![](./images/image6.jpeg)
-
-Figure x. Thermal Paste Applied to Exposed Pads
-
-Locate the exposed pads on the backside of the PCB and apply a small amount of thermal paste. This ensures good thermal coupling of the NTC resistor that is responsible for measuring the case temperature of the MOSFETs during operation.
-
-![](./images/image7.jpeg)
-
-Figure x. MOSFETs Positioned on Back of PCB
-
-Place all MOSFETs in the location and orientation as depicted in figure x above.
+1. Place all MOSFETs in the location and orientation as shown below:
+    ![](images/fetPosition.jpeg)
 
 ![](./images/image8.jpeg)
 
