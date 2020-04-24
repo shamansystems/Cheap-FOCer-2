@@ -100,7 +100,7 @@ All [diodes](./images/diodPol.png) should be taken care of by JLCPCB. The only o
 If JLCPCB was out of stock for a polarized component please see the silkscreen marking on the PCB in white showing correct orientation for each polarized components as shown below:
 ![]()
 
-If you have any other questions regarding part placement and polarity please open [this](../) file in [KiCAD](https://www.kicad-pcb.org/).  See [this](https://www.kicad-pcb.org/help/file-formats/) for help with file formats.
+If you have any other questions regarding part placement and polarity please open the `Cheap FOCer 2 60mm.pro` file in the design folder with [KiCAD](https://www.kicad-pcb.org/) as shown [here](./images/kiCad.gif)
 
 Be sure to trim excess motor and DC power cable ends on the bottom of the PCB so that there is not risk of the cables being bridged to the heat sink.
 
