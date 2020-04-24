@@ -11,9 +11,7 @@ The following guide explains correct procedures on how to assemble the Cheap FOC
 
 ## What your board should look like
 
-![](./images/image1.jpeg)
-![](./images/image2.jpeg)
-This is what your PCB should look like after the CFOC2 is the following example was created and SMD assembled by JLCPCB. Note the DRV8301 is absent on the board due to lack of stock at the time this was ordered. It is recommended that JLCPCB provide and assemble the DRV8301 when possible.  Otherwise, you will have to do something like [this](https://youtu.be/k5N07ByY6Hc?t=399) to put it on.
+Take a look at the [front](./images/image1.jpeg) and [back](./images/image2.jpeg) images. This is what your PCB should look like after the CFOC2 is mostly SMD assembled by JLCPCB.  Note the DRV8301 is absent on the board due to lack of stock at the time this was ordered. It is recommended that JLCPCB provide and assemble the DRV8301 when possible.  Otherwise, you will have to do something like [this](https://youtu.be/k5N07ByY6Hc?t=399) to put it on.
 
 ![](./images/image3.jpeg)
 
