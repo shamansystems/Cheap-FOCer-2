@@ -15,13 +15,12 @@ Take a look at the front and back of the SMD assembled images below:
 ![front](images/smdFront.jpeg) ![back](images/smdBack.jpeg)
  This is what your PCB should look like after the CFOC2 is mostly SMD assembled by JLCPCB.  Note the DRV8301 is absent on the board due to lack of stock. It is recommended that JLCPCB provide and assemble the DRV8301 when possible.  Otherwise, you will have to do something like [this](https://youtu.be/k5N07ByY6Hc?t=399) to put it on.
 
-![](./images/image3.jpeg)
+## Heat Sink
 
-Figure x. heat sink(left) and CFOC2 PCB(right)
+1. Grab your [heat sink and CFOC2 PCB](images/heatSinkAndPCB.jpeg)
 
-![](./images/image4.jpeg)
-
-Figure x. PCB temporarily fastened to heat sink surface
+1. PCB temporarily fastened to heat sink surface like this:
+    ![](./images/image4.jpeg)
 
 Use a fresh CFOC2 PCB to act as a drill pattern for the mounting holes in your heat sink. Align and temporarily fasten the PCB to the heat sink. The images above are an example of this using the recommended heat sink.
 
