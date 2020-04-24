@@ -10,3 +10,5 @@ Quantity,Manufacture Part Number,Note
 5,B7B-PH-K-S(LF)(SN),
 5,U-D-M5DD-W-1,
 5,BMI160,Optional.  Only add this if you have a reflow station
+5,A2541WV-5P,
+5,A2005WV-2x5P, Only used for gpio
