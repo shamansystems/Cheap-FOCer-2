@@ -89,17 +89,18 @@ Flip PCB over and solder MOSFET legs from the bottom side. Soldering from both t
 
 It is advised to apply excess solder to the thinner portions of the legs up to the point to where the legs widen. This adds more conductive material to the MOSFET legs where it is needed. Be sure to not create solder bridges between MOSFET legs.
 
+Fully assembled CFOC2 PCB(left) next to prepared heat sink(middle) and fastening hardware(right):
 ![](./images/image15.jpeg)
 
-Figure x. Fully assembled CFOC2 PCB(left) next to prepared heat sink(middle) and fastening hardware(right)
+## Solder all remaining components to include cables and the PCB
 
-Now solder all remaining components to include cables to the PCB.
-
-All [diodes](./images/diodPol.png) should be taken care of by JLCPCB. The only other polarized components are the [electrolytic caps](images/capPol.jpg). The circular PCB marking is positive and the square is for negative as shown below:
+All [diodes](./images/diodPol.png) should be taken care of by JLCPCB. The only other polarized components are the [electrolytic caps](images/capPol.jpg). The square PCB marking is positive and the circle is for negative as shown below:
 ![](images/capPolPositionOnPCB.png)
 
 If JLCPCB was out of stock for a polarized component please see the silkscreen marking on the PCB in white showing correct orientation for each polarized components as shown below:
 ![]()
+
+If you have any other questions regarding part placement and polarity please open [this](../) file in [KiCAD](https://www.kicad-pcb.org/).  See [this](https://www.kicad-pcb.org/help/file-formats/) for help with file formats.
 
 Be sure to trim excess motor and DC power cable ends on the bottom of the PCB so that there is not risk of the cables being bridged to the heat sink.
 
