@@ -36,15 +36,12 @@ Take a look at the front and back of the SMD assembled images below:
 1. Place all MOSFETs in the location and orientation as shown below:
     ![](images/fetPosition.jpeg)
 
-![](./images/image8.jpeg)
+1. Make sure the MOSFETs are placed flat against the board like this:
+    ![](./images/image8.jpeg)
+    Not this:
+    ![](./images/image9.jpeg)
 
-Figure x. Correct placement with MOSFET body is flush against PCB.
-
-![](./images/image9.jpeg)
-
-Figure x. Incorrect placement with MOSFET body not Flush with PCB
-
-It is imperative that all MOSFETs be placed and held flush to the PCB surface. Failure to do so will cause a misalignment with the heat sink surface and cause potentially damage to the PCB.
+    It is imperative that all MOSFETs be placed and held flush to the PCB surface. Failure to do so will cause a misalignment with the heat sink surface and cause damage to the PCB.
 
 ![](./images/image10.jpeg)
 
