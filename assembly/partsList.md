@@ -46,11 +46,6 @@ Wishlist for 5 FOCers: [AliExpress](https://my.aliexpress.com/wishlist/shared.ht
 * M3 x 6mm x 1 mm Nylon [Washers](./images/washers.jpeg)
 * 5 per FOCer
 
-### **Firmware Flashing**
-
-* ST-Link V2: [AliExpress](https://www.AliExpress.com/item/32792513237.html)
-* 6-pin JST-PH 2mm male header for connecting to the VESC: [AliExpress](https://www.AliExpress.com/item/32733307616.html)
-
 ## Optional Parts
 
 ### **Pin Headers**:  [AliExpress](https://www.AliExpress.com/item/4000909558952.html)
@@ -134,6 +129,12 @@ Wishlist for 5 FOCers: [AliExpress](https://my.aliexpress.com/wishlist/shared.ht
 * Makes soldering work better
 
 ## Tools List
+
+### **ST-Link V2** (Required)
+
+* ST-Link V2: [AliExpress](https://www.AliExpress.com/item/32792513237.html)
+* 6-pin JST-PH 2mm male header for connecting to the VESC: [AliExpress](https://www.AliExpress.com/item/32733307616.html)
+* Used to flash bootloader and firmware as part of first time setup
 
 ### **Drill**(required): [AliExpress](https://www.aliexpress.com/item/4000642467959.html)
 
