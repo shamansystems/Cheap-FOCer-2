@@ -97,7 +97,6 @@ Wishlist for 5 FOCers: [AliExpress](https://my.aliexpress.com/wishlist/shared.ht
 * 1x3pin per FOCer
 * 1x6pin per FOCer
 * 1x7pin per FOCer
-* Used for **firmware flashing** and to connect external sensors and accessories
 
 ### **Heat Shrink**
 
@@ -133,7 +132,7 @@ Wishlist for 5 FOCers: [AliExpress](https://my.aliexpress.com/wishlist/shared.ht
 ### **ST-Link V2** (Required)
 
 * ST-Link V2: [AliExpress](https://www.AliExpress.com/item/32792513237.html)
-* 6-pin JST-PH 2mm male header for connecting to the VESC: [AliExpress](https://www.AliExpress.com/item/32733307616.html)
+* 5-pin 2.54mm male header for connecting to the VESC:
 * Used to flash bootloader and firmware as part of first time setup
 
 ### **Drill**(required): [AliExpress](https://www.aliexpress.com/item/4000642467959.html)
