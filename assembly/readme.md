@@ -47,7 +47,7 @@ Take a look at the front and back of the SMD assembled images below:
 
 Figure x. Initial MOSFET solder location
 
-![C:\\Users\\lucas\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\IMG\_1101c.jpg](./images/image11.jpeg)
+![](./images/image11.jpeg)
 
 Figure x. Pressure applied to MOSFET
 
@@ -55,13 +55,13 @@ At this time solder the MOSFET legs that go through the square pad as highlighte
 
 It is advised to apply pressure to the MOSFET in order to ensure it stays flush to the PCB during soldering. Double check all MOSFETs after soldering to verify that the MOSFET bodies are flush to the PCB.
 
-![C:\\Users\\lucas\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\IMG\_1106ccc.jpg](./images/image12.jpeg)
+![](./images/image12.jpeg)
 
 Figure x. MOSFET Legs Bent into Proper Position
 
 Flip PCB over and bend the relevant MOSFET legs into their positions as shown in figure x above. Note that not all legs get bent. Bending the legs like this will add copper to the high-current portions of the PCB which helps handle the current.
 
-![C:\\Users\\lucas\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\IMG\_1108c.jpg](./images/image13.jpeg)
+![g](./images/image13.jpeg)
 
 Figure x. Legs Soldered from the Top
 
@@ -71,7 +71,7 @@ Do not add excess solder to the legs close to the large circular hole. This hole
 
 Make sure that no solder bridges exist between legs.
 
-![C:\\Users\\lucas\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Word\\IMG\_1109ccc.jpg](./images/image14.jpeg)
+![](./images/image14.jpeg)
 
 Figure x. MOSFET Legs Soldered from Bottom
 
