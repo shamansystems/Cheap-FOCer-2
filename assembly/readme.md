@@ -88,8 +88,10 @@ If you still have questions feel free to open a [github issue](https://github.co
     Apply a small dab of thread lock to the bottoms of each screw.  Carefully tighten screws in the same manor as tightening lug nuts on a tire. Start with the middle screws on the top and bottom. Tighten until just barely snug and then do the same to the other screws. Do not fully tighten until all screws have had some amount of tightening and there is a relatively even amount of pressure on the PCB from all mounting points. There should be no air gaps between the nylon spacers, pcb or heat sink.  Also check to make sure there are no air gaps between the MOSFET tabs and the thermal pad as shown below:
     ![](images/heatSinkAssembly.jpeg)
 
-## Power on, Cross Your Fingers and Celebrate
+## Power on and Cross Your Fingers
 
-It is now time to power on the controller to conduct a quick test. It is preferable to conduct this initial power up with a current-limited power supply set to 100mA. Or, use a cheap 100mA 5v power adapter.  When powered on, the controller should only draw as much roughly 70mA. If a current-limited power supply is not available, then powering up through an anti-spark connector is second best. The blue LED should illuminate if power is successfully flowing through the controller.
+It is now time to power on the controller to conduct a quick test. It is preferable to conduct this initial power up with a current-limited power supply set to 100mA. Or, use a cheap 100mA 5v power adapter.  When powered on, the controller should only draw as much roughly 70mA. If a current-limited power supply or 100mA power adapter is not available, then powering up through an anti-spark connector is second best. The blue LED should illuminate if power is successfully flowing through the controller.
+
+## Celebrate and Flash the VESC Bootloader
 
 The controller is now ready to be programed. Please follow [this guide](https://electric-skateboard.builders/t/vesc-boot-loader-installation-tutorial/32103?source_topic_id=52813) to install the bootloader and CFOC2 firmware located in the firmware folder of the repository files.
