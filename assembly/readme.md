@@ -90,8 +90,9 @@ If you still have questions feel free to open a [github issue](https://github.co
 
 ## Power on and Cross Your Fingers
 
-It is now time to power on the controller to conduct a quick test. It is preferable to conduct this initial power up with a current-limited power supply set to 100mA. Or, use a cheap 100mA 5v power adapter.  When powered on, the controller should only draw as much roughly 70mA. If a current-limited power supply or 100mA power adapter is not available, then powering up through an anti-spark connector is second best. The blue LED should illuminate if power is successfully flowing through the controller.
+It is now time to power on the controller to conduct a quick test. It is preferable to conduct this initial power up with a current-limited power supply set to 100mA or a cheap 100mA power adapter.  When powered on, the controller should only draw as much roughly 70mA. If a current-limited power supply or 100mA power adapter is not available, then powering up through an anti-spark connector is second best. The blue LED should illuminate if power is successfully flowing through the controller.
 
 ## Celebrate and Flash the VESC Bootloader
 
-The controller is now ready to be programed. Please follow [this guide](https://electric-skateboard.builders/t/vesc-boot-loader-installation-tutorial/32103?source_topic_id=52813) to install the bootloader and CFOC2 firmware located in the firmware folder of the repository files.
+The controller is now ready to be programed. Please follow [this guide](https://electric-skateboard.builders/t/vesc-boot-loader-installation-tutorial/32103?source_topic_id=52813) to install the bootloader and CFOC2 [firmware](TODO:) located in the firmware folder of the repository files.  Use these pins for flashing the bootloader with the st-link:
+![](images/firmwarePins.png)
