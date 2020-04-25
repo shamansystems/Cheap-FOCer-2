@@ -62,7 +62,7 @@ Take a look at the front and back of the SMD assembled images below:
     It is advised to apply excess solder to the thinner portions of the legs up to the point to where the legs widen. This adds more conductive material to the MOSFET legs where it is needed. Be sure to not create solder bridges between MOSFET legs.
     ![](images/fetsBottomSoldered.jpeg)
 
-## Solder all remaining components to include cables and the PCB
+## Solder All Remaining Components, Wires and Connectors
 
 All [diodes](./images/diodPol.png) should be taken care of by JLCPCB. The only other polarized components are the [electrolytic caps](images/capPol.jpg). The square PCB marking is positive and the circle is for negative as shown below:
 ![](images/capPolPositionOnPCB.png)
@@ -73,11 +73,11 @@ If JLCPCB was out of stock for a polarized component please see the silkscreen m
 If you have any other questions regarding part placement and polarity please see the fully assembled image below.  If all else fails open the `Cheap FOCer 2 60mm.pro` file in the design folder with [KiCAD](https://www.kicad-pcb.org/) as shown [here](./images/kiCad.gif).
 ![](./images/image15.jpeg)
 
-If you still have questions feel free to open a github issue.
+If you still have questions feel free to open a [github issue](https://github.com/shamansystems/Cheap-FOCer-2/issues).
 
 ## Mounting the Heat Sink
 
-1. Be sure to trim excess motor and DC power cable ends on the bottom of the PCB so that there is not risk of the cables being bridged to the heat sink.
+1. Trim excess motor and DC power cable ends on the bottom of the PCB so that there is not risk of the cables being bridged to the heat sink.
 
 Prepare the fastening hardware and a 60mm x 51mm portion of 1mm thick thermal pad as seen in the image above.
 
