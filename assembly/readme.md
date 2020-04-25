@@ -47,18 +47,16 @@ Take a look at the front and back of the SMD assembled images below:
     ![](./images/holdFet.jpeg)
     ![](./images/initialFetPin.jpeg)
 
-1. Flip PCB over and bend the relevant MOSFET legs into their positions as shown in figure x above. Note that not all legs get bent. Bending the legs like this will add copper to the high-current portions of the PCB which helps handle the current.
-![](./images/image12.jpeg)
+1. Flip PCB over and bend the relevant MOSFET legs into their positions as shown below. Note that not all legs get bent. Bending the legs like this will add copper to the high-current portions of the PCB which helps handle the current.
+    ![](./images/fetBendingOnPCB.jpeg)
 
-![](./images/image13.jpeg)
+1. Solder all legs to their respective locations and pads. Add excess solder to the leg bent toward the larger current sense resistors. This adds conductive material and thermal mass to help handle the high current.
 
-Figure x. Legs Soldered from the Top
-
-Solder all legs to their respective locations and pads. Add excess solder to the leg bent toward the larger current sense resistors. This adds conductive material and thermal mass to help handle the high current.
-
-Do not add excess solder to the legs close to the large circular hole. This hole will be where the motor phase cable will be soldered later. Trim excess leg material from legs that were not bent.
+    Do not add excess solder to the legs close to the large circular hole. This hole will be where the motor phase cable will be soldered later. Trim excess leg material from legs that were not bent.
 
 Make sure that no solder bridges exist between legs.
+Figure x. Legs Soldered from the Top
+![](images/fetsSoldered.png)
 
 ![](./images/image14.jpeg)
 
