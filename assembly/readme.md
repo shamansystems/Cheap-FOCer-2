@@ -37,31 +37,20 @@ Take a look at the front and back of the SMD assembled images below:
     ![](images/fetPosition.jpeg)
 
 1. Make sure the MOSFETs are placed flat against the board like this:
-    ![](./images/image8.jpeg)
+    ![](./images/goodFet.jpeg)
     Not this:
-    ![](./images/image9.jpeg)
+    ![](./images/badFet.jpeg)
 
     It is imperative that all MOSFETs be placed and held flush to the PCB surface. Failure to do so will cause a misalignment with the heat sink surface and cause damage to the PCB.
 
-![](./images/image10.jpeg)
+1. While holding down the MOSFET, solder the MOSFET legs that go through the square pad as shown below.  This will tack down the MOSFET into place during the next steps. Do not solder all of the legs yet.  It is advised to apply pressure to the MOSFET in order to ensure it stays flush to the PCB during soldering. Double check all MOSFETs after soldering to verify that the MOSFET bodies are flush to the PCB.
+    ![](./images/holdFet.jpeg)
+    ![](./images/initialFetPin.jpeg)
 
-Figure x. Initial MOSFET solder location
-
-![](./images/image11.jpeg)
-
-Figure x. Pressure applied to MOSFET
-
-At this time solder the MOSFET legs that go through the square pad as highlighted in figure x. This will tack down the MOSFET into place during the next steps. Do not solder all of the legs yet.
-
-It is advised to apply pressure to the MOSFET in order to ensure it stays flush to the PCB during soldering. Double check all MOSFETs after soldering to verify that the MOSFET bodies are flush to the PCB.
-
+1. Flip PCB over and bend the relevant MOSFET legs into their positions as shown in figure x above. Note that not all legs get bent. Bending the legs like this will add copper to the high-current portions of the PCB which helps handle the current.
 ![](./images/image12.jpeg)
 
-Figure x. MOSFET Legs Bent into Proper Position
-
-Flip PCB over and bend the relevant MOSFET legs into their positions as shown in figure x above. Note that not all legs get bent. Bending the legs like this will add copper to the high-current portions of the PCB which helps handle the current.
-
-![g](./images/image13.jpeg)
+![](./images/image13.jpeg)
 
 Figure x. Legs Soldered from the Top
 
