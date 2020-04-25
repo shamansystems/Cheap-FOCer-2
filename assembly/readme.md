@@ -56,7 +56,7 @@ Take a look at the front and back of the SMD assembled images below:
 
 Make sure that no solder bridges exist between legs.
 Figure x. Legs Soldered from the Top
-![](images/fetsSoldered.png)
+![](images/fetsSoldereD.png)
 
 ![](./images/image14.jpeg)
 
