@@ -70,6 +70,11 @@ Wishlist for 5 FOCers: [AliExpress](https://my.aliexpress.com/wishlist/shared.ht
 * 1 per FOCer
 * Can be mounted to Heat Sink Fins to provide additional cooling potential.
 
+### **12v Power Adapter**: [AliExpress](https://www.aliexpress.com/item/10000194536180.html)
+
+* Used to test newly assembled FOCer
+* 1000mA/1 amp so that you can minimize potential damage to improperly assembled FOCer
+
 ### **Case**
 
 * 1 per FOCer
