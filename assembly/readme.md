@@ -85,9 +85,11 @@ If you still have questions feel free to open a [github issue](https://github.co
 
     Make sure the thermal pad isn't being pinched between the nylon spacers in the heat sink. This will cause a misalignment in spacing which could cause excess stress to the PCB.
 
-    Apply a small dab of thread lock to the bottoms of each screw.  Carefully tighten machine screws in the same manor as tightening lug nuts on a tire. Start with the middle screws on the top and bottom. Tighten until just barely snug and then do the same to the other screws. Do not fully tighten until all screws have had some amount of tightening and there is a relatively even amount of pressure on the PCB from all mounting points. When done, there should be no air gaps in between the nylon spacers and pcb/heat sink and there should be no air gaps between the MOSFET tabs and the thermal pad.
+    Apply a small dab of thread lock to the bottoms of each screw.  Carefully tighten screws in the same manor as tightening lug nuts on a tire. Start with the middle screws on the top and bottom. Tighten until just barely snug and then do the same to the other screws. Do not fully tighten until all screws have had some amount of tightening and there is a relatively even amount of pressure on the PCB from all mounting points. There should be no air gaps between the nylon spacers, pcb or heat sink.  Also check to make sure there are no air gaps between the MOSFET tabs and the thermal pad as shown below:
     ![](images/heatSinkAssembly.jpeg)
 
-It is now time to power on the controller to conduct a quick test. It is preferable to conduct this initial power up with a current-limited power supply set to 100mA. When powered on, the controller should only draw as much roughly 70mA. If a current-limited power supply is not available, then powering up through an anti-spark connector is second best. The blue LED should illuminate if power is successfully flowing through the controller.
+## Power on, Cross Your Fingers and Celebrate
+
+It is now time to power on the controller to conduct a quick test. It is preferable to conduct this initial power up with a current-limited power supply set to 100mA. Or, use a cheap 12v wall plug.  When powered on, the controller should only draw as much roughly 70mA. If a current-limited power supply is not available, then powering up through an anti-spark connector is second best. The blue LED should illuminate if power is successfully flowing through the controller.
 
 The controller is now ready to be programed. Please follow [this guide](https://electric-skateboard.builders/t/vesc-boot-loader-installation-tutorial/32103?source_topic_id=52813) to install the bootloader and CFOC2 firmware located in the firmware folder of the repository files.
