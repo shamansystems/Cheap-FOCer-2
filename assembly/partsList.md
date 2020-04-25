@@ -11,13 +11,13 @@ Wishlist for 5 FOCers: [AliExpress](https://my.aliexpress.com/wishlist/shared.ht
 
 ### **Heat Sink**: [AliExpress](https://www.AliExpress.com/item/32951112852.html)
 
-* 60mm x 100mm ( x 10mm) flat surface [Heat sink](./images/heatSink.jpeg)
+* 60mm x 100mm ( x 10mm) flat surface [Heat sink](images/heatSink.jpeg)
 * 1 per FOCer
-* Any [generic heat sink](./images/heatSink.jpeg) with a flat surface of at least 60mm x 100mm can be used
+* Any [generic heat sink](images/heatSink.jpeg) with a flat surface of at least 60mm x 100mm can be used
 
 ### **Thermal Pad**: [AliExpress](https://www.AliExpress.com/item/32810504639.html)
 
-* 60mm x 60mm x 1mm non conductive [Thermal pad](./images/thermalPad.jpeg)
+* 60mm x 60mm x 1mm non conductive [Thermal pad](images/thermalPad.jpeg)
 * 1 per FOCer
 * This electrically insulates the MOSFET tabs from the heat sink (very important).
 * 0.5mm thick thermal pad **will NOT be sufficient** to fill the gap between MOSFET tabs and heat sink surface.
@@ -31,19 +31,19 @@ Wishlist for 5 FOCers: [AliExpress](https://my.aliexpress.com/wishlist/shared.ht
 
 ### **Screws**: [AliExpress](https://www.AliExpress.com/item/32810872544.html)
 
-* m3 x 12mm hex socket [screws](./images/screws.jpeg)
+* m3 x 12mm hex socket [screws](images/screws.jpeg)
 * 5 per FOCer
 
 ### **Spacers**: [AliExpress](https://www.AliExpress.com/item/33047891996.html),  [ebay](https://www.ebay.com/itm/OD7-5mm-Nylon-Round-Spacer-Standoff-For-M3-thread-Screw-Blot-QTY50/183743008473), [thingiverse](https://www.thingiverse.com/thing:2876367)
 
-* M3/M4 5mm nylon [spacers](./images/spacers.jpeg)
+* M3/M4 5mm nylon [spacers](images/spacers.jpeg)
 * 5 per FOCer
 * Spacers to prevent over-tightening of screws, which cause warping/damage to the PCB.
 * **If printing**, use PETG or ABS as PLA warps at around 60c
 
 ### **Washers**: [AliExpress](https://www.AliExpress.com/item/33021883302.html)
 
-* M3 x 6mm x 1 mm Nylon [Washers](./images/washers.jpeg)
+* M3 x 6mm x 1 mm Nylon [Washers](images/washers.jpeg)
 * 5 per FOCer
 
 ## Optional Parts
@@ -62,7 +62,7 @@ Wishlist for 5 FOCers: [AliExpress](https://my.aliexpress.com/wishlist/shared.ht
 
 ### **Fan**: [AliExpress](https://www.AliExpress.com/item/32571979071.html)
 
-* 60 MM 5v [Fan](./images/fan.jpeg)
+* 60 MM 5v [Fan](images/fan.jpeg)
 * 1 per FOCer
 * Can be mounted to Heat Sink Fins to provide additional cooling potential.
 
@@ -81,7 +81,7 @@ Wishlist for 5 FOCers: [AliExpress](https://my.aliexpress.com/wishlist/shared.ht
 
 ### **Battery Connector**: [AliExpress](https://www.AliExpress.com/item/32546847748.html)
 
-* XT60 or XT90 [male](./images/xt90MvF.jpg) **Amass** connector
+* XT60 or XT90 [male](images/xt90MvF.jpg) **Amass** connector
 * 1 per FOCer
 
 ### **Motor Connectors**: [AliExpress](https://www.AliExpress.com/item/32926203705.html)

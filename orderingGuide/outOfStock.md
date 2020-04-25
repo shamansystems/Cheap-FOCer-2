@@ -7,7 +7,7 @@ Please note that JLCPCB and LCSC will often run out of stock on certain componen
 ## JST-PH(b2b,b3b,b6b,b7b) connectors
 
 Be sure to get JST-PH not JST-XHP because the pin spacing is different. They look like this:
-![](./images/jstPhConnector.png)
+![](images/jstPhConnector.png)
 
 ### Alternative Sources
 
