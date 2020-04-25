@@ -79,12 +79,14 @@ If you still have questions feel free to open a [github issue](https://github.co
 
 1. Trim excess motor and DC power cable ends on the bottom of the PCB so that there is not risk of the cables being shorting to the heat sink.  
 
-1. Prepare the fastening hardware and a 60mm x 51mm portion of 1mm thick thermal pad as seen in the image below:
-![](images/heatSinkAssembly.jpeg)
+1. Cut your thermal pad to 60mm x 51mm
 
-Make sure there is not any thermal pad being pinched between the nylon spacers in the heat sink. This will cause a misalignment in spacing which could cause excess stress to the PCB later.
+1. Assemble the fastening hardware, PCB, thermal pad and heat sink as shown in the image below.
 
-Carefully tighten machine screws in the same manor as tightening lug nuts on a tire. Start with the middle screws on the top and bottom. Tighten until just barely snug and then do the same to the other screws. Do not fully tighten until all screws have had some amount of tightening and there is a relatively even amount of pressure on the PCB from all mounting points. When done, there should be no air gaps in between the nylon spacers and pcb/heat sink and there should be no air gaps between the MOSFET tabs and the thermal pad.
+    Make sure the thermal pad isn't being pinched between the nylon spacers in the heat sink. This will cause a misalignment in spacing which could cause excess stress to the PCB.
+
+    Apply a small dab of thread lock to the bottoms of each screw.  Carefully tighten machine screws in the same manor as tightening lug nuts on a tire. Start with the middle screws on the top and bottom. Tighten until just barely snug and then do the same to the other screws. Do not fully tighten until all screws have had some amount of tightening and there is a relatively even amount of pressure on the PCB from all mounting points. When done, there should be no air gaps in between the nylon spacers and pcb/heat sink and there should be no air gaps between the MOSFET tabs and the thermal pad.
+    ![](images/heatSinkAssembly.jpeg)
 
 It is now time to power on the controller to conduct a quick test. It is preferable to conduct this initial power up with a current-limited power supply set to 100mA. When powered on, the controller should only draw as much roughly 70mA. If a current-limited power supply is not available, then powering up through an anti-spark connector is second best. The blue LED should illuminate if power is successfully flowing through the controller.
 
