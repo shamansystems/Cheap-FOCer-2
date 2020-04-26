@@ -55,7 +55,7 @@ Take a look at the front and back of the SMD assembled images below:
     Do not add excess solder to the legs close to the large circular hole. This hole will be where the motor phase cable will be soldered later. Trim excess leg material from legs that were not bent.
 
     Make sure that no solder bridges exist between legs.
-    ![](images/fetsSoldereD.png)
+    ![](images/fetsSoldered.png)
 
 1. Flip PCB over and solder MOSFET legs from the bottom side. Soldering from both top and bottom ensures both good conductivity and mechanical security.
 
