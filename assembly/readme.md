@@ -67,8 +67,19 @@ Take a look at the front and back of the SMD assembled images below:
 All [diodes](images/diodPol.png) should be taken care of by JLCPCB. The only other polarized components are the [electrolytic caps](images/capPol.jpg). The square PCB marking is positive and the circle is for negative as shown below:
 ![](images/capPolPositionOnPCB.png)
 
-If JLCPCB was out of stock for a polarized component please see the silkscreen marking on the PCB in white showing correct orientation for each polarized components as shown below:
-![TODO:]()
+If JLCPCB was out of stock for a polarized component please see the silkscreen marking on the PCB in white showing correct orientation for each polarized components.  Examples include:
+
+* Semi-complete white rectangle silkscreen marking around diode. The absent side of the rectangle marks the Anode(negative). The other side is the Cathode(positive) as shown below:
+
+    ![](images/polRec.png)
+
+* Same for LEDs since they too are diodes.
+
+    ![](images/polRec2.png)
+
+* Electrolytic caps can vary in how they’re marked but this one has a white line by the negative terminal:
+  
+    ![](images/polCap.png)
 
 If you have any other questions regarding part placement and polarity please see the fully assembled image below.  If all else fails open the `Cheap FOCer 2 60mm.pro` file in the design folder with [KiCAD](https://www.kicad-pcb.org/) as shown [here](images/kiCad.gif).
 ![](images/pcbHeatSinkWithPad.jpeg)
