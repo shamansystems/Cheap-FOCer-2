@@ -110,7 +110,7 @@ Wishlist for 5 FOCers: [AliExpress](https://my.aliexpress.com/wishlist/shared.ht
 
 ### **Heat Shrink**
 
-* For the PCB- [AliExpress](https://a.AliExpress.com/_dUNLfKc)
+* For the PCB(instead of an enclosure) - [AliExpress](https://a.AliExpress.com/_dUNLfKc)
 * 70mm diameter for PCBs with heat sink
 * For other wires(motor bullet connectors)- [AliExpress](https://www.AliExpress.com/item/33008449230.html)
 
