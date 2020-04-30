@@ -43,7 +43,7 @@
 1. You should now see a preview of the parts placement on the CFOC2. The placement of the DRV8301 and a few other multi-pin components will appear wrongly placed. **This is ok.** JLCPCB will correct this later in what they call a `DFM review`. I have had no issues in letting JLCPCB handle the correction of component placement in all of my many orders. ![](images/a33759f1b319649d610ba648f7687170_html_a3977b4e.png)
 
 1.
-    Scroll down and you will see a list of `Unselected Parts`. The [LCSC BOM file](../../5XBomLcsc.csv) covered [later in this guide](#remaining-components-from-lcsccom) will fulfill the remaining parts.
+    Scroll down and you will see a list of `Unselected Parts`. The [LCSC BOM file](../../../5XBomLcsc.csv) covered [later in this guide](#remaining-components-from-lcsccom) will fulfill the remaining parts.
     ![](images/unselectedParts.png)
 
     If you excluded certain parts on your own or if JLCPCB was out of stock of something, then click the `Download Unselected Parts List` button for a list of what you will need to acquire outside of this guide.
