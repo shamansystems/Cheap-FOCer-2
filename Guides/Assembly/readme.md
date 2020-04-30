@@ -105,5 +105,5 @@ It is now time to power on the controller to conduct a quick test. It is prefera
 
 ## Celebrate and Flash the VESC Bootloader
 
-The controller is now ready to be programed. Please follow [this guide](https://electric-skateboard.builders/t/vesc-boot-loader-installation-tutorial/32103?source_topic_id=52813) to install the bootloader and CFOC2 [firmware](TODO:) located in the firmware folder of the repository files.  Use these pins for flashing the bootloader with the st-link:
+The controller is now ready to be programed. Please follow [this guide](https://electric-skateboard.builders/t/vesc-boot-loader-installation-tutorial/32103?source_topic_id=52813) to install the bootloader and CFOC2 [firmware](../../firmware/latest) located in the firmware folder of the repository files.  Use these pins for flashing the bootloader with the st-link:
 ![](images/firmwarePins.png)
