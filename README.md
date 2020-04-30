@@ -4,14 +4,14 @@ Low-Cost(around $120 for 5 boards and components) Motor Controller based on the 
 
 Front and Back:
 
-![](./design/Images/Front.PNG) ![](./design/Images/Back.PNG)
+![](./Source/Images/Front.PNG) ![](./design/Images/Back.PNG)
 
 Pin outs:
-![](./design/Images/pinout.PNG)
+![](./Source/Images/pinout.PNG)
 
 ## [Support Thread](https://forum.esk8.news/t/cheap-focer-2-open-source-low-cost-vesc-6-based-esc-prototyped-materials-arrived-for-test-batch/13631/1)
 
-## [Ordering Guide](./orderingGuide/readme.md)
+## [Ordering Guide](./Guides/Ordering/readme.md)
 
 ## Capabilities
 
