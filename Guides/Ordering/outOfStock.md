@@ -15,9 +15,9 @@ Be sure to get JST-PH not JST-XHP because the pin spacing is different. They loo
 
 * <https://www.amazon.com/Pieces-JST-PH-Connector-Female-Header/dp/B07P82QFXD/ref=sr_1_4?dchild=1&keywords=JST-PH&qid=1587274019&sr=8-4>
 * <https://www.ebay.com/sch/m.html?_ssn=chendongsheng1969&_from=R40&_sacat=0&_nkw=JST-PH&_sop=15>
-  * fast shipping
-  * wires already connected to males
-  * asked if they can create an ad just for us with the exact parts we need.  
+    * fast shipping
+    * wires already connected to males
+    * asked if they can create an ad just for us with the exact parts we need.  
 
 ## MOSFETs(SE60210GA)
 
@@ -28,5 +28,5 @@ Properties
 
 ## Alternative MOSFETs
 
-    1. [NCEP60T20](https://lcsc.com/product-detail/MOSFET_Wuxi-NCE-Power-Semiconductor-NCEP60T20_C284868.html)
-    1. [SE80160GA20](https://lcsc.com/product-detail/MOSFET_SINO-IC-SE80160GA_C393143.html)
+  1. [NCEP60T20](https://lcsc.com/product-detail/MOSFET_Wuxi-NCE-Power-Semiconductor-NCEP60T20_C284868.html)
+  1. [SE80160GA20](https://lcsc.com/product-detail/MOSFET_SINO-IC-SE80160GA_C393143.html)
