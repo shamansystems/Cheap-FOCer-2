@@ -76,4 +76,4 @@
 
 ## Out of Stock or Discontinued Components
 
-Please note that JLCPCB and LCSC will often run out of stock on certain components. There is a chance you may have to find an alternative component with the same footprint and properties. Check [this page](outOfStock.md) to see if there are alternatives listed for your part.  If not, post a github issue of where you found a new part so that others can see and we can update [this page](outOfStock.md).  
+Please note that JLCPCB and LCSC will often run out of stock on certain components. There is a chance you may have to find an alternative component with the same footprint and properties. Check [this page](outOfStock.md) to see if there are alternatives listed for your part.  If not, post a [github issue](https://github.com/shamansystems/Cheap-FOCer-2/issues) of where you found a new part so that others can see and we can update [this page](outOfStock.md).  
