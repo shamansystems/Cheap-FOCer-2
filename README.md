@@ -11,7 +11,10 @@ Pin outs:
 
 ## [Support Thread](https://forum.esk8.news/t/cheap-focer-2-open-source-low-cost-vesc-6-based-esc-prototyped-materials-arrived-for-test-batch/13631/1)
 
-## [Ordering Guide](./Guides/Ordering/readme.md)
+## Guides
+
+* [Ordering Guide](./Guides/Ordering/readme.md)
+* [Assembly Guide](./Guides/Assembly/readme.md)
 
 ## Capabilities
 
