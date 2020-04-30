@@ -81,7 +81,7 @@ If JLCPCB was out of stock for a polarized component please see the silkscreen m
   
     ![](images/polCap.png)
 
-If you have any other questions regarding part placement and polarity please see the fully assembled image below.  If all else fails open the `Cheap FOCer 2 60mm.pro` file in the design folder with [KiCAD](https://www.kicad-pcb.org/) as shown [here](images/kiCad.gif).
+If you have any other questions regarding part placement and polarity please see the fully assembled image below.  If all else fails open the `Cheap FOCer 2 60mm.pro` file in the `Source` folder with [KiCAD](https://www.kicad-pcb.org/) as shown [here](images/kiCad.gif).
 ![](images/pcbHeatSinkWithPad.jpeg)
 
 If you still have questions feel free to open a [github issue](https://github.com/shamansystems/Cheap-FOCer-2/issues).

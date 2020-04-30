@@ -4,7 +4,7 @@ Low-Cost(around $120 for 5 boards and components) Motor Controller based on the 
 
 Front and Back:
 
-![](./Source/Images/Front.PNG) ![](./design/Images/Back.PNG)
+![](./Source/Images/Front.PNG) ![](./Source/Images/Back.PNG)
 
 Pin outs:
 ![](./Source/Images/pinout.PNG)
