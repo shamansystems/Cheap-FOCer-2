@@ -13,7 +13,7 @@ Pin outs:
 
 ## Guides
 
-* [Ordering Guide](./guides/ardering/readme.md)
+* [Ordering Guide](./guides/Ordering/readme.md)
 * [Assembly Guide](./guides/assembly/readme.md)
 
 ## Capabilities
