@@ -8,7 +8,7 @@
 
 1. Go to: [https://cart.jlcpcb.com/quote](https://cart.jlcpcb.com/quote)
 
-1. Click the `Add your gerber file` button and select the [gerber.zip](../gerber.zip) file from the root directory ![](images/addGerber.png)
+1. Click the `Add your gerber file` button and select the [gerber.zip](../../gerber.zip) file from the root directory ![](images/addGerber.png)
 
 1. You should now see the CFOC2 front and back in the preview as shown below ![](images/a33759f1b319649d610ba648f7687170_html_94f708f.png)
 
@@ -22,7 +22,7 @@
 
 1. Select the `confirm` button to continue
 
-1. Add the [bom.csv](../bom.csv) and [cpl.csv](../cpl.csv) files in the root directory.  To download from github click the `Raw` button then save as from your browser.  Before saving you may need to change the extension from txt to csv.  ![](images/downloadCsvFromGithub.gif)![](images/a33759f1b319649d610ba648f7687170_html_f09ce745.png)
+1. Add the [bom.csv](../../bom.csv) and [cpl.csv](../../cpl.csv) files in the root directory.  To download from github click the `Raw` button then save as from your browser.  Before saving you may need to change the extension from txt to csv.  ![](images/downloadCsvFromGithub.gif)![](images/a33759f1b319649d610ba648f7687170_html_f09ce745.png)
 
 1. Click `Next` to continue
 
@@ -43,7 +43,7 @@
 1. You should now see a preview of the parts placement on the CFOC2. The placement of the DRV8301 and a few other multi-pin components will appear wrongly placed. **This is ok.** JLCPCB will correct this later in what they call a `DFM review`. I have had no issues in letting JLCPCB handle the correction of component placement in all of my many orders. ![](images/a33759f1b319649d610ba648f7687170_html_a3977b4e.png)
 
 1.
-    Scroll down and you will see a list of `Unselected Parts`. The [LCSC BOM file](../5XBomLcsc.csv) covered [later in this guide](#remaining-components-from-lcsccom) will fulfill the remaining parts.
+    Scroll down and you will see a list of `Unselected Parts`. The [LCSC BOM file](../../5XBomLcsc.csv) covered [later in this guide](#remaining-components-from-lcsccom) will fulfill the remaining parts.
     ![](images/unselectedParts.png)
 
     If you excluded certain parts on your own or if JLCPCB was out of stock of something, then click the `Download Unselected Parts List` button for a list of what you will need to acquire outside of this guide.
@@ -72,7 +72,7 @@
 
 1. After settling on the quantities you want, please add items to your cart and proceed with the checkout process.
 
-1. Next check out the prerequisites section of the [assembly guide](../assembly/) to prepare for when your PCB arrives
+1. Next check out the prerequisites section of the [assembly guide](../Assembly/) to prepare for when your PCB arrives
 
 ## Out of Stock or Discontinued Components
 
