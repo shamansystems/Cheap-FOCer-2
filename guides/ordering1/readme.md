@@ -72,7 +72,7 @@
 
 1. After settling on the quantities you want, please add items to your cart and proceed with the checkout process.
 
-1. Next check out the prerequisites section of the [assembly guide](../Assembly/) to prepare for when your PCB arrives
+1. Next check out the prerequisites section of the [assembly guide](../assembly/) to prepare for when your PCB arrives
 
 ## Out of Stock or Discontinued Components
 
