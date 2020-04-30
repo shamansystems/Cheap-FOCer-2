@@ -6,7 +6,7 @@ Wishlist for 5 FOCers: [AliExpress](https://my.aliexpress.com/wishlist/shared.ht
 
 ### **SMD Assembled PCB**
 
-* Follow **[this guide](../Ordering/readme.md)**
+* Follow **[this guide](../ordering/readme.md)**
 * 1 per FOCer
 
 ### **Heat Sink**: [AliExpress](https://www.AliExpress.com/item/32951112852.html)
