@@ -31,8 +31,8 @@ Wishlist for 5 FOCers: [AliExpress](https://my.aliexpress.com/wishlist/shared.ht
 
 ### **Screws**: [AliExpress](https://www.aliexpress.com/item/32966917947.html)
 
-* m3 x 12mm hex socket [screws](images/screws.jpg)
-* 5 per FOCer
+* m3 x 12mm hex button head [screws](images/screws.jpg)
+* 6 per FOCer
 
 ### **Thread Lock**: [AliExpress](https://www.aliexpress.com/item/4000015095892.html)
 
@@ -41,14 +41,14 @@ Wishlist for 5 FOCers: [AliExpress](https://my.aliexpress.com/wishlist/shared.ht
 ### **Spacers**: [AliExpress](https://www.AliExpress.com/item/33047891996.html),  [Ebay](https://www.ebay.com/itm/OD7-5mm-Nylon-Round-Spacer-Standoff-For-M3-thread-Screw-Blot-QTY50/183743008473), [Thingiverse](https://www.thingiverse.com/thing:4332442)
 
 * M3/M4 5mm nylon [spacers](images/spacers.jpeg)
-* 5 per FOCer
+* 6 per FOCer
 * Spacers to prevent over-tightening of screws, which cause warping/damage to the PCB.
 * **If printing**, use PETG or ABS as PLA warps at around 60c
 
 ### **Washers**: [AliExpress](https://www.AliExpress.com/item/33021883302.html) [Thingiverse](https://www.thingiverse.com/thing:4332442)
 
 * M3 x 6mm x 1 mm Nylon [Washers](images/washers.jpeg)
-* 5 per FOCer
+* 6 per FOCer
 
 ## Optional Parts
 
