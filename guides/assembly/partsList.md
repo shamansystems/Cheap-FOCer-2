@@ -29,23 +29,23 @@ Wishlist for 5 FOCers: [AliExpress](https://my.aliexpress.com/wishlist/shared.ht
 * Yes you need both pads and paste
 * Paste is used to help connect a MOSFET to the thermocouple
 
-### **Screws**: [AliExpress](https://www.AliExpress.com/item/32810872544.html)
+### **Screws**: [AliExpress](https://www.aliexpress.com/item/32966917947.html)
 
-* m3 x 12mm hex socket [screws](images/screws.jpeg)
+* m3 x 12mm hex socket [screws](images/screws.jpg)
 * 5 per FOCer
 
 ### **Thread Lock**: [AliExpress](https://www.aliexpress.com/item/4000015095892.html)
 
 * To keep screws in while being vibrated
 
-### **Spacers**: [AliExpress](https://www.AliExpress.com/item/33047891996.html),  [ebay](https://www.ebay.com/itm/OD7-5mm-Nylon-Round-Spacer-Standoff-For-M3-thread-Screw-Blot-QTY50/183743008473), [thingiverse](https://www.thingiverse.com/thing:2876367)
+### **Spacers**: [AliExpress](https://www.AliExpress.com/item/33047891996.html),  [Ebay](https://www.ebay.com/itm/OD7-5mm-Nylon-Round-Spacer-Standoff-For-M3-thread-Screw-Blot-QTY50/183743008473), [Thingiverse](https://www.thingiverse.com/thing:4332442)
 
 * M3/M4 5mm nylon [spacers](images/spacers.jpeg)
 * 5 per FOCer
 * Spacers to prevent over-tightening of screws, which cause warping/damage to the PCB.
 * **If printing**, use PETG or ABS as PLA warps at around 60c
 
-### **Washers**: [AliExpress](https://www.AliExpress.com/item/33021883302.html)
+### **Washers**: [AliExpress](https://www.AliExpress.com/item/33021883302.html) [Thingiverse](https://www.thingiverse.com/thing:4332442)
 
 * M3 x 6mm x 1 mm Nylon [Washers](images/washers.jpeg)
 * 5 per FOCer
@@ -76,10 +76,8 @@ Wishlist for 5 FOCers: [AliExpress](https://my.aliexpress.com/wishlist/shared.ht
 * 5v minimum
 * 100mA/.1 amp so that you can minimize potential damage to improperly assembled FOCer
 
-### **Case**
-
+### **Case**: [Thingiverse](https://www.thingiverse.com/thing:4332442)
 * 1 per FOCer
-* TODO: link to 3d printable one
 
 ## Wires, Cables and Connectors
 
