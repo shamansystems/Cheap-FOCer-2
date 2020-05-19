@@ -69,7 +69,7 @@ All [diodes](images/diodPol.png) should be taken care of by JLCPCB. The only oth
 
 If JLCPCB was out of stock for a polarized component please see the silkscreen marking on the PCB in white showing correct orientation for each polarized components.  Examples include:
 
-* Semi-complete white rectangle silkscreen marking around diode. The absent side of the rectangle marks the Anode(negative). The other side is the Cathode(positive) as shown below:
+* Semi-complete white rectangle silkscreen marking around diode. The absent side of the rectangle marks the Cathode(negative). The other side is the Anode(positive) as shown below:
 
     ![](images/polRec.png)
 
