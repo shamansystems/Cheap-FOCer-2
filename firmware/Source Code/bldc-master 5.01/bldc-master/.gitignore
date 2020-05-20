@@ -1,0 +1,7 @@
+*~
+
+build
+.dep
+.project
+.cproject
+.settings/language.settings.xml
