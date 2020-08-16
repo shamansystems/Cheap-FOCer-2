@@ -13,7 +13,7 @@ or [video style](https://youtu.be/b9FC9fAlfQE)
 
 Take a look at the front and back of the SMD assembled images below:
 ![front](images/smdFront.jpeg) ![back](images/smdBack.jpeg)
- This is what your PCB should look like after the CFOC2 is mostly SMD assembled by JLCPCB.  Note the DRV8301 is absent on the board due to lack of stock. It is recommended that JLCPCB provide and assemble the DRV8301 when possible.  Otherwise, you will have to do something like [this](https://youtu.be/k5N07ByY6Hc?t=399) to put it on.
+ This is what your PCB should look like(minus the adc1 and 2 resistors) after the CFOC2 is mostly SMD assembled by JLCPCB.  Note the DRV8301 is absent on the board due to lack of stock. It is recommended that JLCPCB provide and assemble the DRV8301 when possible.  Otherwise, you will have to do something like [this](https://youtu.be/k5N07ByY6Hc?t=399) to put it on.
 
 ## Tapping Heat Sink
 
