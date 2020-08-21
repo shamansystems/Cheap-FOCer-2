@@ -1627,17 +1627,6 @@ F 3 "~" H 11100 3550 50  0001 C CNN
 	1    11100 3550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole_Pad H7
-U 1 1 5DC3863B
-P 12300 3600
-F 0 "H7" V 12300 3750 50  0000 L CNN
-F 1 "MountingHole" H 12400 3555 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 12300 3600 50  0001 C CNN
-F 3 "~" H 12300 3600 50  0001 C CNN
-	1    12300 3600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4350 5150 4350 5250
 Wire Wire Line
@@ -1653,7 +1642,7 @@ F 1 "Conn_01x07" V 3050 7750 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical" H 2900 7750 50  0001 C CNN
 F 3 "~" H 2900 7750 50  0001 C CNN
 	1    2900 7750
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J3
@@ -1661,7 +1650,7 @@ U 1 1 5DA818C8
 P 10450 7650
 F 0 "J3" H 10368 7325 50  0000 C CNN
 F 1 "Conn_01x03" H 10368 7416 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 10450 7650 50  0001 C CNN
+F 2 "shapes3D:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical_hybrid" H 10450 7650 50  0001 C CNN
 F 3 "~" H 10450 7650 50  0001 C CNN
 	1    10450 7650
 	1    0    0    1   
@@ -1689,7 +1678,6 @@ Wire Wire Line
 	5550 4350 5750 4350
 Wire Wire Line
 	5550 3650 5750 3650
-Connection ~ 12200 3600
 Wire Wire Line
 	3200 6450 4100 6450
 Wire Wire Line

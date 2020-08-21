@@ -1,0 +1,12 @@
+(module 1pin_4mm (layer F.Cu) (tedit 5EEB6735)
+  (descr "module 1 pin (ou trou mecanique de percage)")
+  (tags DEV)
+  (attr virtual)
+  (fp_text reference P1 (at -0.025 0.125 -180) (layer F.SilkS)
+    (effects (font (size 0.75 0.75) (thickness 0.1)))
+  )
+  (fp_text value MOTOR1 (at 0 2.794 -180) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (pad 1 thru_hole roundrect (at 0 0) (size 1.2 1.75) (drill 0.75) (layers *.Cu *.Mask) (roundrect_rratio 0.208))
+)
