@@ -1,4 +1,4 @@
-# Cheap FOCer 2 (v0.9)
+# Cheap FOCer 2 (v1.0)
 
 Low-Cost(around $120 for 5 boards and components) Motor Controller based on the VESC 6
 
@@ -75,14 +75,6 @@ Pin outs:
 * Uses custom firmware that’s not currently supported in the VESC project. Will make firmware available on GitHub until Cheap FOCer 2 is added to and supported by the official VESC project.
 
 ## Kown Issues
-
-* :warning: **Potential Issue with SMT Assembly of the DRV8301 from JLCPCB**
-
-A few have reported blown up D1 diode arrays upon initial powering on of the CFOC2. The issue has been discovered to be inadequate soldering of the DRV which leads to an unregulated 5V of which could actually be 7V or greater. This doesn't happen with every unit and seems to be intermittent. 
-
-**It is recommended that you reflow the DRV and/or touch up the soldering of both the legs and the large pad underneath before initial power on.**
-
-The potential cause of this is the small hole in the DRV's ground pad that was meant to allow soldering of the DRV with even a normal iron (like the CFOC1). This will be removed in the CFOC2 v1.0 release and the pad returned to a normal SMD pad. 
 
 
 ## Warning
