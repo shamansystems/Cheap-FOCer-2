@@ -29,4 +29,15 @@ Properties
 ## Alternative MOSFETs
 
   1. [NCEP60T20](https://lcsc.com/product-detail/MOSFET_Wuxi-NCE-Power-Semiconductor-NCEP60T20_C284868.html)
-  1. [SE80160GA20](https://lcsc.com/product-detail/MOSFET_SINO-IC-SE80160GA_C393143.html)
+  2. [SE80160GA20](https://lcsc.com/product-detail/MOSFET_SINO-IC-SE80160GA_C393143.html)
+
+## Bulk Capacitors(63ZLJ330M10X20)
+
+Properties
+
+* 330uF ±20% 63V Low ESR 10000Hrs @ 105℃ Radial,10x20mm Electrolytic
+* <https://datasheet.lcsc.com/szlcsc/1912111437_Rubycon-63ZLJ330M10X20_C437643.pdf>
+## Alternative Bulk Capacitors
+
+  1. [63ZLJ330M10X25](https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-Leaded_Rubycon-63ZLJ330M10X25_C694362.html)
+  2. [RG063M331LO10*20TA-1A1E](https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-Leaded_BERYL-Electronic-Tech-RG063M331LO10-20TA-1A1E_C357629.html)
