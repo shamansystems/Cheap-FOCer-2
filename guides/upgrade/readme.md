@@ -14,3 +14,5 @@ This will not make your board into a 1.0 board, however it will make your board 
 Replace resistors R64 & R65 with 10k ohm resistors. Easy peasy!
 - ***Resistory Details:*** 10kΩ ±1% 0.1W ±100ppm/℃ 0603 Chip Resistor
 - ***LCSC Part #:*** [C25804](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.html)
+
+![](./upgrade_guide.jpeg)
