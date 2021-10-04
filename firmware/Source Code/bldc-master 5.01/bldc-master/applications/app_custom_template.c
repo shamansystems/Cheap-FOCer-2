@@ -35,105 +35,181 @@
 #include <string.h>
 #include <stdio.h>
 
+// Constants
+#define POS_HYSTERESIS 0
+#define PROPORTIONAL_MULTIPLIER 0.0065f
+#define MAX_ABS_DUTY 0.45f
+#define HOMING_DUTY 0.06f
+#define BAUDRATE 115200
+#define PACKET_HANDLER 1
+// Applied as an offset once we zero against the 'hard-right' (fully retracted) endstop.
+#define CENTER_POS 420
+// Furthest tach counts to right side
+#define RIGHT_ENDSTOP_POS 420
+// Furthest tach counts to left side
+#define LEFT_ENDSTOP_POS -420
+
 // Threads
 static THD_FUNCTION(my_thread, arg);
 static THD_WORKING_AREA(my_thread_wa, 2048);
 
 // Private functions
-static void pwm_callback(void);
 static void terminal_test(int argc, const char **argv);
 
 // Private variables
 static volatile bool stop_now = true;
 static volatile bool is_running = false;
+static volatile int target_pos = 0;
+static volatile bool has_homed = false;
+static SerialConfig uart_cfg = {
+	BAUDRATE,
+	0,
+	USART_CR2_LINEN,
+	0};
+
+static void SendUARTData(unsigned char *data, unsigned int len)
+{
+	sdWrite(&HW_UART_DEV, data, len);
+}
 
 // Called when the custom application is started. Start our
 // threads here and set up callbacks.
-void app_custom_start(void) {
-	mc_interface_set_pwm_callback(pwm_callback);
-
+void app_custom_start(void)
+{
 	stop_now = false;
 	chThdCreateStatic(my_thread_wa, sizeof(my_thread_wa),
-			NORMALPRIO, my_thread, NULL);
+					  NORMALPRIO, my_thread, NULL);
 
 	// Terminal commands for the VESC Tool terminal can be registered.
 	terminal_register_command_callback(
-			"custom_cmd",
-			"Print the number d",
-			"[d]",
-			terminal_test);
+		"pos_go_heres",
+		"Do the thing",
+		NULL,
+		terminal_test);
+
+	sdStart(&HW_UART_DEV, &uart_cfg);
 }
 
 // Called when the custom application is stopped. Stop our threads
 // and release callbacks.
-void app_custom_stop(void) {
-	mc_interface_set_pwm_callback(0);
+void app_custom_stop(void)
+{
 	terminal_unregister_callback(terminal_test);
-
+	sdStop(&HW_UART_DEV);
 	stop_now = true;
-	while (is_running) {
+	while (is_running)
+	{
 		chThdSleepMilliseconds(1);
 	}
+	mc_interface_set_duty(0.0f);
 }
 
-void app_custom_configure(app_configuration *conf) {
+void app_custom_configure(app_configuration *conf)
+{
 	(void)conf;
 }
 
-static THD_FUNCTION(my_thread, arg) {
+static bool shouldExitThread()
+{
+	return stop_now || chThdShouldTerminateX();
+}
+
+// -1000 == hardest left
+// 0 == center
+// 1000 = hardest right
+static void setTargetPos(int input)
+{
+	utils_truncate_number_int(&input, -1000, 1000);
+	target_pos = utils_map_int(input, -1000, 1000, LEFT_ENDSTOP_POS, RIGHT_ENDSTOP_POS);
+}
+
+static THD_FUNCTION(my_thread, arg)
+{
 	(void)arg;
 
 	chRegSetThreadName("App Custom");
 
+	// Setup the stuff needed to receive UART data
+	event_listener_t el;
+	chEvtRegisterMaskWithFlags(&HW_UART_DEV.event, &el, EVENT_MASK(0), CHN_INPUT_AVAILABLE);
+
 	is_running = true;
+	// Main Loop
+	while (!shouldExitThread())
+	{
+		// Home the system if we haven't yet
+		if (!has_homed)
+		{
+			// slowly move towards limit
+			mc_interface_set_duty(HOMING_DUTY);
+			// Wait till we actuate the limit switch
+			while (!shouldExitThread())
+			{
+				timeout_reset();
+				float switchValue = (((float)ADC_Value[ADC_IND_EXT]) / 4095) * V_REG;
+				// Have we gone Open circut?
+				if (switchValue >= 2.5f)
+				{
+					// We homed against endstop. Stop moving and zero the tach
+					has_homed = true;
+					mc_interface_set_duty(0.0f);
+					mc_interface_set_tachometer_value(CENTER_POS);
+					break;
+				}
+				chThdSleepMilliseconds(1);
+			}
+		}
+		// System is now homed. We know where we are :)
+		timeout_reset();
 
-	// Example of using the experiment plot
-//	chThdSleepMilliseconds(8000);
-//	commands_init_plot("Sample", "Voltage");
-//	commands_plot_add_graph("Temp Fet");
-//	commands_plot_add_graph("Input Voltage");
-//	float samp = 0.0;
-//
-//	for(;;) {
-//		commands_plot_set_graph(0);
-//		commands_send_plot_points(samp, mc_interface_temp_fet_filtered());
-//		commands_plot_set_graph(1);
-//		commands_send_plot_points(samp, GET_INPUT_VOLTAGE());
-//		samp++;
-//		chThdSleepMilliseconds(10);
-//	}
+		float targetDutyCycle = 0.0f;
+		int currentTachPos = mc_interface_get_tachometer_value(false);
+		if (fabsf(currentTachPos - target_pos) > POS_HYSTERESIS)
+		{
+			int diff = currentTachPos - target_pos;
+			float duty = (float)fabsf(diff) * PROPORTIONAL_MULTIPLIER;
+			utils_truncate_number(&duty, 0.00f, MAX_ABS_DUTY);
+			targetDutyCycle = (diff > 0) ? duty * -1.0f : duty;
+		}
+		mc_interface_set_duty(targetDutyCycle);
 
-	for(;;) {
-		// Check if it is time to stop.
-		if (stop_now) {
-			is_running = false;
-			return;
+		// Await for any UART data, or, until 1ms has passed.
+		chEvtWaitAnyTimeout(ALL_EVENTS, ST2MS(1));
+		// Check for UART data
+		
+		uint8_t reply[11];
+		int reply_ind = 0;
+
+		msg_t res = sdGetTimeout(&HW_UART_DEV, TIME_IMMEDIATE);
+		while (res != MSG_TIMEOUT) {
+			if (reply_ind < (int)sizeof(reply)) {
+				reply[reply_ind++] = res;
+			}
+			res = sdGetTimeout(&HW_UART_DEV, TIME_IMMEDIATE);
 		}
 
-		timeout_reset(); // Reset timeout if everything is OK.
-
-		// Run your logic here. A lot of functionality is available in mc_interface.h.
-
-		chThdSleepMilliseconds(10);
+		uint8_t crc = 0;
+		for (int i = 0;i < (reply_ind - 1);i++) {
+			crc = (reply[i] ^ crc);
+		}
 	}
-}
-
-static void pwm_callback(void) {
-	// Called for every control iteration in interrupt context.
+	is_running = false;
+	// Safety go brr
+	mc_interface_set_duty(0.0f);
 }
 
 // Callback function for the terminal command with arguments.
-static void terminal_test(int argc, const char **argv) {
-	if (argc == 2) {
-		int d = -1;
-		sscanf(argv[1], "%d", &d);
-
-		commands_printf("You have entered %d", d);
-
-		// For example, read the ADC inputs on the COMM header.
-		commands_printf("ADC1: %.2f V ADC2: %.2f V",
-				(double)ADC_VOLTS(ADC_IND_EXT), (double)ADC_VOLTS(ADC_IND_EXT2));
-	} else {
-		commands_printf("This command requires one argument.\n");
+static void terminal_test(int argc, const char **argv)
+{
+	if (argc != 2)
+	{
+		commands_printf("This command requires the setpoint argument.");
 	}
+	int input = 0;
+	sscanf(argv[1], "%d", &input);
+	setTargetPos(input);
+	int currentTachPos = mc_interface_get_tachometer_value(false);
+
+	commands_printf("Current Tach pos: %d", currentTachPos);
+	commands_printf("New Tach Setpoint: %d", target_pos);
 }
