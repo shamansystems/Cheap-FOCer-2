@@ -35,7 +35,7 @@
   * ![verify](./images/verify.png)
 * Verify that there are no errors
 * If there are no errors
- * click the disconnect button
- * unplug the st-link
- * reboot the controller
+ * Click the disconnect button
+ * Unplug the st-link
+ * Reboot the controller
 * Done 🎉
