@@ -147,11 +147,11 @@
 //#define HW_SOURCE "hw_stormcore_100s.c"
 //#define HW_HEADER "hw_stormcore_100s.h"
 
-//#define HW_SOURCE "hw_Cheap_FOCer_2.c"
-//#define HW_HEADER "hw_Cheap_FOCer_2.h"
+#define HW_SOURCE "hw_Cheap_FOCer_2.c"
+#define HW_HEADER "hw_Cheap_FOCer_2.h"
 
-#define HW_SOURCE "hw_FOCer.c"
-#define HW_HEADER "hw_FOCer.h"
+//#define HW_SOURCE "hw_FOCer.c"
+//#define HW_HEADER "hw_FOCer.h"
 
 #endif
 
@@ -190,7 +190,7 @@
 /*
  * Set APP_CUSTOM_TO_USE to the name of the main C file of the custom application.
  */
-//#define APP_CUSTOM_TO_USE			"app_custom_template.c"
+#define APP_CUSTOM_TO_USE			"app_custom_template.c"
 //#define APP_CUSTOM_TO_USE			"app_motor_heater.c"
 //#include "app_erockit_conf.h"
 
